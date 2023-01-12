@@ -10,3 +10,19 @@
     align-items: center;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .button {
+        width: 134px;
+        height: 44px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 570px) {
+    .button {
+        width: 250px;
+        height: 44px;
+        font-size: 14px;
+    }
+}
