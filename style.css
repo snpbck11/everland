@@ -3,7 +3,6 @@
 .page {
   max-width: 1440px;
   min-height: 100vh;
-  display: flex;
   font-family: 'Raleway', sans-serif;
   margin: auto;
   background-color: #fff;
@@ -14,9 +13,6 @@
   -moz-text-size-adjust: 100%;
 }
 
-.header {
-  
-}
 
 .content {
   flex: 1;
