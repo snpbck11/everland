@@ -2,3 +2,10 @@
     width: 171px;
     height: 30px;
 }
+
+@media (max-width: 768px) {
+    .header__logo {
+    width: 135px;
+    height: 24px;
+    }
+}
