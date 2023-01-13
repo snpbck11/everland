@@ -1,0 +1,11 @@
+.social-project__image {
+ max-width: 352px;
+ max-height: 315px;
+ position: relative;
+ bottom: 0;
+}
+
+.social-project__image:nth-child(2) {
+ max-width: 352px;
+ max-height: 315px;
+}
