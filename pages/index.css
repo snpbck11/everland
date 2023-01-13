@@ -5,14 +5,16 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__menu-title/header__menu-title.css);
+
 @import url(../blocks/buttons/buttons.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-fon.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
-<<<<<<< HEAD
+
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__title/secondary-menu__title.css);
+
 @import url(../blocks/social-project/social-project.css);
 @import url(../blocks/social-project/__image/social-project__image.css);
 @import url(../blocks/social-project/__images/social-project__images.css);
@@ -21,5 +23,5 @@
 @import url(../blocks/social-project/__subtitle/social-project__subtitle.css);
 @import url(../blocks/social-project/__title-color/social-project__title-color.css);
 @import url(../blocks/social-project/__title/social-project__title.css);
-=======
->>>>>>> 3b954bb4c419fb2aad0d4645f9ae7798aa6c6132
+
+@import url(../blocks/section-title/section-title.css);

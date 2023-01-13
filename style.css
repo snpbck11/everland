@@ -23,10 +23,17 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 100px;
 }
 
 .stories__container {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  padding-bottom: 100px;
+}
+
+.title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,17 +50,16 @@
 .stories__button {
   height: min-content;
   width: 150px;
-  margin-right: 18px;
 }
 
 .story {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 80px;
 }
 
 .story:nth-child(2n) {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .story__photo {
@@ -123,9 +129,8 @@
   margin: 30px 0 0 30px;
 }
 
-/* Разобраться с карточками (маргин или что то вроде того) */
-
 .story-card__description {
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 30px 30px 30px 0;
@@ -133,21 +138,20 @@
 
 .story-card__title {
   margin: 0;
-  margin-bottom: 20px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.3;
 }
 
 .story-card__subtitle {
-  margin: 0;
-  margin-bottom: auto;
+  margin: 20px 0 auto 0;
   font-weight: 700;
   font-size: 34px;
   line-height: 1.21;
 }
 
 .story-card__link-container {
+  width: max-content;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -162,6 +166,114 @@
   line-height: 1.28;
 }
 
+.story-card__link-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.news {
+  width: calc(100% - 80px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.news__title-container {
+  margin-top: 100px;
+}
+
+.news__container {
+  display: grid;
+  grid-template: 800px / repeat(auto-fit, 440px);
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.news-card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 30px;
+  position: relative;
+}
+
+.news-card:nth-child(3n+2) {
+  background-color: #DAEFD5;
+  border: none;
+}
+
+.news-card__wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px;
+}
+
+.news-card__theme {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+  color: #333;
+  margin: 0;
+}
+
+.news-card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+
+.news-card:nth-child(3n+3) .news-card__container {
+  flex-direction: column-reverse;
+}
+
+
+.news-card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.news-card__photo {
+  width: 380px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.news-card__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.21;
+  color: #333;
+  margin: 0;
+}
+
+.news-card__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #333;
+  margin: 0;
+}
+.news-card__date {
+  flex-shrink: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+  color: rgba(38, 38, 38, 0.5);
+  margin: 0;  
+}
+
 .footer {
   flex-shrink: 0;
 }
+
+
+/* Проверить пулл реквесты, посмотреть ещё раз видео!!! */
