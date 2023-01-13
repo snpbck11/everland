@@ -1,4 +1,4 @@
-.section__title {
+.section-title {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -11,14 +11,14 @@
 }
 
 @media screen and (max-width: 767px) {
-  .section__title {
+  .section-title {
     font-size: 26px;
     margin-bottom: 24px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .section__title {
+  .section-title {
     font-size: 36px;
     margin-bottom: 32px;
   }
