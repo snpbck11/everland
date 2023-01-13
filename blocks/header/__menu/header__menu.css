@@ -1,0 +1,27 @@
+.header__menu {
+    height: 26px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #333333;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.header__menu::before {
+    content: url(../../../images/Menu.svg);
+    margin-right: 12px;
+    color: #333333;
+}
+
+@media (max-width: 768px) {
+    .header__menu {
+        height: 24px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 120%;
+        order: 2;
+    }
+}
