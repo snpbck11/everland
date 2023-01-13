@@ -1,7 +1,6 @@
 .buttons {
     display: flex;
     gap: 16px;
-    flex-direction: row;
 }
 
 @media (max-width: 768px) {
