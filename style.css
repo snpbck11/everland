@@ -1,387 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
-
-.page {
-  max-width: 1440px;
-  min-height: 100vh;
-  font-family: 'Raleway', sans-serif;
-  margin: auto;
-  background-color: #fff;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}
 
 
-.content {
-  flex: 1;
-}
-
-.stories {
-  max-width: calc(100% - 80px);
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-}
-
-.stories__container {
-  display: flex;
-  flex-direction: column;
-  gap: 150px;
-  padding-bottom: 100px;
-}
-
-.title-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.stories__title {
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 1.20;
-  margin: 0;
-  letter-spacing: -0.16px;
-}
-
-.stories__button {
-  height: min-content;
-  width: 150px;
-}
-
-.story {
-  display: flex;
-  flex-direction: row;
-  gap: 80px;
-}
-
-.story:nth-child(2n) {
-  flex-direction: row-reverse;
-}
-
-.story__photo {
-  width: 224px;
-  height: 224px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  aspect-ratio: 1 / 1;
-}
-
-.story__container {
-  display: flex;
-  gap: 19px;
-}
-
-.story__quote {
-  width: 60px;
-  height: 60px;
-}
-
-.story__description {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.story__title {
-  position: relative;
-  margin: 0;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 1.21;
-}
-
-.story__subtitle {
-  margin: 0;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.3;
-}
-
-.story__button {
-  width: 150px;
-}
-
-.story-cards {
-  display: grid;
-  grid-template: 285px / repeat(auto-fit, 670px);
-  gap: 20px;
-}
-
-.story-card {
-  background-color: #EAE6FF;
-  display: flex;
-  border-radius: 30px;
-  gap: 20px;
-}
-
-.story-card__photo {
-  width: 224px;
-  height: 224px;
-  object-fit: cover;
-  object-position: center;
-  aspect-ratio: 1 /1;
-  border-radius: 50%;
-  margin: 30px 0 0 30px;
-}
-
-.story-card__description {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin: 30px 30px 30px 0;
-}
-
-.story-card__title {
-  margin: 0;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.3;
-}
-
-.story-card__subtitle {
-  margin: 20px 0 auto 0;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 1.21;
-}
-
-.story-card__link-container {
-  width: max-content;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-.story-card__link {
-  margin: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.28;
-}
-
-.story-card__link-icon {
-  width: 40px;
-  height: 40px;
-}
-
-.news {
-  width: calc(100% - 80px);
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.news__title-container {
-  margin-top: 100px;
-}
-
-.news__container {
-  display: grid;
-  grid-template: 800px / repeat(auto-fit, 440px);
-  gap: 20px;
-  justify-content: center;
-  padding-bottom: 100px;
-}
-
-.news-card {
-  display: flex;
-  background-color: #fff;
-  border: 1px solid #dadada;
-  border-radius: 30px;
-  position: relative;
-}
-
-.news-card:nth-child(3n+2) {
-  background-color: #DAEFD5;
-  border: none;
-}
-
-.news-card__wrapper {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  gap: 30px;
-  margin: 30px;
-}
-
-.news-card__theme {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.28;
-  color: #333;
-  margin: 0;
-}
-
-.news-card__container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  flex: 1;
-}
-
-.news-card:nth-child(3n+3) .news-card__container {
-  flex-direction: column-reverse;
-}
 
 
-.news-card__description {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex: 1;
-}
-
-.news-card__photo {
-  width: 380px;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 30px;
-}
-
-.news-card__title {
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 1.21;
-  color: #333;
-  margin: 0;
-}
-
-.news-card__subtitle {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.3;
-  color: #333;
-  margin: 0;
-}
-.news-card__date {
-  flex-shrink: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.28;
-  color: rgba(38, 38, 38, 0.5);
-  margin: 0;  
-}
-
-.footer {
-  flex-shrink: 0;
-}
 
 
-/* Проверить пулл реквесты, посмотреть ещё раз видео!!! */
 
-.support {
-  max-width: 1440px;
-  background: #E7F0FF;
-  padding-left: 40px;
-}
 
-.support__section-heading {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 120%;
-/* identical to box height, or 77px */
-letter-spacing: -0.01em;
-color: #333333;
-padding: 100px 0px 50px;
-}
 
-.form__white-desk{
-max-width: 691px;
-background: #FFFFFF;
-box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
-border-radius: 30px;
-padding-left: 17px;
-}
-.form {
-  display:flex;
-  gap: 20px;
-  justify-content: center;
-  padding-top: 30px;
-}
-.form__item {
-padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-width: 315px;
-height: 48px;
-justify-content: center;
-align-items: center;
-display: flex;
-gap: 13px;
-padding: 5px 10px;
-border-radius: 10px;
-border: 1px solid #DADADA;
-}
-.form__item_active {
-  border: 1px solid #0C4BA0;
-}
 
-.form__question {
-  display: none;
-}
 
-.form__question_active {
-  display: block;
-}
-.form__heading {
-  overflow: hidden;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 120%;
-/* identical to box height, or 29px */
-font-feature-settings: 'pnum' on, 'lnum' on;
-color: #333333;
-text-align: center
-} /* чтобы линии не выходили за ширину блока заголовка */
-	
 
-.form__heading:before,
-.form__heading:after {
-	content: '';
-	/* делаем линию строчно-блочной */
-	display: inline-block;
-	/* выравниваем вертикально по середине */
-	vertical-align: middle;
-	/* не позволяем ширине превысить 100% (будет добавлен бордюр) */
-	box-sizing: border-box;
 
-	/* установка ширины в 100% делает линию равной ширине тега заголовка
-	** благодаря этому линия заполнит все свободное пространство
-	** слева и справа от текста
-	*/
-	width: 100%;
-	height: 3px;
-	background: #DADADA;
-	/* добавляем к линии левый и правый бордюр цветом основного фона заголовка
-	** благодаря этому создается нужный отступ между линиями и текстом
-	*/
-	border: solid #E7F0FF;
-	border-width: 0 1px;
-}
-.form__heading:before {
-	/* смещаем левую линию влево отрицательным отступом, равным 100% ширины
-	** благодаря этому линия встает слева от текста
-	*/
-	margin-left: -100%;
-}
-.form__heading:after {
-	/* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
-	** благодаря этому линия встает справа от текста
-	*/
-	margin-right: -100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
