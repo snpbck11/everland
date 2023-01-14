@@ -1,6 +1,8 @@
 .social-project__images {
-    width: 520px;
-    max-height: 565px;
-    position: relative;
-    
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+   
+   
+   
 }

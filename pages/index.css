@@ -19,11 +19,13 @@
 @import url(../blocks/social-project/__image/social-project__image.css);
 @import url(../blocks/social-project/__images/social-project__images.css);
 @import url(../blocks/social-project/__slider/social-project__slider.css);
-@import url(../blocks/social-project/__text/social-project__text.css);
 @import url(../blocks/social-project/__subtitle/social-project__subtitle.css);
 @import url(../blocks/social-project/__title-color/social-project__title-color.css);
 @import url(../blocks/social-project/__title/social-project__title.css);
 @import url(../blocks/social-project/__arrows/social-project__arrows.css);
 @import url(../blocks/social-project/__arrow-counter/social-project__arrow-counter.css);
 @import url(../blocks/social-project/__arrow/social-project__arrow.css);
+@import url(../blocks/social-project/__slider-items/social-project__slider-items.css);
+@import url(../blocks/social-project/__slider-item/social-project__slider-item.css);
+
 

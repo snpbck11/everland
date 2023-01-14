@@ -1,5 +1,5 @@
 .social-project__slider {
     display: grid;
     gap: 14px;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: min-content min-content;
 }
