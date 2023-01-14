@@ -3,6 +3,13 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 100px 100px;
     gap: 20px;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 1439px) {
+    .main-in-work__features-container {
+      margin-bottom: 100px;
+    }
 }
 
 
@@ -11,6 +18,12 @@
       grid-template-columns: auto;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-in-work__features-container {
+      margin-bottom: 64px;
     }
 }
   
