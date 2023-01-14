@@ -1,7 +1,7 @@
 .social-project__image {
  max-width: 352px;
  max-height: 315px;
- position: relative;
+ position: absolute;
  bottom: 0;
 }
 
