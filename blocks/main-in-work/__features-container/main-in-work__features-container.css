@@ -1,0 +1,21 @@
+.main-in-work__features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 810px) {
+    .main-in-work__features-container {
+      grid-template-columns: auto;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      row-gap: 20px;
+    }
+}
+  
+@media screen and (max-width: 350px) {
+    .main-in-work__features-container {
+      row-gap: 16px;
+    }
+}

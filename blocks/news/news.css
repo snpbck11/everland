@@ -1,0 +1,5 @@
+.news {
+  width: calc(100% - 80px);
+  margin: auto;
+  row-gap: 50px;
+}

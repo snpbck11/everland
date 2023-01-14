@@ -1,0 +1,7 @@
+.story-card {
+  background-color: #EAE6FF;
+  display: flex;
+  border-radius: 30px;
+  gap: 20px;
+  padding: 30px;
+}

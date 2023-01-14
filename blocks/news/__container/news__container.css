@@ -1,0 +1,6 @@
+.news__container {
+  display: grid;
+  grid-template: 800px / repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width: 768px) {
+    .buttons {
+       order: 1;
+       gap: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .buttons {
+      display: none;
+    }
+}

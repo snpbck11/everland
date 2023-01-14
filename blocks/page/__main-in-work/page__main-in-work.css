@@ -1,0 +1,18 @@
+.page__main-in-work {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+@media screen and (max-width: 1439px) {
+    .page__main-in-work {
+      margin-bottom: 100px;
+    }
+}
+  
+@media screen and (max-width: 767px) {
+    .page__main-in-work {
+      max-width: calc(100% - 20px);
+      margin-bottom: 64px;
+    }
+}
