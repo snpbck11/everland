@@ -1,0 +1,5 @@
+.story-card__description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
