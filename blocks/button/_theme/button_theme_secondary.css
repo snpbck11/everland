@@ -1,9 +1,10 @@
 .button_theme_secondary {
-    outline: 1px solid #0C4BA0;
+    box-sizing: border-box;
+    border: 1px solid #0C4BA0;
     color: #0C4BA0;
 }
 
 .button_theme_secondary:hover {
-    outline: 1px solid #00275C;
+    border: 1px solid #00275C;
     color: #00275C;
 }
