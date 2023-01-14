@@ -73,4 +73,42 @@
 @import url(../blocks/news-card/__theme/news-card__theme.css);
 @import url(../blocks/news-card/__title/news-card__title.css);
 
+
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__section-heading/support__section-heading.css);
+@import url(../blocks/support/__container/support__container.css);
+@import url(../blocks/support/__heading/support__heading.css);
+@import url(../blocks/support/__list/support__list.css);
+@import url(../blocks/support/__list/_button/support__list_button.css);
+@import url(../blocks/support/__list/_button/_active/support__list_button_active.css);
+@import url(../blocks/support/__text/support__text.css);
+
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__pseudo-item/form__pseudo-item.css);
+
+
+
+
+
+
+
+
+
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_active/form__item_active.css);
+@import url(../blocks/form/__question/form__question.css);
+@import url(../blocks/form/__question/_active/form__question_active.css);
+
+
+
+
+
+
+
+
+
+
+
 @import url(../blocks/footer/footer.css);

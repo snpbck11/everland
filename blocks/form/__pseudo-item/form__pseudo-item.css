@@ -1,0 +1,14 @@
+.form__pseudo-item {
+display: flex; 
+vertical-align: middle; /* элемент и текст будут правильно выровнены по вертикали. Работает в паре с inline-block */
+width: 316px;
+height: 48px; /* размеры */
+justify-content: center;
+align-items: center;
+border: 1px solid #DADADA;/* граница */
+border-radius: 10px;
+text-align: center;
+}
+
+
+

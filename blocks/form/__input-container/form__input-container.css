@@ -1,0 +1,8 @@
+    /* Стили всех элементов fieldset */
+.form__input-container {
+  justify-content: center;
+ align-items: center;
+ border: 1px solid #DADADA;
+border-radius: 10px;
+display: flex;
+}
