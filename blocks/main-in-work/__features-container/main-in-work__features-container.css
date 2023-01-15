@@ -6,7 +6,7 @@
 }
 
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1133px) {
     .main-in-work__features-container {
       grid-template-columns: auto;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
