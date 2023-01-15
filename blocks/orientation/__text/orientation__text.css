@@ -1,0 +1,20 @@
+.orientation__text {
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .orientation__text {
+    min-height: auto;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .orientation__text {
+    min-height: 274px;
+    gap: 10px
+  }
+}

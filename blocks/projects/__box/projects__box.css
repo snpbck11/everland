@@ -1,0 +1,25 @@
+.projects__box {
+  width: 100%;
+  max-width: 440px;
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__box {
+    max-width: 300px;
+    min-height: 300px;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .projects__box {
+    max-width: 450px;
+    min-height: 334px;
+    gap: 20px;
+  }
+}

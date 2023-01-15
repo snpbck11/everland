@@ -1,0 +1,32 @@
+.projects__boxes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__boxes {
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .projects__boxes {
+    max-width: 688px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: [first] 100%;
+    grid-auto-rows: 0;
+    overflow-y: hidden;
+    row-gap: 0;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+}

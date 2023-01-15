@@ -1,0 +1,41 @@
+.orientation__link {
+  width: 165px;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  gap: 10px;
+}
+
+.orientation__link:hover {
+  color: #00275C;
+}
+
+@media screen and (max-width: 767px) {
+  .orientation__link {
+    max-width: 128px;
+    height: 44px;
+    font-size: 14px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .orientation__link {
+    width: 139px;
+    height: 44px;
+    font-size: 16px;
+  }
+}

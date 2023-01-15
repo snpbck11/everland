@@ -1,0 +1,15 @@
+.orientation {
+  padding: 100px 40px 100px 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .orientation {
+    padding: 32px 10px 64px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .orientation {
+    padding: 50px 40px 100px 40px;
+  }
+}
