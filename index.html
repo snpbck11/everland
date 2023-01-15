@@ -248,10 +248,18 @@
         </div>
       </section>
 
-      <section class="support">
+     <section class="support">
+
         <h2 class="support__section-heading">Поддержите нас</h2>
+
         <form class="form-subscription">
+
           <fieldset class="form-subscription__input-container">
+
+           <label
+              class="form-subscription__label"
+              for="montly"
+            >
             <input
               type="radio"
               name="subscription"
@@ -260,15 +268,13 @@
               value="monthly"
               checked
             />
-              <!-- <span class="form-subscription__pseudo-item form-subscription__pseudo-item_active">
-              Ежемесячно 
-              </span> -->
               <span class="form-subscription__pseudo-item form-subscription__pseudo-item_active"
-              >Ежемесячно <img src="../../images/Question.svg"></span>
+              >Ежемесячно <img src="../../images/Question.svg" class="form-subscription__question_active"></span>
             </label>
+
             <label
               class="form-subscription__label"
-              for="one-column"
+              for="one-time"
             >
               <input
                type="radio"
@@ -277,93 +283,151 @@
               class="form-subscription__item"
               value="one-time"
               /><span class="form-subscription__pseudo-item"
-              >Разово</span>
+              >Разово <img src="../../images/Question.svg" class="form-subscription__question"></span>
             </label>
           </fieldset>
-           <h3 class="support__heading">Размер пожертвования</h3>
+
+           <h3 class="form-subscription__title">Размер пожертвования</h3>
+
            <fieldset class="form-subscription__sum-input-container">
+
             <div class="form-subscription__input-container-grid">
+
+              <label class="form-subscription__label" for="250">
               <input
                 type="radio"
-                name="subscription"
-                id="subscription"
+                name="sum-of-donation"
+                id="250"
                 class="form-subscription__item"
-                value="monthly"
-                checked
-                disabled
+                value="250"
               />
-              <label class="form-subscription__label" for="subscription">
                 <span class="form-subscription__pseudo-grid-item">
                 250&#8381
                 </span>
               </label>
+
               <label
-                class="form-subscription__label form-subscription__label_direction_right"
-                for="one-column"
+                class="form-subscription__label"
+                for="500"
               >
                 <input
                   type="radio"
-                  name="number-of-columns"
-                  id="one-column"
-                  class="form-subscription__item form-subscription__item_el_number-of-columns"
-                  value="one-column"
+                  name="sum-of-donation"
+                  id="500"
+                  class="form-subscription__item"
+                  value="500"
                   checked
-                  disabled
-                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-grid-item_active"
                   >500&#8381</span
                 >
               </label>
+
               <label
-                class="form-subscription__label form-subscription__label_direction_right"
-                for="one-column"
+                class="form-subscription__label"
+                for="750"
               >
                 <input
                   type="radio"
-                  name="number-of-columns"
-                  id="one-column"
-                  class="form-subscription__item form-subscription__item_el_number-of-columns"
-                  value="one-column"
-                  checked
-                  disabled
-                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                  name="sum-of-donation"
+                  id="750"
+                  class="form-subscription__item"
+                  value="750"
+                /><span class="form-subscription__pseudo-grid-item"
                   >750&#8381</span
                 >
               </label>
+
               <label
-                class="form-subscription__label form-subscription__label_direction_right"
-                for="one-column"
+                class="form-subscription__label"
+                for="1000"
               >
                 <input
                   type="radio"
-                  name="number-of-columns"
-                  id="one-column"
-                  class="form-subscription__item form-subscription__item_el_number-of-columns"
-                  value="one-column"
-                  checked
-                  disabled
-                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                  name="sum-of-donation"
+                  id="1000"
+                  class="form-subscription__item"
+                  value="1000"
+                /><span class="form-subscription__pseudo-grid-item"
                   >1000&#8381</span
                 >
               </label>
             </div>
+
             <label
-                class="form-subscription__label form-subscription__label_direction_right"
-                for="one-column"
+                class="form-subscription__label"
+                for="other_sum"
               >
                 <input
                   type="radio"
-                  name="number-of-columns"
-                  id="one-column"
-                  class="form-subscription__item form-subscription__item_el_number-of-columns"
-                  value="one-column"
-                  checked
-                  disabled
-                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                  name="sum-of-donation"
+                  id="other_sum"
+                  class="form-subscription__item"
+                  value="other_sum"
+                /><span class="form-subscription__pseudo-grid-item"
                   >Другая сумма</span
                 >
               </label>
           </fieldset>
-          
+
+          <p class="form-subscription__text">
+          Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
+ Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.
+        </p>
+        
+        <h3 class="form-subscription__title">Способ оплаты</h3>
+         <fieldset class="form-subscription__input-container">
+              <label class="form-subscription__label" for="Mir_visa_mastercard">
+                <input
+                type="radio"
+                name="payment_method"
+                id="Mir_visa_mastercard"
+                class="form-subscription__item"
+                value="Mir_visa_mastercard"
+                checked
+              />
+                 <img src="../../images/Mir_visa_mastercard.svg" class="form-subscription__pseudo-grid-item form-subscription__pseudo-grid-item_active"
+                 height="26px" width="150.5px">
+              </label>
+              <label
+                class="form-subscription__label"
+                for="YooMoney"
+              >
+                <input
+                  type="radio"
+                  name="payment_method"
+                  id="YooMoney"
+                  class="form-subscription__item"
+                  value="YooMoney"
+                />
+                 <img class="form-subscription__pseudo-grid-item"  height="14px" width="20px" src="../../images/YooMoney.svg" >
+              </label>
+              <label
+                class="form-subscription__label"
+                for="WebMoney"
+              >
+                <input
+                  type="radio"
+                  name="payment_method"
+                  id="WebMoney"
+                  class="form-subscription__item"
+                  value="WebMoney"
+                />
+                <img src="../../images/WebMoney.svg" class="form-subscription__pseudo-grid-item">
+              </label>
+            <label
+                class="form-subscription__label"
+                for="arrow"
+              >
+                <input
+                  type="radio"
+                  name="payment_method"
+                  id="arrow"
+                  class="form-subscription__item"
+                  value="arrow"
+                /><img src="../../images/Arrow.svg" class="form-subscription__pseudo-grid-item">
+              </label>
+          </fieldset>
+          <h3 class="form-subscription__title">Ваши данные</h3>
         </form>
       </section>
     </main>

@@ -5,10 +5,15 @@ padding: 0;
 background: #FFFFFF;
 border: 1px solid #DADADA;
 border-radius: 10px;
-/* width: 159px;
-height: 48px; */
 width: 157px;
 height: 47px; 
 display: flex;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #333333;
 
 }
