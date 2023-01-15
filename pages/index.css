@@ -32,8 +32,6 @@
 @import url(../blocks/social-project/__title/social-project__title.css);
 
 @import url(../blocks/main-in-work/main-in-work.css);
-@import url(../blocks/page/__main-in-work/page__main-in-work.css);
-@import url(../blocks/main-in-work/__title/main-in-work__title.css);
 @import url(../blocks/main-in-work/__features-container/main-in-work__features-container.css);
 @import url(../blocks/main-in-work/__feature/main-in-work__feature.css);
 @import url(../blocks/main-in-work/__feature-title/main-in-work__feature-title.css);
