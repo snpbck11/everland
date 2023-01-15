@@ -1,0 +1,14 @@
+.form-subscription__pseudo-grid-item {
+justify-content: center;
+align-items: center;
+padding: 0;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 10px;
+/* width: 159px;
+height: 48px; */
+width: 157px;
+height: 47px; 
+display: flex;
+
+}

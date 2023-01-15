@@ -1,0 +1,9 @@
+.form-subscription__sum-input-container {
+ border: none;
+/* border-radius: 10px; */
+display: flex;
+flex-direction: column;
+gap: 12px 0px;
+padding: 0;
+margin: 0;
+}

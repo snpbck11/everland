@@ -1,0 +1,12 @@
+    /* Стили всех элементов fieldset */
+.form-subscription__input-container {
+  /* width: 610px; */
+  justify-content: space-between;
+ align-items: center;
+ border: none;
+/* border-radius: 10px; */
+display: flex;
+/* gap: 20px; */
+padding: 0;
+margin: 0;
+}

@@ -1,10 +1,10 @@
-.form {
+.form-subscription {
     display:flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    padding-top: 30px;
-    width: 691px;
+    padding: 30px 23px 0px 17px;
+    width: 650px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
     border-radius: 30px;

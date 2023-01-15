@@ -250,39 +250,120 @@
 
       <section class="support">
         <h2 class="support__section-heading">Поддержите нас</h2>
-        <form class="form">
-          <fieldset class="form__input-container">
+        <form class="form-subscription">
+          <fieldset class="form-subscription__input-container">
             <input
               type="radio"
               name="subscription"
-              id="subscription"
-              class="form__item"
+              id="montly"
+              class="form-subscription__item"
               value="monthly"
               checked
-              disabled
             />
-            <label class="form__label" for="subscription">
-              <span class="form__pseudo-item form__pseudo-item_type_radio"
-                >Ежемесячно</span
-              >
+              <!-- <span class="form-subscription__pseudo-item form-subscription__pseudo-item_active">
+              Ежемесячно 
+              </span> -->
+              <span class="form-subscription__pseudo-item form-subscription__pseudo-item_active"
+              >Ежемесячно <img src="../../images/Question.svg"></span>
             </label>
             <label
-              class="form__label form__label_direction_right"
+              class="form-subscription__label"
               for="one-column"
             >
               <input
-                type="radio"
-                name="number-of-columns"
-                id="one-column"
-                class="form__item form__item_el_number-of-columns"
-                value="one-column"
-                checked
-                disabled
-              /><span class="form__pseudo-item form__pseudo-item_type_radio"
-                >Разово</span
-              >
+               type="radio"
+                name="subscription"
+              id="one-time"
+              class="form-subscription__item"
+              value="one-time"
+              /><span class="form-subscription__pseudo-item"
+              >Разово</span>
             </label>
           </fieldset>
+           <h3 class="support__heading">Размер пожертвования</h3>
+           <fieldset class="form-subscription__sum-input-container">
+            <div class="form-subscription__input-container-grid">
+              <input
+                type="radio"
+                name="subscription"
+                id="subscription"
+                class="form-subscription__item"
+                value="monthly"
+                checked
+                disabled
+              />
+              <label class="form-subscription__label" for="subscription">
+                <span class="form-subscription__pseudo-grid-item">
+                250&#8381
+                </span>
+              </label>
+              <label
+                class="form-subscription__label form-subscription__label_direction_right"
+                for="one-column"
+              >
+                <input
+                  type="radio"
+                  name="number-of-columns"
+                  id="one-column"
+                  class="form-subscription__item form-subscription__item_el_number-of-columns"
+                  value="one-column"
+                  checked
+                  disabled
+                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                  >500&#8381</span
+                >
+              </label>
+              <label
+                class="form-subscription__label form-subscription__label_direction_right"
+                for="one-column"
+              >
+                <input
+                  type="radio"
+                  name="number-of-columns"
+                  id="one-column"
+                  class="form-subscription__item form-subscription__item_el_number-of-columns"
+                  value="one-column"
+                  checked
+                  disabled
+                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                  >750&#8381</span
+                >
+              </label>
+              <label
+                class="form-subscription__label form-subscription__label_direction_right"
+                for="one-column"
+              >
+                <input
+                  type="radio"
+                  name="number-of-columns"
+                  id="one-column"
+                  class="form-subscription__item form-subscription__item_el_number-of-columns"
+                  value="one-column"
+                  checked
+                  disabled
+                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                  >1000&#8381</span
+                >
+              </label>
+            </div>
+            <label
+                class="form-subscription__label form-subscription__label_direction_right"
+                for="one-column"
+              >
+                <input
+                  type="radio"
+                  name="number-of-columns"
+                  id="one-column"
+                  class="form-subscription__item form-subscription__item_el_number-of-columns"
+                  value="one-column"
+                  checked
+                  disabled
+                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-item_type_radio"
+                  >Другая сумма</span
+                >
+              </label>
+          </fieldset>
+          
         </form>
       </section>
     </main>

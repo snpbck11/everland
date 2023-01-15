@@ -83,8 +83,22 @@
 @import url(../blocks/support/__list/_button/_active/support__list_button_active.css);
 @import url(../blocks/support/__text/support__text.css);
 
-@import url(../blocks/form/__input-container/form__input-container.css);
-@import url(../blocks/form/__pseudo-item/form__pseudo-item.css);
+@import url(../blocks/form-subscription/form-subscription.css);
+@import url(../blocks/form-subscription/__input-container/form-subscription__input-container.css);
+@import url(../blocks/form-subscription/__item/form-subscription__item.css);
+@import url(../blocks/form-subscription/__item/_active/form-subscription__item_active.css);
+@import url(../blocks/form-subscription/__label/form-subscription__label.css);
+@import url(../blocks/form-subscription/__pseudo-item/form-subscription__pseudo-item.css);
+@import url(../blocks/form-subscription/__input-container-grid/form-subscription__input-container-grid.css);
+
+
+
+@import url(../blocks/form-subscription/__pseudo-item/_active/form-subscription__pseudo-item_active.css);
+@import url(../blocks/form-subscription/__pseudo-grid-item/form-subscription__pseudo-grid-item.css);
+
+@import url(../blocks/form-subscription/__sum-input-container/form-subscription__sum-input-container.css);
+
+@import url(../blocks/form-subscription/__sum-input-container/form-subscription__sum-input-container.css);
 
 
 
@@ -95,11 +109,19 @@
 
 
 
-@import url(../blocks/form/form.css);
+
+
+
+
+
+
+
+
+/* @import url(../blocks/form/form.css);
 @import url(../blocks/form/__item/form__item.css);
 @import url(../blocks/form/__item/_active/form__item_active.css);
 @import url(../blocks/form/__question/form__question.css);
-@import url(../blocks/form/__question/_active/form__question_active.css);
+@import url(../blocks/form/__question/_active/form__question_active.css); */
 
 
 
