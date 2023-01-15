@@ -1,5 +1,19 @@
 .social-project {
     width: calc(100% - 80px);
     margin: 0 auto;
-   
+    padding-bottom: 90px;
+}
+
+@media (max-width: 900px) {
+    .social-project {
+        padding-bottom: 50px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .social-project {
+        width: calc(100% - 20px);
+        padding-bottom: 40px;
+    }
 }

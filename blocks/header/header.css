@@ -9,10 +9,17 @@
 
 }
 
+@media (max-width: 910px) {
+    .header {
+        padding-bottom: 56px;
+    }
+}
+
 @media (max-width: 600px) {
     .header {
         width: calc(100% - 20px);
         padding: 15px 0;
         grid-template-columns: repeat(2, max-content);
+        padding-bottom: 50px;
     }
 }

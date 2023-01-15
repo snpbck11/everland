@@ -1,8 +1,6 @@
 .social-project__images {
     display: grid;
-    grid-template-columns: repeat(3, minmax(min-content, max-content));
-    grid-template-rows: repeat(3, minmax(min-content, max-content));
-   
-   
-   
+    grid-template-columns: repeat(520, minmax(min-content, max-content));
+    grid-template-rows: repeat(565, minmax(min-content, max-content));
+    grid-area: images;
 }

@@ -1,0 +1,8 @@
+.story__photo {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1 / 1;
+}

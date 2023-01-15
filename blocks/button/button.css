@@ -1,29 +1,24 @@
 .button {
     text-decoration: none;
-    width: 180px;
-    height: 48px;
+    padding: 12px 34.5px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 1.2;
+    text-align: center;
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .button {
-        width: 134px;
-        height: 44px;
+        padding: 12.5px 22.5px;
         font-size: 16px;
     }
 }
 
 @media (max-width: 570px) {
     .button {
-        width: 250px;
-        height: 44px;
+        padding: 13.5px 87.5px;
         font-size: 14px;
     }
 }

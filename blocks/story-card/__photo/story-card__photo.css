@@ -1,0 +1,8 @@
+.story-card__photo {
+  width: 224px;
+  height: 224px;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1 /1;
+  border-radius: 50%;
+}
