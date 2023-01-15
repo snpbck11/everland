@@ -1,8 +1,9 @@
 .button_theme_secondary-fon {
-    outline: 1px solid #333333;
+    box-sizing: border-box;
+    border: 1px solid #333333;
     color: #333333;
 }
 
 .button_theme_secondary-fon:hover {
-    outline: 2px solid #333333;
+    border: 2px solid #333333;
 }
