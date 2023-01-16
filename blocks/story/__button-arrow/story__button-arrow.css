@@ -1,0 +1,11 @@
+.story__button-arrow {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 1120px) {
+  .story__button-arrow {
+    width: 13px;
+    height: 13px;
+  }
+}

@@ -1,3 +1,18 @@
 .story__button {
-  
+  max-width: max-content;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #E7F0FF;
+  border-radius: 10px;
+  padding: 12px 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .story__button {
+    padding: 14px 10px;
+  }
 }

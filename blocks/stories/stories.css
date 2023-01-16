@@ -1,5 +1,10 @@
 .stories {
   max-width: calc(100% - 80px);
   margin: 0 auto;
-  row-gap: 100px;
+}
+
+@media screen and (max-width: 680px) {
+  .stories {
+    max-width: calc(100% - 20px);
+  }
 }

@@ -8,7 +8,7 @@
   <title>Everland</title>
 </head>
 <body class="page">
-  <header class="header">
+  <!-- <header class="header">
       <img src="./images/Logo.svg" alt="логотип Еверланд" class="header__logo">
       <div class="header__menu">
         <img src="./images/Menu.svg" alt="" class="header__burger">
@@ -42,7 +42,7 @@
          <img src="./images/Image_1.png" alt="" class="social-project__image">
        </div>
        </div>
-    </section>
+    </section> -->
 
     <section class="donation">
 
@@ -70,8 +70,8 @@
 
 
    <section class="stories section-wrapper">
-      <h2 class="stories__title">Истории</h2> <!--Изменить класс на тайтл-->
-      <button class="section-wrapper__button button button_theme_secondary">Все истории</button>
+      <h2 class="section-title stories__title">Истории</h2>
+      <a href="#" target="_blank" class="section-wrapper__button button button_theme_secondary">Все истории</a>
       <div class="stories__container section-wrapper__container">
         <article class="story">
           <img class="story__photo" src="./images/history-image1.png" alt="Фотография Максима">
@@ -82,7 +82,10 @@
                 которых так не хватает</h3>
               <p class="story__subtitle">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему 
                 с трудоустройством</p>
-              <button class="story__button button">Istoriya Maksima</button>
+              <a class="story__button" href="#" target="_blank">
+                <p class="story__button-title">История Максима</p>
+                <img class="story__button-arrow" src="./images/arrow_forward_blue.svg" alt="Стрелка">
+              </a>
             </div> 
           </div>    
         </article>
@@ -94,7 +97,10 @@
               <h3 class="story__title">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h3>
               <p class="story__subtitle">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. 
                 С тех пор ему тяжело передвигаться на большие расстояния</p>
-              <button class="story__button">Istoriya Maksima</button>
+              <a class="story__button" href="#" target="_blank">
+                <p class="story__button-title">История Максима</p>
+                <img class="story__button-arrow" src="./images/arrow_forward_blue.svg" alt="Стрелка">
+              </a>
             </div> 
           </div>    
         </article>
@@ -106,7 +112,7 @@
               <p class="story-card__subtitle">Когда хочется жить</p>
               <a class="story-card__link-container" href="#">
                 <p class="story-card__link">История Айслу</p>
-                <img src="./images/Icon_paly.svg" alt="Плей"></a>
+                <img class="story-card__link-icon" src="./images/Icon_paly.svg" alt="Плей"></a>
             </div>
           </article>
           <article class="story-card">
@@ -120,7 +126,7 @@
             </div>
           </article>
         </div>
-      </div>  
+      </div>
     </section>
 
     <section class="best-projects">
@@ -128,7 +134,7 @@
     </section>
 
     <section class="news section-wrapper">
-      <h2 class="stories__title title">Новости</h2> <!--Блок тайтл-->
+      <h2 class="section-title">Новости</h2>
       <button class="section-wrapper__button button button_theme_secondary">Все новости</button> <!--Блок баттон-->
       <div class="news__container section-wrapper__container">
         <div class="news-card">

@@ -3,10 +3,19 @@
   grid-template: 1fr / repeat(auto-fit, minmax(500px, 1fr));
   grid-auto-flow: row;
   gap: 20px;
+  padding: 50px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1120px) {
   .story-cards {
-    
+    padding: 40px 0;
+    grid-template: 1fr / repeat(auto-fit, minmax(325px, 1fr));
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story-cards {
+    gap: 16px;
+    grid-template: 1fr / repeat(auto-fit, minmax(260px, 1fr));
   }
 }
