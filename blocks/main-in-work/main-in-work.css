@@ -1,0 +1,12 @@
+.main-in-work {
+    max-width: calc(100% - 80px);
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .main-in-work {
+      max-width: calc(100% - 20px);
+    }
+}
+
