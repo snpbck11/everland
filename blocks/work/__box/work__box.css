@@ -1,6 +1,6 @@
 .work__box {
   width: 100%;
-  min-height: auto;
+  min-height: 428px;
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 30px;
@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 767px) {
   .work__box {
+    min-height: auto;
     gap: 20px;
     padding: 24px;
   }
@@ -19,6 +20,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .work__box {
+    min-height: 294px;
     gap: 20px;
   }
 }

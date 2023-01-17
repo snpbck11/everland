@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .orientation__box {
-    min-height: auto;
+    min-height: 294px;
     gap: 20px;
   }
 }
