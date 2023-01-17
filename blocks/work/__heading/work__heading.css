@@ -1,15 +1,9 @@
 .work__heading {
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 1.2;
-  color: #333;
-  margin: 0;
   margin-bottom: 50px;
 }
 
 @media screen and (max-width: 767px) {
   .work__heading {
-    font-size: 26px;
     margin-bottom: 24px;
   }
 }
@@ -17,7 +11,6 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .work__heading {
     text-align: center;
-    font-size: 36px;
     margin-bottom: 32px;
   }
 }

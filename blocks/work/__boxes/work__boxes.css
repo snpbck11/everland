@@ -1,6 +1,6 @@
 .work__boxes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 440px);
+  grid-template: 1fr / repeat(auto-fit, minmax(440px, 1fr));
   gap: 20px;
   list-style: none;
   padding: 0;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 767px) {
   .work__boxes {
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template: 1fr / repeat(auto-fit, minmax(300px, 1fr));
     gap: 16px;
   }
 }

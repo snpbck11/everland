@@ -1,5 +1,4 @@
 .work__text {
-  min-height: 176px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -7,7 +6,6 @@
 
 @media screen and (max-width: 1279px) {
   .work__text {
-    min-height: auto;
     gap: 10px;
   }
 }

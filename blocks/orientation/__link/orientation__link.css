@@ -1,6 +1,6 @@
 .orientation__link {
-  width: 165px;
-  height: 48px;
+  min-width: 165px;
+  width: fit-content;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -8,34 +8,34 @@
   color: #000;
   background: #fff;
   display: inline-flex;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  box-sizing: border-box;
+  white-space: nowrap;
   cursor: pointer;
-  transition: .3s ease-in-out;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  gap: 10px;
+  transition: 0.3s ease-in-out;
+  margin-top: auto;
+  padding: 12px 10px;
 }
 
 .orientation__link:hover {
-  color: #00275C;
+  color: #00275c;
 }
 
 @media screen and (max-width: 767px) {
   .orientation__link {
-    max-width: 128px;
-    height: 44px;
+    min-width: auto;
     font-size: 14px;
-    margin-bottom: 24px;
-    margin-left: 24px;
+    padding: 10px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .orientation__link {
-    width: 139px;
-    height: 44px;
+    min-width: auto;
     font-size: 16px;
+    padding: 13px 10px;
   }
 }
