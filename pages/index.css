@@ -41,13 +41,10 @@
 @import url(../blocks/digits/__content-container/digits__content-container.css);
 @import url(../blocks/digits/__image/digits__image.css);
 @import url(../blocks/digits/__achievements-container/digits__achievements-container.css);
+@import url(../blocks/digits/__achievement/digits__achievement.css);
 @import url(../blocks/digits/__achievement-title/digits__achievement-heading.css);
 @import url(../blocks/digits/__achievement-number/digits__achievement-number.css);
 @import url(../blocks/digits/__achievement-text/digits__achievement-text.css);
-
-
-
-
 
 @import url(../blocks/section-title/section-title.css);
 

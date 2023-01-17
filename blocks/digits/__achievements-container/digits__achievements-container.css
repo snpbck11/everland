@@ -1,8 +1,7 @@
 .digits__achievements-container {
     display: grid;
     width: 49.2%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
     row-gap: 30px;
 }
@@ -17,8 +16,8 @@
 
 @media screen and (max-width: 767px) {
     .digits__achievements-container {
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
         row-gap: 16px;
         margin-bottom: 24px;
     }
