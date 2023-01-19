@@ -13,8 +13,8 @@
 @import url(../blocks/content/content.css);
 
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_primary/section-title_primary.css);
-@import url(../blocks/section-title/_secondary/section-title_secondary.css);
+@import url(../blocks/section-title/_work/section-title_work.css);
+@import url(../blocks/section-title/_projects/section-title_projects.css);
 
 @import url(../blocks/buttons/buttons.css);
 
