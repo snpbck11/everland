@@ -20,7 +20,7 @@
   
 @media screen and (max-width: 350px) {
     .main-in-work__feature {
-      padding: 0 20px;
+      padding: 0 20px 0 16px;
       border-radius: 15px;
       border-width: 1px;
     }
