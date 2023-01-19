@@ -1,0 +1,6 @@
+.menu__items-title {
+    margin: 0;
+    padding: 0;
+    display:  grid;
+    row-gap: 26px;
+}

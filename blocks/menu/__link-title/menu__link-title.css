@@ -1,0 +1,8 @@
+.menu__link-title {
+    margin: 0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.2;
+    color: black;
+}

@@ -1,24 +1,22 @@
 .social-project__title {
-    max-width: 826px;
     margin: 0;
     font-weight: 700;
     font-size: 72px;
     line-height: 1.2;
-    letter-spacing: -0.02em;
     align-self: start;
     grid-area: title;
+    letter-spacing: -0.02em;
 }
 
 @media (max-width: 1150px) {
     .social-project__title {
-        font-size: 56px;
-        
+        font-size: 46px; 
     }
 }
 
 @media (max-width: 900px) {
     .social-project__title {
-        font-size: 38px;
+        font-size: 32px;
         letter-spacing: -0.03em;
     }
 }
@@ -26,5 +24,6 @@
 @media (max-width: 750px) {
     .social-project__title {
         font-size: 28px;
+        
     }
 }

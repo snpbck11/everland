@@ -1,17 +1,14 @@
 .social-project__image {
  border-radius: 10px;
  width: 100%;
- height: 100%;
- grid-row: -1/168;
- grid-column: 1/392;
-
+ grid-row: -1/2;
+ grid-column: 1/3;
 }
 
+
 .social-project__image:nth-child(2) {
- border-radius: 10px;
- width: 100%;
- height: 100%;
- grid-row: 1/315;
- grid-column: -1/168;
- z-index: -1;
+    width: 100%;
+    grid-row: 1/3;
+    grid-column: -1/2;
+    z-index: -1;
 }

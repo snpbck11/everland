@@ -1,15 +1,12 @@
 .social-project__arrow-forward {
-    padding: 0;
     border: none;
-    font: inherit;
-    color: inherit;
-    width: 35px;
-    height: 35px;
+    padding: 17.5px;
     border-radius: 10px;
     background-color: #0C4BA0;
     background-image: url(../../../images/arrow_forward.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 17px 17px;
     cursor: pointer;
 }
 
@@ -17,8 +14,8 @@
 
 @media (max-width: 1150px) {
     .social-project__arrow-forward {
-        width: 24px;
-        height: 24px;
+        padding: 12px;
+        background-size: 10px 10px;
         border-radius: 6px;
     }
 }

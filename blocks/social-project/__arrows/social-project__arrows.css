@@ -1,6 +1,5 @@
 .social-project__arrows {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 10px;
     grid-area: arrows;
