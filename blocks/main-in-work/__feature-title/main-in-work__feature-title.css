@@ -7,14 +7,14 @@
 }
 
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1133px) {
     .main-in-work__feature-title {
       font-size: 26px;
       line-height: 1.19;
     }
 }
   
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
     .main-in-work__feature-title {
       font-size: 18px;
       line-height: 1.2;
