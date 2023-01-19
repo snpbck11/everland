@@ -20,6 +20,11 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-fon.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
+@import url(../blocks/button-detailed/button-detailed.css);
+@import url(../blocks/button-detailed/__arrow/button-detailed__arrow.css);
+@import url(../blocks/button-detailed/__color/_light-blue/button-detailed__color_light-blue.css);
+@import url(../blocks/button-detailed/__color/_light-green/button-detailed__color_light-green.css);
+@import url(../blocks/button-detailed/__color/_light-orange/button-detailed__color_light-orange.css);
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__title/secondary-menu__title.css);
