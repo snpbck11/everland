@@ -71,6 +71,17 @@
 @import url(../blocks/main-in-work/__feature-title/main-in-work__feature-title.css);
 @import url(../blocks/main-in-work/__feature-button/main-in-work__feature-button.css);
 
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__content-container/digits__content-container.css);
+@import url(../blocks/digits/__image/digits__image.css);
+@import url(../blocks/digits/__achievements-container/digits__achievements-container.css);
+@import url(../blocks/digits/__achievement/digits__achievement.css);
+@import url(../blocks/digits/__achievement-title/digits__achievement-heading.css);
+@import url(../blocks/digits/__achievement-number/digits__achievement-number.css);
+@import url(../blocks/digits/__achievement-text/digits__achievement-text.css);
+
+@import url(../blocks/section-title/section-title.css);
+
 @import url(../blocks/section-wrapper/section-wrapper.css);
 @import url(../blocks/section-wrapper/__button/section-wrapper__button.css);
 @import url(../blocks/section-wrapper/__container/section-wrapper__container.css);
@@ -124,3 +135,21 @@
 @import url(../blocks/news-card/__title/news-card__title.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__link-text/footer__link-text.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__logo-everland/footer__logo-everland.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logos/footer__logos.css);
+@import url(../blocks/footer/__numbers/footer__numbers.css);
+@import url(../blocks/footer/__resource-logo/footer__resource-logo.css);
+@import url(../blocks/footer/__resource/footer__resource.css);
+@import url(../blocks/footer/__section-container/footer__section-container.css);
+@import url(../blocks/footer/__section-title/footer__section-title.css);
+@import url(../blocks/footer/__section/footer__section.css);
+@import url(../blocks/footer/__social-logo/footer__social-logo.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__text-container/footer__text-container.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text/_opacity/footer__text_opacity.css);
