@@ -17,7 +17,6 @@
 @media screen and (max-width: 767px) {
     .digits__achievements-container {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
         row-gap: 16px;
         margin-bottom: 24px;
     }
