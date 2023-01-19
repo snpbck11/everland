@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  box-sizing: border-box;
   white-space: nowrap;
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -25,13 +26,13 @@
 @media screen and (max-width: 767px) {
   .button-detailed {
     font-size: 14px;
-    padding: 10px;
+    padding: 14px 10px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .button-detailed {
     font-size: 16px;
-    padding: 10px;
+    padding: 13px 10px;
   }
 }
