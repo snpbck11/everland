@@ -20,6 +20,7 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-fon.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
+@import url(../blocks/button-detailed/button-detailed.css);
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__title/secondary-menu__title.css);

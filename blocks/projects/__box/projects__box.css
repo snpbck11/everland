@@ -1,23 +1,5 @@
-.projects__box {
-  width: 100%;
-  min-height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 767px) {
-  .projects__box {
-    gap: 20px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .projects__box {
-    gap: 20px;
-  }
-  .projects__box:nth-child(3 + n) {
+  .projects__box:nth-child(3n) {
     display: none;
   }
 }
