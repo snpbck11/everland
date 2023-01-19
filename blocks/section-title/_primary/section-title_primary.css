@@ -1,0 +1,9 @@
+.section-title_primary {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .section-title_primary {
+    margin-bottom: 10px;
+  }
+}
