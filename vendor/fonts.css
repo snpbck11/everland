@@ -7,7 +7,11 @@
 }
 
 @font-face {
+<<<<<<< HEAD
+  font-family: 'Inter';
+=======
   font-family: 'Raleway';
+>>>>>>> 74a7e78da9268db68b8cf7e10b91457860de6fe9
   font-style: normal;
   font-weight: 500;
   src: url('./Raleway/Raleway-Medium.woff') format('woff'),
@@ -15,7 +19,11 @@
 }
 
 @font-face {
+<<<<<<< HEAD
+  font-family: 'Inter';
+=======
   font-family: 'Raleway';
+>>>>>>> 74a7e78da9268db68b8cf7e10b91457860de6fe9
   font-style: normal;
   font-weight: 600;
   src: url('./Raleway/Raleway-SemiBold.woff') format('woff'),
@@ -23,7 +31,11 @@
 }
 
 @font-face {
+<<<<<<< HEAD
+  font-family: 'Inter';
+=======
   font-family: 'Raleway';
+>>>>>>> 74a7e78da9268db68b8cf7e10b91457860de6fe9
   font-style: normal;
   font-weight: 700;
   src: url('./Raleway/Raleway-Bold.woff') format('woff'),
