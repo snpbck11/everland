@@ -18,7 +18,3 @@
   -webkit-font-feature-settings: 'lnum';
   -o-font-feature-settings: 'lnum';
 }
-
-* {
-  outline: 1px solid red;
-}
