@@ -6,3 +6,16 @@
     line-height: 1.2;
     color: black;
 }
+
+
+@media (max-width: 900px) {
+    .menu__link-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu__link-title {
+        font-size: 18px;
+    }
+}

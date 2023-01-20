@@ -4,7 +4,11 @@
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
+<<<<<<< HEAD
     line-height: 1.2;
+=======
+    line-height: 120%;
+>>>>>>> 74a7e78da9268db68b8cf7e10b91457860de6fe9
     text-align: center;
     cursor: pointer;
 }

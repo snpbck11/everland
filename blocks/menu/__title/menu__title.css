@@ -4,5 +4,19 @@
     font-size: 34px;
     line-height: 1.2;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    padding-bottom: 10px;
+}
 
+@media (max-width: 900px) {
+    .menu__title {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu__title {
+        padding-bottom: 0;
+        font-size: 18px;
+    }
 }

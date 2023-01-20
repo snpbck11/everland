@@ -1,0 +1,18 @@
+.digits__achievement {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+@media screen and (max-width: 1133px) {
+    .digits__achievement {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .digits__achievement {
+        gap: 5px;
+    }
+}

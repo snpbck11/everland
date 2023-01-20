@@ -5,3 +5,10 @@
     row-gap: 20px;
     padding: 0;
 }
+
+
+@media (max-width: 900px) {
+    .menu__items {
+        row-gap: 16px;
+    }
+}

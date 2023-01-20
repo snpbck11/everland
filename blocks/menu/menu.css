@@ -1,7 +1,23 @@
 .menu {
     width: calc(100% - 80px);
     margin: 0 auto;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr); 
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .menu {
+        grid-template-columns:  repeat(3, 1fr);
+        row-gap: 64px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+    width: calc(100% - 20px);
     display: flex;
-    justify-content: space-between;
-    
+    flex-direction: column;
+    row-gap: 20px;
+    }
 }
