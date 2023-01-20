@@ -1,10 +1,11 @@
 .menu {
+    background-color: white;
     width: calc(100% - 80px);
     margin: 0 auto;
     display: grid;
     grid-template-columns:  repeat(4, 1fr); 
-    display: none;
 }
+
 
 @media (max-width: 900px) {
     .menu {
@@ -15,9 +16,9 @@
 
 @media (max-width: 600px) {
     .menu {
-    width: calc(100% - 20px);
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 20px);
+        row-gap: 20px;
     }
 }

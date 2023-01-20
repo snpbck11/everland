@@ -5,7 +5,11 @@
     line-height: 1.2;
     font-feature-settings: 'pnum' on, 'lnum' on;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 @media (max-width: 900px) {
     .menu__title {
@@ -18,5 +22,8 @@
     .menu__title {
         padding-bottom: 0;
         font-size: 18px;
+    }
+    .menu__title::after {
+        content: url(../../../images/Icon_shevron.svg);
     }
 }

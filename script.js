@@ -3,6 +3,7 @@ const sliderItems = Array.from(slider.children);
 const btnForward = document.querySelector(".social-project__arrow-forward");
 const btnBack = document.querySelector(".social-project__arrow-back");
 
+//Слайдер
 
 sliderItems.forEach(function (slide, index) {
 	// Скрываем все слайды, кроме первого
@@ -68,3 +69,4 @@ btnBack.onclick = function () {
 		nextSlide.classList.remove('social-project__slider-item_display-none');
 		nextSlide.setAttribute('data-active', '');
 	}
+
