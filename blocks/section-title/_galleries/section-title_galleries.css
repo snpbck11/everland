@@ -1,5 +1,6 @@
 .section-title_galleries {
-    max-width: 620px;
+    grid-area: title;
+    width: 100%;
     margin: 0;
     padding: 0;
 }

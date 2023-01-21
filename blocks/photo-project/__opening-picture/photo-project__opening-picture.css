@@ -1,5 +1,6 @@
 .photo-project__opening-picture {
-    width: 42.6%;
+    grid-area: image;
+    width: 555px;
     object-fit: cover;
     object-position: center;
     border-radius: 30px;
