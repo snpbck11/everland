@@ -9,10 +9,23 @@
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1110px) {
     .photo-project__lead {
-        max-width: 92.9%;
         font-size: 16px;
         line-height: 1.2;
+        max-width: 92.9%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .photo-project__lead {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-project__lead {
+        width: 100%;
+        font-size: 14px;
     }
 }

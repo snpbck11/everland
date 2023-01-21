@@ -8,6 +8,7 @@
     color: #333;
     background-color: rgba(0, 0, 0, 0);
     transition: .3s;
+    align-self: end;
 }
 
 .button_theme_secondary-transparent:hover {
@@ -27,17 +28,17 @@
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1110px) {
     .button_theme_secondary-transparent {
         width: 200px;
         height: 44px;
-        padding: 0;
-        margin-top: 27px;
+        font-size: 16px;
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 767px) {
     .button_theme_secondary-transparent {
-        width: 250px;
+        width: 100%;
+        font-size: 14px;
     }
 }

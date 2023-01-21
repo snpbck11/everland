@@ -7,21 +7,26 @@
 }
 
 
-@media screen and (max-width: 810px) {
+
+@media screen and (max-width: 1279px) {
+    .photo-project__opening-picture {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
     .photo-project__opening-picture {
         width: 259px;
         height: 284px;
-        object-fit: cover;
-        object-position: center;
         border-radius: 10px;
     }
 }
-/*
 
 @media screen and (max-width: 767px) {
-    .digits__content-container {
-        flex-direction: column-reverse;
-        margin-bottom: 64px;
+    .photo-project__opening-picture {
+        width: 100%;
+        height: 100%;
     }
-} 
-/*
+}
+
+

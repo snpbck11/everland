@@ -12,8 +12,7 @@
 }
 
 
-
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1110px) {
     .slider-button {
         width: 24px;
         min-height: 24px;

@@ -8,9 +8,15 @@
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1110px) {
     .photo-project__rubric {
         font-size: 16px;
         line-height: 1.2;
+    }
+}
+
+@media (max-width: 767px) {
+    .photo-project__rubric {
+        font-size: 14px;
     }
 }

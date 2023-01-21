@@ -6,9 +6,22 @@
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1310px) {
     .section-title_galleries {
         font-size: 36px;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .section-title_galleries {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-title_galleries {
+        width: 100%;
+        font-size: 26px;
     }
 }
