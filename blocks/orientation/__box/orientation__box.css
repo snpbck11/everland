@@ -1,5 +1,4 @@
 .orientation__box {
-  min-height: 428px;
   background-color: #fff;
   border-radius: 30px;
   box-sizing: border-box;
@@ -11,7 +10,6 @@
 
 @media screen and (max-width: 767px) {
   .orientation__box  {
-    min-height: auto;
     border-radius: 20px;
     gap: 20px;
     padding: 24px;
@@ -20,7 +18,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .orientation__box {
-    min-height: 294px;
     border-radius: 20px;
     gap: 20px;
     padding: 30px;
