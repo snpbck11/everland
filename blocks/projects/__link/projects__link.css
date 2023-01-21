@@ -25,7 +25,7 @@
   .projects__link {
     width: 100%;
     font-size: 14px;
-    padding: 13px 95px;
+    padding: 13px 0;
     margin-top: 24px;
   }
 }
