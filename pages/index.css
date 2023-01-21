@@ -74,7 +74,6 @@
 @import url(../blocks/section-wrapper/__container/section-wrapper__container.css);
 
 @import url(../blocks/stories/stories.css);
-@import url(../blocks/stories/__title/stories__title.css);
 @import url(../blocks/stories/__container/stories__container.css);
 
 @import url(../blocks/story/story.css);
@@ -85,6 +84,8 @@
 @import url(../blocks/story/__title/story__title.css);
 @import url(../blocks/story/__subtitle/story__subtitle.css);
 @import url(../blocks/story/__button/story__button.css);
+@import url(../blocks/story/__button-title/story__button-title.css);
+@import url(../blocks/story/__button-arrow/story__button-arrow.css);
 
 @import url(../blocks/story-cards/story__cards.css);
 
@@ -92,7 +93,7 @@
 @import url(../blocks/story-card/__description/story-card__description.css);
 @import url(../blocks/story-card/__link-container/story-card__link-container.css);
 @import url(../blocks/story-card/__link-icon/story-card__link-icon.css);
-@import url(../blocks/story-card/__link/story-card__link);
+@import url(../blocks/story-card/__link/story-card__link.css);
 @import url(../blocks/story-card/__photo/story-card__photo.css);
 @import url(../blocks/story-card/__subtitle/story-card__subtitle.css);
 @import url(../blocks/story-card/__title/story-card__title.css);
