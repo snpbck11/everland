@@ -1,0 +1,9 @@
+.slider-button_direction_forward {
+    background-image: url(../../../../images/arrow_forward.svg);
+
+}
+
+.slider-button_direction_forward:disabled {
+    background-color: #C4C4C4;
+    background-image: url(../../../../images/arrow_forward-disabled.svg);
+}

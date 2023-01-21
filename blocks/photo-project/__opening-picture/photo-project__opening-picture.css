@@ -1,0 +1,26 @@
+.photo-project__opening-picture {
+    width: 42.6%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width: 810px) {
+    .photo-project__opening-picture {
+        width: 259px;
+        height: 284px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+}
+/*
+
+@media screen and (max-width: 767px) {
+    .digits__content-container {
+        flex-direction: column-reverse;
+        margin-bottom: 64px;
+    }
+} 
+/*

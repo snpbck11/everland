@@ -1,0 +1,28 @@
+.photo-project__description {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 810px) {
+    .photo-project__description {
+        width: 55%;
+    }
+}
+
+/*
+@media screen and (max-width: 767px) {
+    .main-in-work__features-container {
+      margin-bottom: 64px;
+    }
+}
+  
+@media screen and (max-width: 350px) {
+    .main-in-work__features-container {
+      grid-auto-rows: 56px;
+      row-gap: 16px;
+    }
+}
+*/

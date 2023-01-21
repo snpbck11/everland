@@ -1,0 +1,42 @@
+.button_theme_secondary-transparent {
+    box-sizing: border-box;
+    width: 194px;
+    height: 48px;
+    padding: 0;
+    border: 1px solid #333;
+    color: #333;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .3s;
+}
+
+.button_theme_secondary-transparent:hover {
+    border: 2px solid #333;
+}
+
+.button_theme_secondary-transparent:active {
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.button_theme_secondary-transparent:disabled {
+    background-color: rgba(245, 245, 245, 1);
+    border: 2px solid rgba(196, 196, 196, 1);
+    color: rgba(38, 38, 38, 0.5);
+}
+
+
+@media (max-width: 768px) {
+    .button_theme_secondary-transparent {
+        width: 200px;
+        height: 44px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 570px) {
+    .button_theme_secondary-transparent {
+        width: 250px;
+        padding: 0;
+    }
+}

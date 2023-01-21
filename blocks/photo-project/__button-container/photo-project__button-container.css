@@ -1,0 +1,13 @@
+.photo-project__button-container {
+    outline: 1px solid darkcyan;
+    width: 78px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 810px) {
+    .photo-project__button-container {
+        width: 56px;
+    }
+}

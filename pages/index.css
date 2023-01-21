@@ -18,6 +18,8 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-fon.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
+@import url(../blocks/button/_theme/button_theme_secondary-transparent.css);
+
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__title/secondary-menu__title.css);
@@ -46,7 +48,30 @@
 @import url(../blocks/digits/__achievement-number/digits__achievement-number.css);
 @import url(../blocks/digits/__achievement-text/digits__achievement-text.css);
 
+@import url(../blocks/photo-project/proto-project.css);
+@import url(../blocks/photo-project/__content-container/photo-project__content-container.css);
+@import url(../blocks/photo-project/__description/photo-project__description.css);
+@import url(../blocks/photo-project/__opening-picture/photo-project__opening-picture.css);
+@import url(../blocks/photo-project/__rubric/photo-project__rubric.css);
+@import url(../blocks/photo-project/__lead/photo-project__lead.css);
+@import url(../blocks/photo-project/__navigation/photo-project__navigation.css);
+@import url(../blocks/photo-project/__button-container/photo-project__button-container.css);
+
+@import url(../blocks/slider-button/slider-button.css);
+@import url(../blocks/slider-button/_direction/_back/slider-button_direction_back.css);
+@import url(../blocks/slider-button/_direction/_forward/slider-button_direction_forward.css);
+@import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
+
+
+
+
+
+
+
+
+
 @import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_galleries/section-title_galleries.css);
 
 @import url(../blocks/section-wrapper/section-wrapper.css);
 @import url(../blocks/section-wrapper/__button/section-wrapper__button.css);
