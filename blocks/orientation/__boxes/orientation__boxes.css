@@ -1,6 +1,6 @@
 .orientation__boxes {
   display: grid;
-  grid-template: 1fr / repeat(auto-fit, minmax(440px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   list-style: none;
   padding: 0;
@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 767px) {
   .orientation__boxes {
-    grid-template: 1fr / repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 16px;
   }
 }
