@@ -23,7 +23,4 @@
         padding-bottom: 0;
         font-size: 18px;
     }
-    .menu__title::after {
-        content: url(../../../images/Icon_shevron.svg);
-    }
 }

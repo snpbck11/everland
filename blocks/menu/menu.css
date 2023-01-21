@@ -4,7 +4,10 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns:  repeat(4, 1fr);
-    
+    position: absolute;
+    right: 40px;
+    transform: translateY(-200%);
+    z-index: 3;
 }
 
 
@@ -21,5 +24,6 @@
         flex-direction: column;
         width: calc(100% - 20px);
         row-gap: 20px;
+        right: 10px;
     }
 }

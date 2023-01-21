@@ -21,7 +21,7 @@ btnForward.forEach(function(buttons) {
 });
 
 
-// енопка назад
+// кнопка назад
 btnBack.forEach(function(buttons) {
 	buttons.onclick = function () {
 		showNextSlide('prev');
@@ -48,3 +48,29 @@ function showNextSlide(direction) {
 	nextSlide.classList.remove('slider-display_none');
 	nextSlide.setAttribute('data-active', '');
 };
+
+
+// Раскрытие меню
+
+const btnMenu = document.querySelector(".header__menu");
+const menu = document.querySelector(".menu");
+const btnArrow = document.querySelectorAll(".menu__arrow");
+const menuMob = document.querySelector(".menu__mobile");
+
+btnMenu.addEventListener('click', function() {
+	menu.classList.toggle('menu_opened');
+});
+
+
+// Функция раскрытия пунктов в мобильном меню 
+function openMobileMenu(menu) {
+	menu.classList.toggle('menu__mobile_opened');
+};
+
+// Раскрытие пунктов в мобильном меню при клике на стрелку
+btnArrow.forEach(function(button) {
+	button.addEventListener('click', function() {
+		openMobileMenu(menuMob);
+		rotateArrow(btnArrow);
+	})
+});
