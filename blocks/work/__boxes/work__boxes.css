@@ -1,6 +1,6 @@
 .work__boxes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template: 1fr / repeat(auto-fit, minmax(440px, 1fr));
   gap: 20px;
   list-style: none;
   padding: 0;
