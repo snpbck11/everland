@@ -230,18 +230,22 @@
       </section>
 
      <section class="support">
-
-        <h2 class="support__section-heading">Поддержите нас</h2>
+     <h2 class="support__section-heading">Поддержите нас</h2>
+      <div class="support__main-container">
+        
 
         <form class="form-subscription">
 
           <fieldset class="form-subscription__input-container">
 
            <label
-              class="form-subscription__label"
+              class="form-subscription__label form-subscription__label_active"
               for="montly"
             >
-            <input
+              <span class="form-subscription__pseudo-item"
+              >Ежемесячно <img src="../../images/Question.svg" class="form-subscription__question_active"></span>
+            </label>
+             <input
               type="radio"
               name="subscription"
               id="montly"
@@ -249,105 +253,96 @@
               value="monthly"
               checked
             />
-              <span class="form-subscription__pseudo-item form-subscription__pseudo-item_active"
-              >Ежемесячно <img src="../../images/Question.svg" class="form-subscription__question_active"></span>
-            </label>
 
             <label
               class="form-subscription__label"
               for="one-time"
             >
-              <input
+              <span class="form-subscription__pseudo-item"
+              >Разово <img src="../../images/Question.svg" class="form-subscription__question"></span>
+            </label>
+            <input
                type="radio"
                 name="subscription"
               id="one-time"
               class="form-subscription__item"
               value="one-time"
-              /><span class="form-subscription__pseudo-item"
-              >Разово <img src="../../images/Question.svg" class="form-subscription__question"></span>
-            </label>
+              />
           </fieldset>
 
            <h3 class="form-subscription__title">Размер пожертвования</h3>
 
            <fieldset class="form-subscription__sum-input-container">
-
-            <div class="form-subscription__input-container-grid">
-
-              <label class="form-subscription__label" for="250">
-              <input
-                type="radio"
-                name="sum-of-donation"
-                id="250"
-                class="form-subscription__item"
-                value="250"
-              />
-                <span class="form-subscription__pseudo-grid-item">
-                250&#8381
-                </span>
-              </label>
-
               <label
                 class="form-subscription__label"
+                for="250"
+              >
+                <span class="form-subscription__pseudo-grid-item"
+                  >250&#8381</span
+                >
+              </label>
+              <input
+                  type="radio"
+                  name="sum-of-donation"
+                  id="250"
+                  class="form-subscription__item"
+                  value="250"
+                />
+              <label
+                class="form-subscription__label form-subscription__label_active"
                 for="500"
               >
-                <input
+                <span class="form-subscription__pseudo-grid-item"
+                  >500&#8381</span
+                >
+              </label>
+              <input
                   type="radio"
                   name="sum-of-donation"
                   id="500"
                   class="form-subscription__item"
                   value="500"
                   checked
-                /><span class="form-subscription__pseudo-grid-item form-subscription__pseudo-grid-item_active"
-                  >500&#8381</span
-                >
-              </label>
+                />
 
               <label
                 class="form-subscription__label"
-                for="750"
-              >
-                <input
+                for="750">
+                <span class="form-subscription__pseudo-grid-item">750&#8381
+                </span>
+              </label>
+              <input
                   type="radio"
                   name="sum-of-donation"
                   id="750"
                   class="form-subscription__item"
                   value="750"
-                /><span class="form-subscription__pseudo-grid-item"
-                  >750&#8381</span
-                >
-              </label>
+                />
 
               <label
                 class="form-subscription__label"
-                for="1000"
-              >
-                <input
+                for="1000">
+              <span class="form-subscription__pseudo-grid-item">1000&#8381</span>
+              </label>
+
+              <input
                   type="radio"
                   name="sum-of-donation"
                   id="1000"
                   class="form-subscription__item"
                   value="1000"
-                /><span class="form-subscription__pseudo-grid-item"
-                  >1000&#8381</span
-                >
-              </label>
-            </div>
+                />
 
-            <label
-                class="form-subscription__label"
-                for="other_sum"
-              >
-                <input
+                <label class="form-subscription__label" for="other_sum">
+              <span class="form-subscription__pseudo-grid-item">Другая сумма</span>
+            </label>
+              <input
                   type="radio"
                   name="sum-of-donation"
                   id="other_sum"
-                  class="form-subscription__item"
+                  class="form-subscription__item" 
                   value="other_sum"
-                /><span class="form-subscription__pseudo-grid-item"
-                  >Другая сумма</span
-                >
-              </label>
+                />
           </fieldset>
 
           <p class="form-subscription__text">
@@ -356,9 +351,15 @@
         </p>
         
         <h3 class="form-subscription__title">Способ оплаты</h3>
-         <fieldset class="form-subscription__input-container">
-              <label class="form-subscription__label" for="Mir_visa_mastercard">
-                <input
+        <div class="form-subscription__payment-method-container">
+         <fieldset class="form-subscription__input-container-grid-two">
+              <label class="form-subscription__label form-subscription__label_active" for="Mir_visa_mastercard">
+                 <span class="form-subscription__pseudo-grid-item-two">
+                 <img src="../../images/Mir_visa_mastercard.svg" 
+                 height="26px" width="150.5px">
+                 </span>
+              </label>
+              <input
                 type="radio"
                 name="payment_method"
                 id="Mir_visa_mastercard"
@@ -366,53 +367,107 @@
                 value="Mir_visa_mastercard"
                 checked
               />
-                 <img src="../../images/Mir_visa_mastercard.svg" class="form-subscription__pseudo-grid-item form-subscription__pseudo-grid-item_active"
-                 height="26px" width="150.5px">
-              </label>
               <label
                 class="form-subscription__label"
                 for="YooMoney"
               >
-                <input
+                 <span class="form-subscription__pseudo-grid-item-two">
+                 <img height="14px" width="20px" src="../../images/YooMoney.svg" >
+                 </span>
+              </label>
+              <input
                   type="radio"
                   name="payment_method"
                   id="YooMoney"
-                  class="form-subscription__item"
+                   class="form-subscription__item"
                   value="YooMoney"
                 />
-                 <img class="form-subscription__pseudo-grid-item"  height="14px" width="20px" src="../../images/YooMoney.svg" >
-              </label>
               <label
                 class="form-subscription__label"
                 for="WebMoney"
               >
-                <input
+                 <span class="form-subscription__pseudo-grid-item-two">
+                <img src="../../images/WebMoney.svg">
+                </span>
+              </label>
+              <input
                   type="radio"
                   name="payment_method"
                   id="WebMoney"
-                  class="form-subscription__item"
+                   class="form-subscription__item"
                   value="WebMoney"
                 />
-                <img src="../../images/WebMoney.svg" class="form-subscription__pseudo-grid-item">
-              </label>
-            <label
-                class="form-subscription__label"
-                for="arrow"
-              >
-                <input
-                  type="radio"
+          </fieldset>
+                <button
+                  type="button"
                   name="payment_method"
                   id="arrow"
-                  class="form-subscription__item"
+                   class="form-subscription__arrow-button"
                   value="arrow"
-                /><img src="../../images/Arrow.svg" class="form-subscription__pseudo-grid-item">
-              </label>
-          </fieldset>
+                >
+                 <img src="../../images/Arrow.svg">
+                </button>
+            </div>
           <h3 class="form-subscription__title">Ваши данные</h3>
+
+          <div class="form-subscription__name-container">
+            <input
+              type="text"
+              class="form-subscription__name-item"
+              name="name"
+              id="name"
+              placeholder="Иван Иванов"
+            />
+            <input
+              type="text"
+              class="form-subscription__name-item"
+              name="description"
+              id="description"
+              placeholder="myemail@example.com"
+            />
+          </div>
+           <fieldset class="form-subscription__agreement-container">
+            <input type="checkbox" name="agreement" id="agree-with-offer" class="form-subscription__item" value="agree-with-offer" checked>
+              <label class="form-subscription__checkbox-label" for="agree-with-offer"><span>Соглашаюсь с <a href="#" class="form-subscription__offer-link">офертой</a></span></label>
+            <input type="checkbox" name="agreement" id="agree-with-data-process" class="form-subscription__item" value="agree-with-data-process" checked>
+              <label class="form-subscription__checkbox-label" for="agree-with-data-process"><span>Соглашаюсь на <a href="#" class="form-subscription__offer-link">обработку моих персональных данных</a></span></label>
+            </fieldset>
+          <button type="submit" class="form-subscription__submit-button" id="button-support-name">
+            Поддержать
+          </button>
         </form>
+          <div class="support__right-container">
+            <h4 class="support__heading-right">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
+              <ul class="support__list">
+                <li class="support__list-item">Аноним ........................................<span class="support__list-sum-and-time"><p class="support__list-sum"> 500 &#8381</p><p class="support__list-time">2 часа назад</p></span>
+                </li>
+                <li class="support__list-item">Татьяна ........................................<span class="support__list-sum-and-time"><p class="support__list-sum"> 600 &#8381</p><p class="support__list-time">3 часа назад</p></span>
+                </li>
+                <li class="support__list-item">Аноним ........................................<span class="support__list-sum-and-time"><p class="support__list-sum"> 300 &#8381</p><p class="support__list-time">4 часа назад</p></span>
+                </li>
+                <li class="support__list-item">Аноним ........................................<span class="support__list-sum-and-time"><p class="support__list-sum"> 200 &#8381</p><p class="support__list-time">4 часа назад</p></span>
+                </li>
+                <li class="support__list-item">Аноним ........................................<span class="support__list-sum-and-time support__list-sum-and-time_five"><p class="support__list-sum"> 100 &#8381</p><p class="support__list-time">6 часов назад</p></span>
+                </li>
+                <li class="support__list-item">Наталья ........................................<span class="support__list-sum-and-time support__list-sum-and-time_six"><p class="support__list-sum"> 600 &#8381</p><p class="support__list-time">9 часов назад</p></span>
+                </li>
+                <li class="support__list-item">Наталья ........................................<span class="support__list-sum-and-time support__list-sum-and-time_seven"><p class="support__list-sum"> 600 &#8381</p><p class="support__list-time">9 часов назад</p></span>
+                </li>
+                <li class="support__list-item">Наталья ........................................<span class="support__list-sum-and-time support__list-sum-and-time_eight"><p class="support__list-sum"> 600 &#8381</p><p class="support__list-time">9 часов назад</p></span>
+                </li>
+              </ul>
+          </div>
+
+        </div>
+        
       </section>
     </main>
     <footer class="footer"></footer>
+     <template id="support-list-item">
+      <li class="support__list-name"><span class="support__list-sum"><br>
+      </li>
+    </template>
+    <script src="array.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

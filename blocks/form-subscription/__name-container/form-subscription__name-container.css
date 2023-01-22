@@ -1,0 +1,7 @@
+.form-subscription__name-container {
+display: flex;
+  flex-direction: column;
+  gap: 21px 0;
+   justify-self:left;
+   align-self: flex-start;
+}

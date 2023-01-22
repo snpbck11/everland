@@ -1,9 +1,8 @@
 .support__list {
-    margin: 0;
-  padding: 0;
   list-style: none;
-  gap: 12px 5px;
-  display: grid;
-  grid-template-columns: 159px 159px 159px 159px;
-  grid-template-rows: 48px;
+  padding: 0; /* Убираем отступы */
+  width: 396px;
+  height: 640px;
+  overflow: hidden;
+  margin:0;
 }

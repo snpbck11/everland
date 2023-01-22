@@ -1,6 +1,7 @@
 .form-subscription__label {
+border: 1px solid #DADADA;
+border-radius: 10px;
 font-size: 20px;
 line-height: 120%;
-/* margin: 35px auto 0; */
-  /* display: block; */
+
 }

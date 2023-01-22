@@ -1,10 +1,10 @@
-.form-subscription__text {
-    max-width: 652px;
+.form-subscription__offer-link {
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 20px;
 line-height: 130%;
 font-feature-settings: 'pnum' on, 'lnum' on;
-color: #333333;
+color: #0C4BA0;
+text-decoration: none;
 }

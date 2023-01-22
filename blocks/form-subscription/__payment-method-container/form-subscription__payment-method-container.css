@@ -1,0 +1,6 @@
+.form-subscription__payment-method-container {
+    display: flex;
+    gap: 0 8px;
+ align-items: center;
+   justify-content:flex-end;
+}

@@ -1,0 +1,12 @@
+.support__heading-right {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 120%;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #333333;
+width:488px;
+margin-bottom: 74px;
+}
