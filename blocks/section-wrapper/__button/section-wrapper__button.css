@@ -1,12 +1,19 @@
 .section-wrapper__button {
   grid-area: 1 / 2;
-  align-self: center;
   justify-self: end;
+  align-self: center;
+  margin-bottom: 50px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1120px) {
   .section-wrapper__button {
     grid-area: 3 / 1 / 3 / 3;
     justify-self: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .section-wrapper__button {
+    margin-bottom: 32px;
   }
 }

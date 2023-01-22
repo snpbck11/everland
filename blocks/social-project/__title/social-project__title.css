@@ -2,7 +2,29 @@
     margin: 0;
     font-weight: 700;
     font-size: 72px;
-    line-height: 120%;
-    letter-spacing: -0.02em;
+    line-height: 1.2;
     align-self: start;
+    grid-area: title;
+    letter-spacing: -0.02em;
+}
+
+@media (max-width: 1150px) {
+    .social-project__title {
+        font-size: 46px; 
+    }
+}
+
+@media (max-width: 900px) {
+    .social-project__title {
+        font-size: 32px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media (max-width: 750px) {
+    .social-project__title {
+        font-size: 27px;
+        
+        
+    }
 }

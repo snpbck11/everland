@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     width: 47px;
-    height: 47px;
+    min-height: 47px;
     border-radius: 20px;
     background-color: #e7f0ff;
     background-image: url(../../../images/Icon_plus.svg);
@@ -34,7 +34,7 @@
 @media screen and (max-width: 810px) {
     .main-in-work__feature-button {
       width: 32px;
-      height: 32px;
+      min-height: 32px;
       background-image: url(../../../images/Icon_plus_mobile.svg);
     }
   
