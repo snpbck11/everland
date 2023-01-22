@@ -7,11 +7,21 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 679px) {
+  .orientation__boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1120px) {
   .orientation__boxes {
     display: grid;
     grid-template: 1fr / repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+    list-style: none;
+    padding: 0;
     margin: 0 auto;
   }
 }

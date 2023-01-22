@@ -2,13 +2,13 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 679px) {
   .projects__heading {
     margin-bottom: 10px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 680px) and (max-width: 1120px) {
   .projects__heading {
     margin-bottom: 16px;
   }

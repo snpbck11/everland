@@ -6,13 +6,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 679px) {
   .work__description {
     font-size: 14px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 680px) and (max-width: 1120px) {
   .work__description {
     font-size: 16px;
   }
