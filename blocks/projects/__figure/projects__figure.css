@@ -1,0 +1,12 @@
+.projects__figure {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__figure {
+    gap: 16px;
+  }
+}
