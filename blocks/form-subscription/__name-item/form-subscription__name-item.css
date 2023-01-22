@@ -1,38 +1,39 @@
 .form-subscription__name-item {
-display: flex;
-padding: 10px 20px;
-height: 48px;
-width: 455px;
-background: #FFFFFF;
-border: 1px solid #DADADA;
-border-radius: 10px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 130%;
-font-feature-settings: 'pnum' on, 'lnum' on;
-color: #DADADA;
-white-space: pre;
+  display: flex;
+  padding: 10px 20px;
+  height: 48px;
+  width: 455px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #dadada;
+  white-space: pre;
 }
 
 @media screen and (max-width: 767px) {
- .form-subscription__name-item
- {
-
-width: 240px;
-height: 44px;
-font-size: 14px;
-line-height: 120%;
-padding: 0 0 0 20px;
-margin: 0 21px 0 19px;
+  .form-subscription__name-item {
+    max-width: calc(100% - 20px);
+    height: 44px;
+    font-size: 14px;
+    line-height: 120%;
+    padding: 0 0 0 20px;
+    /* margin: 0 21px 0 19px; */
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .form-subscription__name-item  {
-height: 44px;
-font-size: 14px;
-line-height: 120%;
+  .form-subscription__name-item {
+    height: 44px;
+    font-size: 14px;
+    line-height: 120%;
+    max-width: calc(100% - 42px);
+    padding: 0 0 0 20px;
   }
 }
