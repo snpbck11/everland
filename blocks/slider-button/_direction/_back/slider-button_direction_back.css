@@ -1,0 +1,7 @@
+.slider-button_direction_back {
+    background-image: url(../../../../images/arrow_back.svg);
+}
+
+.slider-button_direction_back:disabled {
+    background-color: #C4C4C4;
+}

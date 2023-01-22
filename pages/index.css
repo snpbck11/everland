@@ -35,6 +35,10 @@
 @import url(../blocks/menu/__items-title/menu__items-title.css);
 @import url(../blocks/menu/__item-title/menu__item-title.css);
 @import url(../blocks/menu/__mobile/menu__mobile.css);
+@import url(../blocks/menu/_opened/menu_opened.css);
+@import url(../blocks/menu/__mobile/_opened/menu__mobile_opened.css);
+@import url(../blocks/menu/__title-arrow/menu__title-arrow.css);
+@import url(../blocks/menu/__arrow/menu__arrow.css);
 
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
@@ -50,11 +54,10 @@
 
 @import url(../blocks/social-project/__arrows/social-project__arrows.css);
 @import url(../blocks/social-project/__arrow-counter/social-project__arrow-counter.css);
-@import url(../blocks/social-project/__arrow-back/social-project__arrow-back.css);
-@import url(../blocks/social-project/__arrow-forward/social-project__arrow-forward.css);
 @import url(../blocks/social-project/__slider-items/social-project__slider-items.css);
 @import url(../blocks/social-project/__slider-item/social-project__slider-item.css);
-@import url(../blocks/social-project/__slider-item/_display-none/social-project__slider-item_display-none.css);
+
+@import url(../blocks/slider-display/_none/slider-display_none.css);
 
 @import url(../blocks/work/work.css);
 @import url(../blocks/work/__boxes/work__boxes.css);
@@ -171,6 +174,14 @@
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__text/_opacity/footer__text_opacity.css);
 
+
+@import url(../blocks/slider-button/slider-button.css);
+@import url(../blocks/slider-button/_direction/_back/slider-button_direction_back.css);
+@import url(../blocks/slider-button/_direction/_forward/slider-button_direction_forward.css);
+@import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
+@import url(../blocks/slider-button/_theme/_social-project/slider-button_theme_social-project.css);
+
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_work/section-title_work.css);
 @import url(../blocks/section-title/_projects/section-title_projects.css);
+
