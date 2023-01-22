@@ -1,0 +1,52 @@
+.support__heading {
+overflow: hidden;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #333333;
+text-align: center;
+justify-content: center;
+align-items: center;
+display:flex;
+white-space: nowrap;
+margin: 0;
+} /* чтобы линии не выходили за ширину блока заголовка */
+
+.support__heading:before,
+.support__heading:after {
+  /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и 
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 100%;
+    height: 1px;
+    /* Добавляем цвет для линии */
+    background-color: #DADADA;
+    /* Добавляем пседоэлемантам возможность изменить 
+    ** позицию линии, для создания отступов от текста */
+    position: relative;
+}
+.support__heading:before {
+	/* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает слева от текста
+	*/
+	/* margin-left: 10px; */
+	margin-right: 10px;
+  /* margin-left: 20px; */
+}
+.support__heading:after {
+	/* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает справа от текста
+	*/
+	margin-left: 10px;
+  /* margin-right:20px; */
+}

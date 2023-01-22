@@ -1,0 +1,22 @@
+.support {
+  max-width: 1440px;
+  background: #E7F0FF;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .support {
+    padding: 0;
+    width: 320px;
+    margin:0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support {
+    padding: 44px 40px 52px 40px;
+    max-width: 768px;
+  }
+}

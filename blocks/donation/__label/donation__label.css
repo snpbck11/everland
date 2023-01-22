@@ -1,0 +1,28 @@
+.donation__label {
+  background: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  justify-content: center;
+display:grid;
+}
+
+@media screen and (max-width: 767px) {
+ .donation__label
+ {
+width: 122px;
+height: 44px;
+
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .donation__label{
+  width: 75px;
+height: 44px;
+  }
+}

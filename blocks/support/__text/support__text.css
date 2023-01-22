@@ -1,0 +1,11 @@
+.support__text {
+max-width: 652px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #333333;
+}
