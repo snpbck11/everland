@@ -1,0 +1,6 @@
+.main-in-work__column {
+    min-width: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }

@@ -1,12 +1,16 @@
 .main-in-work {
-    max-width: calc(100% - 80px);
+    width: calc(100% - 80px);
     margin: 0 auto;
-}
-
-
-@media screen and (max-width: 767px) {
+  }
+  
+  @media screen and (max-width: 679px) {
     .main-in-work {
-      max-width: calc(100% - 20px);
+      padding: 32px 10px;
     }
-}
-
+  }
+  
+  @media screen and (min-width: 680px) and (max-width: 1155px) {
+    .main-in-work {
+      padding: 32px 50px;
+    }
+  }
