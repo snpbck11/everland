@@ -22,14 +22,14 @@
   color: #00275c;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 679px) {
   .button-detailed {
     font-size: 14px;
     padding: 14px 10px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 680px) and (max-width: 1120px) {
   .button-detailed {
     font-size: 16px;
     padding: 13px 10px;
