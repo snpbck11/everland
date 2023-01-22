@@ -1,0 +1,8 @@
+.form-subscription__input-container {
+ align-items: center;
+ border: none;
+display: flex;
+padding: 0;
+margin: 0;
+gap: 0 20px;
+}

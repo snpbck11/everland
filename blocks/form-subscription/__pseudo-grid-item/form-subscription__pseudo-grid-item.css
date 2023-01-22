@@ -1,0 +1,35 @@
+.form-subscription__pseudo-grid-item {
+justify-content: center;
+align-items: center;
+padding: 0;
+background: #FFFFFF;
+width: 157px;
+height: 47px; 
+display: flex;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #333333;
+border-radius: 10px;
+
+}
+
+@media screen and (max-width: 767px) {
+ .form-subscription__pseudo-grid-item
+ {
+font-size: 14px;
+width: 122px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__pseudo-grid-item  {
+  width: 145px;
+  font-size: 16px;
+
+  }
+}

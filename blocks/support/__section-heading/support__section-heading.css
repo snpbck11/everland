@@ -1,0 +1,28 @@
+.support__section-heading {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+letter-spacing: -0.01em;
+color: #333333;
+padding: 100px 0px 50px;
+}
+
+@media screen and (max-width: 767px) {
+ .support__section-heading 
+ {
+font-size: 26px;
+text-align: center;
+padding: 31px 52px 24px 53px;
+white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__section-heading  {
+  
+
+  }
+}

@@ -1,0 +1,20 @@
+.support__main-container {
+    display:flex;
+    gap: 0 117px;
+}
+
+@media screen and (max-width: 767px) {
+ .support__main-container
+ {
+  flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__main-container {
+    flex-direction: column;
+    gap: 0;
+
+  }
+}
