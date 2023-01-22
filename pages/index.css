@@ -85,10 +85,26 @@
 @import url(../blocks/orientation/__link/orientation__link.css);
 
 @import url(../blocks/main-in-work/main-in-work.css);
+@import url(../blocks/main-in-work/__boxes/main-in-work__boxes.css);
+@import url(../blocks/main-in-work/__box/main-in-work__box.css);
+@import url(../blocks/main-in-work/__wrapper/main-in-work__wrapper.css);
+@import url(../blocks/main-in-work/__title/main-in-work__title.css);
+@import url(../blocks/main-in-work/__button/main-in-work__button.css);
+@import url(../blocks/main-in-work/__button/_active/main-in-work__button_active.css);
+@import url(../blocks/main-in-work/__description/main-in-work__description.css);
+@import url(../blocks/main-in-work/__description/_active/main-in-work__description_active.css);
+@import url(../blocks/main-in-work/__column/main-in-work__column.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/page/__main-in-work/page__main-in-work.css);
+
+/*
+@import url(../blocks/main-in-work/main-in-work.css);
 @import url(../blocks/main-in-work/__features-container/main-in-work__features-container.css);
 @import url(../blocks/main-in-work/__feature/main-in-work__feature.css);
 @import url(../blocks/main-in-work/__feature-title/main-in-work__feature-title.css);
 @import url(../blocks/main-in-work/__feature-button/main-in-work__feature-button.css);
+*/
+
 
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__content-container/digits__content-container.css);
