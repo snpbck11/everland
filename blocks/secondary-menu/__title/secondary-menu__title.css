@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 1115px) {
+@media (max-width: 1120px) {
     .secondary-menu__title  {
         font-size: 16px;
         line-height: 1.2;

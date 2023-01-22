@@ -61,7 +61,6 @@ btnMenu.addEventListener('click', function() {
 	menu.classList.toggle('menu_opened');
 });
 
-
 // Функция раскрытия пунктов в мобильном меню 
 function openMobileMenu(menu) {
 	menu.classList.toggle('menu__mobile_opened');
@@ -71,6 +70,5 @@ function openMobileMenu(menu) {
 btnArrow.forEach(function(button) {
 	button.addEventListener('click', function() {
 		openMobileMenu(menuMob);
-		rotateArrow(btnArrow);
 	})
 });
