@@ -4,7 +4,7 @@
   padding: 100px 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 679px) {
   .orientation {
     max-width: calc(100% - 20px);
     margin: auto;
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 680px) and (max-width: 1120px) {
   .orientation {
     max-width: calc(100% - 80px);
     margin: auto;
