@@ -1,5 +1,12 @@
 .news {
-  width: calc(100% - 80px);
+  max-width: calc(100% - 80px);
   margin: auto;
-  row-gap: 50px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 680px) {
+  .news {
+    max-width: calc(100% - 20px);
+    padding-top: 32px;
+  }
 }

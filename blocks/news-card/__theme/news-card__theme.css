@@ -5,3 +5,19 @@
   color: #333;
   margin: 0;
 }
+
+@media screen and (max-width: 1120px) {
+ .news-card__theme{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+ } 
+}
+
+@media screen and (max-width: 680px) {
+  .news-card__theme{
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 1.17;
+  } 
+}
