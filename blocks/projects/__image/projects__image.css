@@ -1,0 +1,14 @@
+.projects__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .projects__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}
