@@ -4,22 +4,20 @@
   width: 396px;
   height: 640px;
   overflow: hidden;
-  margin:0;
+  margin: 0;
 }
 
 @media screen and (max-width: 767px) {
- .support__list
- {
+  .support__list {
     width: 300px;
-height: 265px;
-
+    height: 265px;
+    margin-bottom: 52px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .support__list {
-  width: 349px;
-height: 459px;
-
+    width: 349px;
+    height: 459px;
   }
 }

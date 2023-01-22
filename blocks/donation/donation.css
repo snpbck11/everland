@@ -15,22 +15,23 @@
 
 @media screen and (max-width: 767px) {
   .donation {
-    width: 300px;
+    /* width: 300px; */
+    max-width: calc(100% - 20px);
     height: 304px;
     gap: 32px 0;
     flex-direction: column;
     padding: 0;
-    margin: 40px auto 0;
+    margin: 40px auto 32px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .donation {
-    width: 688px;
+    /* width: 688px; */
+    max-width: calc(100% - 80px);
     height: 112px;
     gap: 0 22px;
     padding: 0;
-    margin: 0;
-    margin-top: 50px;
+    margin: 50px auto 50px;
   }
 }

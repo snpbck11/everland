@@ -4,11 +4,14 @@ display: flex;
   gap: 21px 0;
    justify-self:left;
    align-self: flex-start;
+    max-width: 100%;
+
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
  .form-subscription__name-container 
  {
+    max-width: calc(100% - 20px);
 
   }
 }
@@ -16,6 +19,7 @@ display: flex;
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .form-subscription__name-container   {
   
+    max-width: 100%;
 
   }
-}
+} */

@@ -9,7 +9,7 @@
 @media screen and (max-width: 767px) {
   .support {
     padding: 0;
-    width: 320px;
+    max-width: 767px;
     margin:0 auto;
   }
 }
@@ -18,5 +18,7 @@
   .support {
     padding: 44px 40px 52px 40px;
     max-width: 768px;
+    margin:0 auto;
+
   }
 }
