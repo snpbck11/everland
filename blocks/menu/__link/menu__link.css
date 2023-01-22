@@ -7,13 +7,13 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
     .menu__link {
         font-size: 16px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .menu__link {
         font-size: 14px;
     }

@@ -18,7 +18,7 @@
     padding-right: 96px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
     .menu__items {
         row-gap: 16px;
     }
@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   
     .menu__items:nth-child(1) {
         padding-right: 0;

@@ -8,23 +8,16 @@
     letter-spacing: -0.02em;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1120px) {
     .social-project__title {
         font-size: 46px; 
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 680px) {
     .social-project__title {
-        font-size: 32px;
+        font-size: 27px;
         letter-spacing: -0.03em;
     }
 }
 
-@media (max-width: 750px) {
-    .social-project__title {
-        font-size: 27px;
-        
-        
-    }
-}

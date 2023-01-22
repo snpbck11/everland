@@ -4,17 +4,17 @@
     font-weight: 700;
     font-size: 34px;
     line-height: 1.2;
-    color: black;
+    color: #333;
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
     .menu__link-title {
         font-size: 20px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .menu__link-title {
         font-size: 18px;
     }

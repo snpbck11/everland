@@ -5,7 +5,7 @@
     grid-area: images;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
     .social-project__images {
         grid-template-columns: minmax(min-content, 60px) minmax(min-content, 110px) minmax(min-content, 74px);
         grid-template-rows: minmax(min-content, 97px) minmax(min-content, 55px) 1fr;
@@ -13,7 +13,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .social-project__images {
         grid-template-columns: minmax(min-content, 110px) minmax(min-content, 40px) minmax(min-content, 130px);
         grid-template-rows: minmax(min-content, 40px) minmax(min-content, 104px) 1fr;
