@@ -1,5 +1,4 @@
 .photo-project {
-    outline: 1px solid green;
     box-sizing: border-box;
     max-width: calc(100% - 80px);
     margin: 0 auto;

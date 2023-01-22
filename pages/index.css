@@ -49,6 +49,7 @@
 @import url(../blocks/digits/__achievement-text/digits__achievement-text.css);
 
 @import url(../blocks/photo-project/photo-project.css);
+@import url(../blocks/page/__photo-project/page__photo-project.css);
 @import url(../blocks/photo-project/__content-container/photo-project__content-container.css);
 @import url(../blocks/photo-project/__opening-picture/photo-project__opening-picture.css);
 @import url(../blocks/photo-project/__rubric/photo-project__rubric.css);

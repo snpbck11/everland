@@ -1,5 +1,4 @@
 .photo-project__content-container {
-    outline: 1px solid tomato;
     display: grid;
     grid-template-columns: 1fr 118px minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) 48px;
