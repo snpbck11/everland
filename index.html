@@ -12,12 +12,7 @@
   <header class="header">
       <img src="./images/Logo.svg" alt="логотип Еверланд" class="header__logo">
       <div class="header__menu">
-        <div class="header__burger">
-          <span class="header__burger-line header__burger-line_number_first"></span>
-          <span class="header__burger-line header__burger-line_number_second"></span>
-          <span class="header__burger-line header__burger-line_number_third"></span>
-          <span class="header__burger-line header__burger-line_number_fourth"></span>
-        </div>
+        <div class="header__burger"></div>
         <p class="header__menu-title">Меню
        </p>
     </div>
@@ -28,89 +23,88 @@
   </header>
   <main class="content">
     <nav class="menu">
-      <div class="menu__items">
+      <ul class="menu__items">
         <div class="menu__title-arrow">
         <p class="menu__title">О проекте</p>
         <button type="button" class="menu__arrow"></button>
         </div>
         <div class="menu__mobile">
-        <div class="menu__item">
+        <li class="menu__item">
           <a href="#" class="menu__link">АНО Пространство равных возможностей</a>
-        </div>
-        <div class="menu__item">
+        </li>
+        <li class="menu__item">
           <a href="#" class="menu__link">Новости</a>
-        </div>
-        <div class="menu__item">
+        </li>
+        <li class="menu__item">
           <a href="#" class="menu__link">Сотрудничество</a>
-        </div>
-        <div class="menu__item">
+        </li>
+        <li class="menu__item">
           <a href="#" class="menu__link">Инклюзия</a>
-        </div>
-        <div class="menu__item">
+        </li>
+        <li class="menu__item">
           <a href="#" class="menu__link">Учебным заведениям</a>
-        </div>
-        <div class="menu__item">
+        </li>
+        <li class="menu__item">
           <a href="#" class="menu__link">Годовые отчеты</a>
-        </div>
-      </div>
-    </div>
-      <div class="menu__items">
+        </li>
+      </ul>
+      <ul class="menu__items">
         <div class="menu__title-arrow">
           <p class="menu__title">Людям с инвалидностью</p>
           <button type="button" class="menu__arrow"></button>
           </div>
         <div class="menu__mobile">
-          <div class="menu__item">
+          <li class="menu__item">
             <a href="#" class="menu__link">Платформа</a>
-          </div>
-          <div class="menu__item">
+          </li>
+          <li class="menu__item">
             <a href="#" class="menu__link">Курсы</a>
-          </div>
-          <div class="menu__item">
+          </li>
+          <li class="menu__item">
             <a href="#" class="menu__link">Everland Profi</a>
-          </div>
-          <div class="menu__item">
+          </li>
+          <li class="menu__item">
             <a href="#" class="menu__link">Бесплатное такси </a>
-          </div>
+          </li>
         </div>
-      </div>
-      <div class="menu__items">
+      </ul>
+      <ul class="menu__items">
         <div class="menu__title-arrow">
           <p class="menu__title">Услуги</p>
           <button type="button" class="menu__arrow"></button>
           </div>
         <div class="menu__mobile">
-          <div class="menu__item">
+          <li class="menu__item">
             <a href="#" class="menu__link">Услуги агентства</a>
-          </div>
-          <div class="menu__item">
+          </li>
+          <li class="menu__item">
             <a href="#" class="menu__link">Готовые сайты </a>
-          </div>
-          <div class="menu__item">
+          </li>
+          <li class="menu__item">
             <a href="#" class="menu__link">Доступность для людей с инвалидностью</a>
-          </div>
-          <div class="menu__item">
+          </li>
+          <li class="menu__item">
             <a href="#" class="menu__link">Работодателям</a>
-          </div>
-          <div class="menu__item">
+          </li>
+          <li class="menu__item">
           <a href="#" class="menu__link">Портфолио</a>
-        </div>
+        </li>
       </div>
-      </div>
-      <div class="menu__items-title">
-        <div class="menu__item-title">
+      </ul>
+      <ul class="menu__items-title">
+        <li class="menu__item-title">
           <a href="#" class="menu__link-title">Мы благодарим</a>
-        </div>
-        <div class="menu__item-title">
+        </li>
+        <li class="menu__item-title">
           <a href="#" class="menu__link-title">Программы</a>
-        </div>
-        <div class="menu__item-title">
+        </li>
+        <li class="menu__item-title">
           <a href="#" class="menu__link-title">Наставникам</a>
-        </div>
-        <div class="menu__item-title">
+        </li>
+        <li class="menu__item-title">
           <a href="#" class="menu__link-title">Помочь</a>
-        </div>
-      </div>
+        </li>
+      </ul>
     </nav>
     <nav class="secondary-menu">
       <a href="#" class="secondary-menu__title">Для кого</a>
@@ -122,9 +116,10 @@
       <a href="#" class="secondary-menu__title">Агентство</a>
       <a href="#" class="secondary-menu__title">Новости</a>
     </nav>
-    <section class="social-project" id="slider">
-          <div class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
+    <section class="social-project">
+        <ul class="social-project__slider-items" id="slider">
+          <li class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -135,9 +130,9 @@
               <p class="social-project__arrow-counter">1/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </div>
-          <div class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          </li>
+          <li class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspLorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
             <p class="social-project__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente itaque nihil delectus rerum non deserunt atque sed hic unde, perspiciatis obcaecati quae soluta animi. Laudantium ea consectetur in quasi.</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -148,9 +143,9 @@
               <p class="social-project__arrow-counter">2/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </div>
-          <div class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
+          </li>
+          <li class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -161,9 +156,9 @@
               <p class="social-project__arrow-counter">3/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </div>
-          <div class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
+          </li>
+          <li class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -174,9 +169,9 @@
               <p class="social-project__arrow-counter">4/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </div>
-          <div class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
+          </li>
+          <li class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -187,9 +182,9 @@
               <p class="social-project__arrow-counter">5/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </div>
-          <div class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
+          </li>
+          <li class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -200,10 +195,10 @@
               <p class="social-project__arrow-counter">6/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </div>
-      </section>
+          </li>
+        </ul>
 
-      <div class="donation">
+    <div class="donation">
         <fieldset class="donation__sum-input-container">
             <label
               class="donation__label"

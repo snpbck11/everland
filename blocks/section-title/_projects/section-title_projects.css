@@ -1,9 +1,0 @@
-.section-title_projects {
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 1120px) {
-  .section-title_projects {
-    margin-bottom: 10px;
-  }
-}
