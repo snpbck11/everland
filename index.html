@@ -12,7 +12,12 @@
   <header class="header">
       <img src="./images/Logo.svg" alt="логотип Еверланд" class="header__logo">
       <div class="header__menu">
-        <div class="header__burger"></div>
+        <div class="header__burger">
+          <span class="header__burger-line header__burger-line_number_first"></span>
+          <span class="header__burger-line header__burger-line_number_second"></span>
+          <span class="header__burger-line header__burger-line_number_third"></span>
+          <span class="header__burger-line header__burger-line_number_fourth"></span>
+        </div>
         <p class="header__menu-title">Меню
        </p>
     </div>
@@ -23,88 +28,89 @@
   </header>
   <main class="content">
     <nav class="menu">
-      <ul class="menu__items">
+      <div class="menu__items">
         <div class="menu__title-arrow">
         <p class="menu__title">О проекте</p>
         <button type="button" class="menu__arrow"></button>
         </div>
         <div class="menu__mobile">
-        <li class="menu__item">
+        <div class="menu__item">
           <a href="#" class="menu__link">АНО Пространство равных возможностей</a>
-        </li>
-        <li class="menu__item">
+        </div>
+        <div class="menu__item">
           <a href="#" class="menu__link">Новости</a>
-        </li>
-        <li class="menu__item">
+        </div>
+        <div class="menu__item">
           <a href="#" class="menu__link">Сотрудничество</a>
-        </li>
-        <li class="menu__item">
+        </div>
+        <div class="menu__item">
           <a href="#" class="menu__link">Инклюзия</a>
-        </li>
-        <li class="menu__item">
+        </div>
+        <div class="menu__item">
           <a href="#" class="menu__link">Учебным заведениям</a>
-        </li>
-        <li class="menu__item">
+        </div>
+        <div class="menu__item">
           <a href="#" class="menu__link">Годовые отчеты</a>
-        </li>
-      </ul>
-      <ul class="menu__items">
+        </div>
+      </div>
+    </div>
+      <div class="menu__items">
         <div class="menu__title-arrow">
           <p class="menu__title">Людям с инвалидностью</p>
           <button type="button" class="menu__arrow"></button>
           </div>
         <div class="menu__mobile">
-          <li class="menu__item">
+          <div class="menu__item">
             <a href="#" class="menu__link">Платформа</a>
-          </li>
-          <li class="menu__item">
+          </div>
+          <div class="menu__item">
             <a href="#" class="menu__link">Курсы</a>
-          </li>
-          <li class="menu__item">
+          </div>
+          <div class="menu__item">
             <a href="#" class="menu__link">Everland Profi</a>
-          </li>
-          <li class="menu__item">
+          </div>
+          <div class="menu__item">
             <a href="#" class="menu__link">Бесплатное такси </a>
-          </li>
+          </div>
         </div>
-      </ul>
-      <ul class="menu__items">
+      </div>
+      <div class="menu__items">
         <div class="menu__title-arrow">
           <p class="menu__title">Услуги</p>
           <button type="button" class="menu__arrow"></button>
           </div>
         <div class="menu__mobile">
-          <li class="menu__item">
+          <div class="menu__item">
             <a href="#" class="menu__link">Услуги агентства</a>
-          </li>
-          <li class="menu__item">
+          </div>
+          <div class="menu__item">
             <a href="#" class="menu__link">Готовые сайты </a>
-          </li>
-          <li class="menu__item">
+          </div>
+          <div class="menu__item">
             <a href="#" class="menu__link">Доступность для людей с инвалидностью</a>
-          </li>
-          <li class="menu__item">
+          </div>
+          <div class="menu__item">
             <a href="#" class="menu__link">Работодателям</a>
-          </li>
-          <li class="menu__item">
+          </div>
+          <div class="menu__item">
           <a href="#" class="menu__link">Портфолио</a>
-        </li>
+        </div>
       </div>
-      </ul>
-      <ul class="menu__items-title">
-        <li class="menu__item-title">
+      </div>
+      <div class="menu__items-title">
+        <div class="menu__item-title">
           <a href="#" class="menu__link-title">Мы благодарим</a>
-        </li>
-        <li class="menu__item-title">
+        </div>
+        <div class="menu__item-title">
           <a href="#" class="menu__link-title">Программы</a>
-        </li>
-        <li class="menu__item-title">
+        </div>
+        <div class="menu__item-title">
           <a href="#" class="menu__link-title">Наставникам</a>
-        </li>
-        <li class="menu__item-title">
+        </div>
+        <div class="menu__item-title">
           <a href="#" class="menu__link-title">Помочь</a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </nav>
     <nav class="secondary-menu">
       <a href="#" class="secondary-menu__title">Для кого</a>
@@ -116,10 +122,9 @@
       <a href="#" class="secondary-menu__title">Агентство</a>
       <a href="#" class="secondary-menu__title">Новости</a>
     </nav>
-    <section class="social-project">
-        <ul class="social-project__slider-items" id="slider">
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+    <section class="social-project" id="slider">
+          <div class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -130,9 +135,9 @@
               <p class="social-project__arrow-counter">1/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspLorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
             <p class="social-project__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente itaque nihil delectus rerum non deserunt atque sed hic unde, perspiciatis obcaecati quae soluta animi. Laudantium ea consectetur in quasi.</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -143,9 +148,9 @@
               <p class="social-project__arrow-counter">2/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -156,9 +161,9 @@
               <p class="social-project__arrow-counter">3/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -169,9 +174,9 @@
               <p class="social-project__arrow-counter">4/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -182,9 +187,9 @@
               <p class="social-project__arrow-counter">5/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h2>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
               <img src="./images/Image_1.png" alt="" class="social-project__image">
@@ -195,9 +200,7 @@
               <p class="social-project__arrow-counter">6/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-        </ul>
-        
+          </div>
     </section>
 
     <div class="donation">
@@ -269,7 +272,7 @@
                 type="radio"
                 name="sum-of-donation"
                 id="other_sum"
-                class="donation__item" 
+                class="donation__item"
                 value="other_sum"
               />
       </fieldset>
@@ -277,7 +280,7 @@
         Поддержать
       </button>
     </div>
-        
+
     </section>
 
     <section class="work">
@@ -502,7 +505,7 @@
           </div>
         </div>
     </section>
-    <section class="digits"> 
+    <section class="digits">
       <h2 class="section-title">Everland в цифрах</h2>
       <div class="digits__content-container">
         <img class="digits__image" src="./images/Image_3.png" alt="Довольные мужина и женщина">
@@ -530,13 +533,13 @@
       <article class="photo-project__content-container">
         <p class="photo-project__rubric">Наши спецпроекты</p>
         <h2 class="section-title section-title_galleries">Фотопроект «Семья как семья»</h2>
-        <p class="photo-project__lead">Фотопроект Алексея Горшенина включает в себя 
-            восемь историй людей и семей, где один или оба супруга имеют инвалидность</p> 
+        <p class="photo-project__lead">Фотопроект Алексея Горшенина включает в себя
+            восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
         <button class="button button_theme_secondary-transparent">Посмотреть</button>
         <nav class="photo-project__button-container">
           <button class="slider-button slider-button_theme_photo-project slider-button_direction_back"></button>
           <button class="slider-button slider-button_theme_photo-project slider-button_direction_forward"></button>
-        </nav> 
+        </nav>
         <img class="photo-project__opening-picture" src="./images/family.png" alt="Фотограф-путешественник с собакой">
       </article>
     </section>
@@ -549,16 +552,16 @@
           <div class="story__container">
             <img class="story__quote" src="./images/Icon_quote.svg" alt="Квота">
             <div class="story__description">
-              <h3 class="story__title">Мне интересно слушать интервью с людьми. Это мотивация и вдохновение, 
+              <h3 class="story__title">Мне интересно слушать интервью с людьми. Это мотивация и вдохновение,
                 которых так не хватает</h3>
-              <p class="story__subtitle">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему 
+              <p class="story__subtitle">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему
                 с трудоустройством</p>
               <a class="story__button" href="#" target="_blank">
                 <p class="story__button-title">История Максима</p>
                 <img class="story__button-arrow" src="./images/arrow_forward_blue.svg" alt="Стрелка">
               </a>
-            </div> 
-          </div>    
+            </div>
+          </div>
         </article>
         <article class="story">
           <img class="story__photo" src="./images/history-image2.png" alt="Фотография Максима">
@@ -566,14 +569,14 @@
             <img class="story__quote" src="./images/Icon_quote.svg" alt="Квота">
             <div class="story__description">
               <h3 class="story__title">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h3>
-              <p class="story__subtitle">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. 
+              <p class="story__subtitle">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник.
                 С тех пор ему тяжело передвигаться на большие расстояния</p>
               <a class="story__button" href="#" target="_blank">
                 <p class="story__button-title">История Максима</p>
                 <img class="story__button-arrow" src="./images/arrow_forward_blue.svg" alt="Стрелка">
               </a>
-            </div> 
-          </div>    
+            </div>
+          </div>
         </article>
         <div class="story-cards">
           <article class="story-card">
@@ -599,7 +602,7 @@
         </div>
       </div>
     </section>
-  
+
     <section class="projects">
       <h2 class="section-title section-title_projects">Лучшие проекты агентства</h2>
       <p class="projects__subheading">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и
@@ -661,9 +664,9 @@
           <p class="news-card__theme">Тема</p>
           <div class="news-card__description">
               <h3 class="news-card__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как строить эффективные программы»</h3>
-              <p class="news-card__subtitle">Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью, 
+              <p class="news-card__subtitle">Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью,
                  обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами</p>
-          </div>  
+          </div>
           <p class="news-card__date">20 сентября 2021</p>
         </div>
         <div class="news-card">
@@ -674,7 +677,7 @@
               <h3 class="news-card__title">Тестируем супермаркеты на доступность</h3>
               <p class="news-card__subtitle">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых магазинов на доступность для людей с разными видами инвалидности</p>
             </div>
-          </div> 
+          </div>
           <p class="news-card__date">20 сентября 2021</p>
         </div>
       </div>
@@ -683,7 +686,7 @@
     <section class="support">
      <h2 class="support__section-heading">Поддержите нас</h2>
       <div class="support__main-container">
-        
+
 
         <form class="form-subscription">
 
@@ -791,7 +794,7 @@
                   type="radio"
                   name="sum-of-donation"
                   id="other_sum"
-                  class="form-subscription__item" 
+                  class="form-subscription__item"
                   value="other_sum"
                 />
           </fieldset>
@@ -800,13 +803,13 @@
           Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
  Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.
         </p>
-        
+
         <h3 class="form-subscription__title">Способ оплаты</h3>
         <div class="form-subscription__payment-method-container">
          <fieldset class="form-subscription__input-container-grid-two">
               <label class="form-subscription__label form-subscription__label_active" for="Mir_visa_mastercard">
                  <span class="form-subscription__pseudo-grid-item-two">
-                 <img src="../../images/Mir_visa_mastercard.svg" 
+                 <img src="../../images/Mir_visa_mastercard.svg"
                  height="26px" width="150.5px">
                  </span>
               </label>
@@ -910,7 +913,7 @@
           </div>
 
         </div>
-        
+
       </section>
 
   </main>
@@ -961,7 +964,7 @@
             <a href="#" class="footer__link">
               <img src="./images/vk.png" alt="Вконтакте" class="footer__social-logo">
             </a>
-          </div>          
+          </div>
           <p class="footer__text footer__text_opacity">&#169; ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
             Если не указано иначе, все материалы сайта доступны по лицензии Creative Commons CC-BY-SA 3.0</p>
         </div>
