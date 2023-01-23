@@ -9,6 +9,12 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__menu-title/header__menu-title.css);
+@import url(../blocks/header/__burger-line/header__burger-line.css);
+@import url(../blocks/header/__burger-line/_number/_first/header__burger-line_number_first.css);
+@import url(../blocks/header/__burger-line/_number/_second/header__burger-line_number_second.css);
+@import url(../blocks/header/__burger-line/_number/_third/header__burger-line_number_third.css);
+@import url(../blocks/header/__burger-line/_number/_fourth/header__burger-line_number_fourth.css);
+@import url(../blocks/header/__burger/_active/header__burger_active.css);
 
 
 @import url(../blocks/content/content.css);
@@ -40,6 +46,7 @@
 @import url(../blocks/menu/__mobile/_opened/menu__mobile_opened.css);
 @import url(../blocks/menu/__title-arrow/menu__title-arrow.css);
 @import url(../blocks/menu/__arrow/menu__arrow.css);
+@import url(../blocks/menu/__arrow/_active/menu__arrow_active.css);
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__title/secondary-menu__title.css);
@@ -284,5 +291,7 @@
 @import url(../blocks/support/__list-sum-and-time/_four/support__list-sum-and-time_four.css);
 
 @import url(../blocks/form-subscription/__arrow-img/form-subscription__arrow-img.css);
+@import url(../blocks/form-subscription/__submit-button/_donation/form-subscription__submit-button_donation.css);
+
 @import url(../blocks/section-title/_galleries/section-title_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
 

@@ -1,3 +1,4 @@
 .menu_opened {
    transform: translateY(0);
+   transition: .6s all linear;
 }
