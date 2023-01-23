@@ -1,20 +1,7 @@
 .header__burger {
-    width: 24px;
-    height: 20px;
-    background-image: url(../../../images/Menu.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    box-sizing: border-box;
-    background-color: transparent;
-}
-
-
-@media (max-width: 1120px) {
-    .header__burger {
-        width: 25px;
-        height: 24px;
-    }
+    width: 25px;
+    height: 24px;
+    position: relative;
 }
 
 

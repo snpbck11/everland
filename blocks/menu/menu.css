@@ -8,6 +8,7 @@
     right: 40px;
     transform: translateY(-200%);
     z-index: 3;
+    transition: .6s all linear;
 }
 
 
