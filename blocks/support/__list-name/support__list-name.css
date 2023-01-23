@@ -1,0 +1,24 @@
+.support__list-name {
+  display: flex;
+  align-items: baseline;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  margin-bottom: 28px;
+}
+
+.support__list-name::before {
+  content: "";
+  border-bottom: 2px dotted #333333;
+  flex-grow: 1;
+  order: 2;
+  margin: 0 10px;
+}
+
+.support__list-name:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,43 @@
+.form-subscription__checkbox-label {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.form-subscription__checkbox-label::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+
+  background: #dadada;
+  border-radius: 10px;
+}
+.form-subscription__item:checked + .form-subscription__checkbox-label::before {
+  content: url("../../../images/Icon_check.svg");
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__checkbox-label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__checkbox-label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+  }
+}

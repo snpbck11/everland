@@ -6,9 +6,43 @@
     padding: 0;
 }
 
+.menu__items:nth-child(1) {
+    padding-right: 86px;
+}
 
-@media (max-width: 900px) {
+.menu__items:nth-child(2) {
+    padding-right: 31px;
+}
+
+.menu__items:nth-child(3) {
+    padding-right: 96px;
+}
+
+@media (max-width: 1120px) {
     .menu__items {
         row-gap: 16px;
+    }
+
+    .menu__items:nth-child(1) {
+        padding-right: 50px;
+    }
+    
+    .menu__items:nth-child(2) {
+        padding-right: 21px;
+    }
+
+    .menu__items:nth-child(3) {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 680px) {
+  
+    .menu__items:nth-child(1) {
+        padding-right: 0;
+    }
+    
+    .menu__items:nth-child(2) {
+        padding-right: 0;
     }
 }

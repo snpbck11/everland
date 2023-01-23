@@ -1,0 +1,24 @@
+.support__list {
+  list-style: none;
+  padding: 0;
+  width: 396px;
+  height: 640px;
+  overflow: hidden;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .support__list {
+    width: 300px;
+    height: 265px;
+    margin-bottom: 52px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .support__list {
+    width: 349px;
+    height: 459px;
+  }
+}

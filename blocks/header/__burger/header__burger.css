@@ -1,4 +1,14 @@
 .header__burger {
     width: 25px;
-    height: 20px;
+    height: 24px;
+    position: relative;
 }
+
+
+@media (max-width: 680px) {
+    .header__burger {
+        width: 24px;
+        height: 20px;
+    }
+}
+

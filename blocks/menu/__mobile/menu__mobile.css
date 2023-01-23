@@ -7,14 +7,15 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
     .menu__mobile {
         row-gap: 16px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .menu__mobile {
         display: none;
     }
 }
+

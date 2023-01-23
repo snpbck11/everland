@@ -1,23 +1,30 @@
 .menu {
+    background-color: white;
     width: calc(100% - 80px);
     margin: 0 auto;
     display: grid;
-    grid-template-columns:  repeat(4, 1fr); 
-    display: none;
+    grid-template-columns:  repeat(4, 1fr);
+    position: absolute;
+    right: 40px;
+    transform: translateY(-200%);
+    z-index: 3;
+    transition: .6s all linear;
 }
 
-@media (max-width: 900px) {
+
+@media (max-width: 1120px) {
     .menu {
         grid-template-columns:  repeat(3, 1fr);
         row-gap: 64px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .menu {
-    width: calc(100% - 20px);
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 20px);
+        row-gap: 20px;
+        right: 10px;
     }
 }

@@ -5,16 +5,20 @@
     line-height: 1.2;
     font-feature-settings: 'pnum' on, 'lnum' on;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-@media (max-width: 900px) {
+
+
+@media (max-width: 1120px) {
     .menu__title {
         font-size: 20px;
         padding-bottom: 8px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .menu__title {
         padding-bottom: 0;
         font-size: 18px;

@@ -8,7 +8,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1120px) {
     .header__menu {
         height: 24px;
         order: 2;
