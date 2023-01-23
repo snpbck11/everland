@@ -1,18 +1,21 @@
 .social-project {
+  margin: 0;
+  padding: 0;
+  display: flex;
   width: calc(100% - 80px);
   margin: 0 auto;
 }
 
 @media (max-width: 1120px) {
   .social-project {
-      padding-bottom: 50px;
+    padding-bottom: 50px;
 
   }
 }
 
 @media (max-width: 680px) {
   .social-project {
-      width: calc(100% - 20px);
-      padding-bottom: 32px;
+    width: calc(100% - 20px);
+    padding-bottom: 32px;
   }
 }
