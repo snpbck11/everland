@@ -7,11 +7,6 @@
 }
 
 
-.header__menu:hover .header__burger {
-    
-    background-image: url(../../../images/Menu_close.svg);
-    
-}
 
 @media (max-width: 1120px) {
     .header__menu {
