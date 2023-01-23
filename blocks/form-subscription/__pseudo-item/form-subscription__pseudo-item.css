@@ -1,37 +1,26 @@
 .form-subscription__pseudo-item {
-display: flex; 
-vertical-align: middle; 
-width: 313px;
-height: 46px; 
-justify-content: center;
-align-items: center;
-text-align: center;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-font-feature-settings: 'pnum' on, 'lnum' on;
-color: #333333;
-white-space: pre;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  white-space: pre;
 }
 
 @media screen and (max-width: 767px) {
- .form-subscription__pseudo-item 
- {
-width: 122px;
-height: 44px;
-font-size: 14px;
+  .form-subscription__pseudo-item {
+    font-size: 14px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .form-subscription__pseudo-item  {
-  width: 145px;
-height: 44px;
-font-size: 16px;
-
+  .form-subscription__pseudo-item {
+    font-size: 16px;
   }
 }
-
-

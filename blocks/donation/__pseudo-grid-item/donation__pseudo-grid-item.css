@@ -1,38 +1,28 @@
 .donation__pseudo-grid-item {
-justify-content: center;
-align-items: center;
-padding: 0;
-background: #FFFFFF;
-/* width: 157px;
-height: 47px;  */
-display: flex;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-font-feature-settings: 'pnum' on, 'lnum' on;
-color: #333333;
-border-radius: 10px;
-
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: #ffffff;
+  display: flex;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  border-radius: 10px;
 }
 
-
 @media screen and (max-width: 767px) {
- .donation__pseudo-grid-item
- {
-
-border-radius: 8px;
-font-size: 14px;
-/* display:inline-grid; */
+  .donation__pseudo-grid-item {
+    border-radius: 8px;
+    font-size: 14px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .donation__pseudo-grid-item {
-    /* width: 75px;
-height: 44px; */
-font-size: 16px;
-
+    font-size: 16px;
   }
 }
