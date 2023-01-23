@@ -11,7 +11,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .donation__other-sum {
-     grid-column: 1 / span 2;
+     /* grid-column: 1 / span 2; */
+     /* width: 135px;/ */
 
   }
 }
