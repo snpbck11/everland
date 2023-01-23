@@ -214,7 +214,7 @@
                 id="250&#8381;"
                 class="donation__item"
                 value="250"
-              />
+              >
             <label
               class="donation__label"
               for="500&#8381;"
@@ -230,7 +230,7 @@
                 class="donation__item"
                 value="500"
                 checked
-              />
+              >
 
             <label
               class="donation__label"
@@ -244,7 +244,7 @@
                 id="750&#8381;"
                 class="donation__item"
                 value="750"
-              />
+              >
 
             <label
               class="donation__label"
@@ -258,10 +258,10 @@
                 id="1000&#8381;"
                 class="donation__item"
                 value="1000"
-              />
+              >
 
-            <label class="donation__label" for="other_sum&#8381;">
-              <span class="donation__pseudo-grid-item donation__other-sum">Другая сумма</span>
+            <label class="donation__label donation__other-sum" for="other_sum&#8381;">
+              <span class="donation__pseudo-grid-item">Другая сумма</span>
             </label>
             <input
                 type="radio"
@@ -269,7 +269,7 @@
                 id="other_sum&#8381;"
                 class="donation__item"
                 value="other_sum"
-              />
+              >
       </fieldset>
       <button type="submit" class="form-subscription__submit-button_donation" id="button-support-name">
         Поддержать
@@ -682,13 +682,12 @@
      <h2 class="support__section-heading">Поддержите нас</h2>
       <div class="support__main-container">
 
-
         <form class="form-subscription">
 
           <fieldset class="form-subscription__input-container">
 
            <label
-              class="form-subscription__label form-subscription__label_active"
+              class="form-subscription__label form-subscription__label_active form-subscription__label_donation-frequency"
               for="montly"
             >
               <span class="form-subscription__pseudo-item"
@@ -701,10 +700,10 @@
               class="form-subscription__item"
               value="monthly"
               checked
-            />
+            >
 
             <label
-              class="form-subscription__label"
+              class="form-subscription__label form-subscription__label_donation-frequency"
               for="one-time"
             >
               <span class="form-subscription__pseudo-item"
@@ -716,14 +715,14 @@
               id="one-time"
               class="form-subscription__item"
               value="one-time"
-              />
+              >
           </fieldset>
 
            <h3 class="form-subscription__title">Размер пожертвования</h3>
 
            <fieldset class="form-subscription__sum-input-container">
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_donation-sum"
                 for="250"
               >
                 <span class="form-subscription__pseudo-grid-item"
@@ -736,9 +735,9 @@
                   id="250"
                   class="form-subscription__item"
                   value="250"
-                />
+                >
               <label
-                class="form-subscription__label form-subscription__label_active"
+                class="form-subscription__label form-subscription__label_active form-subscription__label_donation-sum"
                 for="500"
               >
                 <span class="form-subscription__pseudo-grid-item"
@@ -752,10 +751,10 @@
                   class="form-subscription__item"
                   value="500"
                   checked
-                />
+                >
 
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_donation-sum"
                 for="750">
                 <span class="form-subscription__pseudo-grid-item">750&#8381;
                 </span>
@@ -766,10 +765,10 @@
                   id="750"
                   class="form-subscription__item"
                   value="750"
-                />
+                >
 
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_donation-sum"
                 for="1000">
               <span class="form-subscription__pseudo-grid-item">1000&#8381;</span>
               </label>
@@ -780,9 +779,9 @@
                   id="1000"
                   class="form-subscription__item"
                   value="1000"
-                />
+                >
 
-                <label class="form-subscription__label" for="other_sum">
+                <label class="form-subscription__label form-subscription__other-sum" for="other_sum">
               <span class="form-subscription__pseudo-grid-item">Другая сумма</span>
             </label>
               <input
@@ -791,7 +790,7 @@
                   id="other_sum"
                   class="form-subscription__item"
                   value="other_sum"
-                />
+                >
           </fieldset>
 
           <p class="form-subscription__text">
@@ -801,8 +800,8 @@
 
         <h3 class="form-subscription__title">Способ оплаты</h3>
         <div class="form-subscription__payment-method-container">
-         <fieldset class="form-subscription__input-container-grid-two">
-              <label class="form-subscription__label form-subscription__label_active" for="Mir_visa_mastercard">
+         <fieldset class="form-subscription__input-container-two">
+              <label class="form-subscription__label form-subscription__label_active form-subscription__label_payment-method" for="Mir_visa_mastercard">
                  <span class="form-subscription__pseudo-grid-item-two">
                  <img src="../../images/Mir_visa_mastercard.svg"
                  height="26" width="150" alt="Логотипы платежных систем Мир, Visa, MasterCard">
@@ -815,9 +814,9 @@
                 class="form-subscription__item"
                 value="Mir_visa_mastercard"
                 checked
-              />
+              >
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_payment-method"
                 for="YooMoney"
               >
                  <span class="form-subscription__pseudo-grid-item-two">
@@ -830,9 +829,9 @@
                   id="YooMoney"
                    class="form-subscription__item"
                   value="YooMoney"
-                />
+                >
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_payment-method"
                 for="WebMoney"
               >
                  <span class="form-subscription__pseudo-grid-item-two">
@@ -845,7 +844,7 @@
                   id="WebMoney"
                    class="form-subscription__item"
                   value="WebMoney"
-                />
+                >
           </fieldset>
                 <button
                   type="button"
@@ -866,14 +865,14 @@
               name="name"
               id="name"
               placeholder="Иван Иванов"
-            />
+            >
             <input
               type="text"
               class="form-subscription__name-item"
               name="description"
               id="description"
               placeholder="myemail@example.com"
-            />
+            >
           </div>
            <fieldset class="form-subscription__agreement-container">
             <input type="checkbox" name="agreement" id="agree-with-offer" class="form-subscription__item" value="agree-with-offer" checked>
@@ -885,7 +884,8 @@
             Поддержать
           </button>
         </form>
-          <div class="support__right-container">
+
+        <div class="support__right-container">
             <h4 class="support__heading-right">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
               <ul class="support__list">
                 <li class="support__list-item">Аноним ........................................<span class="support__list-sum-and-time"><span class="support__list-sum"> 500 &#8381;</span><br><span class="support__list-time"> 2 часа назад</span></span>
@@ -906,8 +906,8 @@
                 </li>
               </ul>
           </div>
-
         </div>
+
 
       </section>
 

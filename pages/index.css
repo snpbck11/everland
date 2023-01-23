@@ -245,14 +245,13 @@
 
 @import url(../blocks/form-subscription/__label/_active/form-subscription__label_active.css);
 @import url(../blocks/form-subscription/__pseudo-grid-item-two/form-subscription__pseudo-grid-item-two.css);
-@import url(../blocks/form-subscription/__input-container-grid-two/form-subscription__input-container-grid-two.css);
+@import url(../blocks/form-subscription/__input-container-two/form-subscription__input-container-grid-two.css);
 @import url(../blocks/form-subscription/__payment-method-container/form-subscription__payment-method-container.css);
 @import url(../blocks/form-subscription/__arrow-button/form-subscription__arrow-button.css);
 @import url(../blocks/form-subscription/__name-container/form-subscription__name-container.css);
 @import url(../blocks/form-subscription/__name-item/form-subscription__name-item.css);
 @import url(../blocks/form-subscription/__submit-button/form-subscription__submit-button.css);
 @import url(../blocks/form-subscription/__agreement-container/form-subscription__agreement-container.css);
-@import url(../blocks/form-subscription/__checkbox-item/form-subscription____checkbox-item.css);
 @import url(../blocks/form-subscription/__checkbox-label/form-subscription__checkbox-label.css);
 @import url(../blocks/form-subscription/__offer-link/form-subscription__offer-link.css);
 @import url(../blocks/support/__heading-right/support__heading-right.css);
@@ -287,4 +286,10 @@
 @import url(../blocks/form-subscription/__submit-button/_donation/form-subscription__submit-button_donation.css);
 
 @import url(../blocks/section-title/_galleries/section-title_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
+
+@import url(../blocks/form-subscription/__other-sum/form-subscription__other-sum.css);
+
+@import url(../blocks/form-subscription/__label/_donation-frequency/form-subscription__label_donation-frequency.css);
+@import url(../blocks/form-subscription/__label/_donation-sum/form-subscription__label_donation-sum.css);
+@import url(../blocks/form-subscription/__label/_payment-method/form-subscription__label_payment-method.css);
 
