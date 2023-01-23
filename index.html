@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="icon" type="image" href="./images/favicon.svg">
+  <link rel="icon" href="./images/favicon.svg">
   <title>Everland</title>
 </head>
 <body class="page">
@@ -219,7 +219,7 @@
                 id="250&#8381;"
                 class="donation__item"
                 value="250"
-              />
+            >
             <label
               class="donation__label"
               for="500&#8381;"
@@ -235,7 +235,7 @@
                 class="donation__item"
                 value="500"
                 checked
-              />
+            >
 
             <label
               class="donation__label"
@@ -249,7 +249,7 @@
                 id="750&#8381;"
                 class="donation__item"
                 value="750"
-              />
+            >
 
             <label
               class="donation__label"
@@ -263,7 +263,7 @@
                 id="1000&#8381;"
                 class="donation__item"
                 value="1000"
-              />
+            >
 
             <label class="donation__label" for="other_sum&#8381;">
               <span class="donation__pseudo-grid-item donation__other-sum">Другая сумма</span>
@@ -274,14 +274,12 @@
                 id="other_sum&#8381;"
                 class="donation__item"
                 value="other_sum"
-              />
+            >
       </fieldset>
       <button type="submit" class="form-subscription__submit-button_donation" id="button-support-name">
         Поддержать
       </button>
     </div>
-
-    </section>
 
     <section class="work">
       <h2 class="section-title section-title_work">Для кого мы работаем</h2>
@@ -504,6 +502,7 @@
             <p class="main-in-work__description" data-accordion="content">С 2018 года реализовано более 300 проектов и выиграно более 90% дел в судах. Наши направления: дизайн, контент, веб-разработка, юриспруденция, инклюзивное трудоустройство в другие компании и доступность услуг.</p>
           </div>
         </div>
+      </div>  
     </section>
     <section class="digits">
       <h2 class="section-title">Everland в цифрах</h2>
@@ -529,10 +528,10 @@
         </div>
       </div>
     </section>
-    <section class="photo-project page__photo-project">
+    <section class="photo-project page__photo-project" aria-label="Фотопроект">
       <article class="photo-project__content-container">
-        <p class="photo-project__rubric">Наши спецпроекты</p>
-        <h2 class="section-title section-title_galleries">Фотопроект «Семья как семья»</h2>
+        <h2 class="photo-project__rubric">Наши спецпроекты</h2>
+        <h3 class="section-title section-title_galleries">Фотопроект «Семья как семья»</h3>
         <p class="photo-project__lead">Фотопроект Алексея Горшенина включает в себя
             восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
         <button class="button button_theme_secondary-transparent">Посмотреть</button>
@@ -580,7 +579,7 @@
         </article>
         <div class="story-cards">
           <article class="story-card">
-            <img class="story-card__photo" src="./images/image 8.png" alt="Фотография Айслу">
+            <img class="story-card__photo" src="./images/image8.png" alt="Фотография Айслу">
             <div class="story-card__description">
               <h3 class="story-card__title">Айслу Асан</h3>
               <p class="story-card__subtitle">Когда хочется жить</p>
@@ -590,7 +589,7 @@
             </div>
           </article>
           <article class="story-card">
-            <img class="story-card__photo" src="./images/image 9.png" alt="Фотография Айслу">
+            <img class="story-card__photo" src="./images/image9.png" alt="Фотография Айслу">
             <div class="story-card__description">
               <h3 class="story-card__title">Артём Плаксин</h3>
               <p class="story-card__subtitle">Не видеть и смотреть в будущее</p>
@@ -652,7 +651,7 @@
         <div class="news-card">
             <p class="news-card__theme">Тема</p>
             <div class="news-card__container">
-              <img class="news-card__photo" src="./images/image 16.png" alt="Открытка">
+              <img class="news-card__photo" src="./images/image16.png" alt="Открытка">
               <div class="news-card__description">
                 <h3 class="news-card__title">Ура! Новое партнерство — с PepsiCo</h3>
                 <p class="news-card__subtitle">Everland совместно с PepsiCo приняли участие в акции «Благотворительность вместо сувениров»</p>
@@ -672,7 +671,7 @@
         <div class="news-card">
           <p class="news-card__theme">Тема</p>
           <div class="news-card__container">
-            <img class="news-card__photo" src="./images/image 17.png" alt="Открытка">
+            <img class="news-card__photo" src="./images/image17.png" alt="Открытка">
             <div class="news-card__description">
               <h3 class="news-card__title">Тестируем супермаркеты на доступность</h3>
               <p class="news-card__subtitle">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых магазинов на доступность для людей с разными видами инвалидности</p>
@@ -706,7 +705,7 @@
               class="form-subscription__item"
               value="monthly"
               checked
-            />
+            >
 
             <label
               class="form-subscription__label"
@@ -721,7 +720,7 @@
               id="one-time"
               class="form-subscription__item"
               value="one-time"
-              />
+            >
           </fieldset>
 
            <h3 class="form-subscription__title">Размер пожертвования</h3>
@@ -741,7 +740,7 @@
                   id="250"
                   class="form-subscription__item"
                   value="250"
-                />
+              >
               <label
                 class="form-subscription__label form-subscription__label_active"
                 for="500"
@@ -757,7 +756,7 @@
                   class="form-subscription__item"
                   value="500"
                   checked
-                />
+              >
 
               <label
                 class="form-subscription__label"
@@ -771,7 +770,7 @@
                   id="750"
                   class="form-subscription__item"
                   value="750"
-                />
+              >
 
               <label
                 class="form-subscription__label"
@@ -785,7 +784,7 @@
                   id="1000"
                   class="form-subscription__item"
                   value="1000"
-                />
+              >
 
                 <label class="form-subscription__label" for="other_sum">
               <span class="form-subscription__pseudo-grid-item">Другая сумма</span>
@@ -796,7 +795,7 @@
                   id="other_sum"
                   class="form-subscription__item"
                   value="other_sum"
-                />
+              >
           </fieldset>
 
           <p class="form-subscription__text">
@@ -820,7 +819,7 @@
                 class="form-subscription__item"
                 value="Mir_visa_mastercard"
                 checked
-              />
+              >
               <label
                 class="form-subscription__label"
                 for="YooMoney"
@@ -835,7 +834,7 @@
                   id="YooMoney"
                    class="form-subscription__item"
                   value="YooMoney"
-                />
+              >
               <label
                 class="form-subscription__label"
                 for="WebMoney"
@@ -850,7 +849,7 @@
                   id="WebMoney"
                    class="form-subscription__item"
                   value="WebMoney"
-                />
+              >
           </fieldset>
                 <button
                   type="button"
@@ -871,14 +870,14 @@
               name="name"
               id="name"
               placeholder="Иван Иванов"
-            />
+            >
             <input
               type="text"
               class="form-subscription__name-item"
               name="description"
               id="description"
               placeholder="myemail@example.com"
-            />
+            >
           </div>
            <fieldset class="form-subscription__agreement-container">
             <input type="checkbox" name="agreement" id="agree-with-offer" class="form-subscription__item" value="agree-with-offer" checked>
@@ -928,8 +927,8 @@
       </div>
       <nav class="footer__links">
         <a href="#" target="_blank" class="footer__link footer__link-text">О проекте</a>
-        <a href="#" target="_blank" class="footer__link footer__link-text"">Программы</a>
-        <a href="#" target="_blank" class="footer__link footer__link-text"">Услуги</a>
+        <a href="#" target="_blank" class="footer__link footer__link-text">Программы</a>
+        <a href="#" target="_blank" class="footer__link footer__link-text">Услуги</a>
         <a href="#" target="_blank" class="footer__link footer__link-text">Платформа</a>
         <a href="#" target="_blank" class="footer__link footer__link-text">Людям с инвалидностью</a>
         <a href="#" target="_blank" class="footer__link footer__link-text">Мы благодарим</a>
@@ -939,7 +938,7 @@
         <div class="footer__section-container">
           <div class="footer__logos">
             <a href="#" class="footer__link">
-              <img src="./images/bilain 1.svg" alt="Билайн" class="footer__logo">
+              <img src="./images/bilain1.svg" alt="Билайн" class="footer__logo">
             </a>
             <a href="#" class="footer__link">
               <img src="./images/fond-logo.svg" alt="Фонд президентских грантов" class="footer__logo">
@@ -972,7 +971,7 @@
     </div>
    <div class="footer__resource">
     <a href="#" class="footer__link">
-      <img class="footer__resource-logo" src="./images/Ресурс 1 2.svg" alt="Яндекс Практикум">
+      <img class="footer__resource-logo" src="./images/Ресурс12.svg" alt="Яндекс Практикум">
     </a>
     <p class="footer__text">сделано при участии Яндекс Практикума</p>
    </div>
