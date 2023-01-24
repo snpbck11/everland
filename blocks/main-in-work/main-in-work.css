@@ -1,7 +1,7 @@
 .main-in-work {
     width: calc(100% - 80px);
     margin: 0 auto;
-    padding: 0 0 150px;
+    padding: 50px 0 150px;
   }
 
   @media screen and (max-width: 679px) {
