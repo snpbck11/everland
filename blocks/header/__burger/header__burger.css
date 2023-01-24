@@ -1,4 +1,6 @@
 .header__burger {
+    border: none;
+    background-color: transparent;
     width: 25px;
     height: 24px;
     position: relative;
