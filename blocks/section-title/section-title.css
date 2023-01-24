@@ -5,6 +5,7 @@
   color: #333;
   margin: 0;
   margin-bottom: 50px;
+  letter-spacing: 1%;
 }
 
 @media screen and (max-width: 679px) {
