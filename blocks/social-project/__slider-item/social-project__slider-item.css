@@ -23,6 +23,7 @@
 @media (max-width: 680px) {
     .social-project__slider-item {
         grid-template-columns: 1fr;
+        row-gap: 16px;
         grid-template-areas:
     "title"
     "subtitle"

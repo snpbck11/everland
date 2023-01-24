@@ -8,6 +8,10 @@
     cursor: pointer;
 }
 
+.secondary-menu__title:hover {
+    opacity: 0.7;
+}
+
 @media (max-width: 1120px) {
     .secondary-menu__title  {
         font-size: 16px;

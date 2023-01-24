@@ -10,7 +10,6 @@
 @media (max-width: 1120px) {
     .header__menu-title {
         font-size: 16px;
-        font-weight: 700;
         line-height: 120%;
     }
 }

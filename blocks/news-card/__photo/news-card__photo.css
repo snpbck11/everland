@@ -4,3 +4,15 @@
   object-position: center;
   border-radius: 30px;
 }
+
+@media screen and (max-width: 1120px) {
+  .news-card__photo {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .news-card__photo {
+    max-height: 192px;
+  }
+}

@@ -9,13 +9,7 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__menu-title/header__menu-title.css);
-@import url(../blocks/header/__burger-line/header__burger-line.css);
-@import url(../blocks/header/__burger-line/_number/_first/header__burger-line_number_first.css);
-@import url(../blocks/header/__burger-line/_number/_second/header__burger-line_number_second.css);
-@import url(../blocks/header/__burger-line/_number/_third/header__burger-line_number_third.css);
-@import url(../blocks/header/__burger-line/_number/_fourth/header__burger-line_number_fourth.css);
 @import url(../blocks/header/__burger/_active/header__burger_active.css);
-
 
 @import url(../blocks/content/content.css);
 
@@ -29,18 +23,16 @@
 
 @import url(../blocks/button-detailed/button-detailed.css);
 @import url(../blocks/button-detailed/__arrow/button-detailed__arrow.css);
-@import url(../blocks/button-detailed/__color/_light-blue/button-detailed__color_light-blue.css);
-@import url(../blocks/button-detailed/__color/_light-green/button-detailed__color_light-green.css);
-@import url(../blocks/button-detailed/__color/_light-orange/button-detailed__color_light-orange.css);
+@import url(../blocks/button-detailed/_color/_light-blue/button-detailed_color_light-blue.css);
+@import url(../blocks/button-detailed/_color/_light-green/button-detailed_color_light-green.css);
+@import url(../blocks/button-detailed/_color/_light-orange/button-detailed_color_light-orange.css);
 
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__title/menu__title.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link-title/menu__link-title.css);
 @import url(../blocks/menu/__items/menu__items.css);
-@import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__items-title/menu__items-title.css);
-@import url(../blocks/menu/__item-title/menu__item-title.css);
 @import url(../blocks/menu/__mobile/menu__mobile.css);
 @import url(../blocks/menu/_opened/menu_opened.css);
 @import url(../blocks/menu/__mobile/_opened/menu__mobile_opened.css);
@@ -54,14 +46,12 @@
 @import url(../blocks/social-project/social-project.css);
 @import url(../blocks/social-project/__image/social-project__image.css);
 @import url(../blocks/social-project/__images/social-project__images.css);
-@import url(../blocks/social-project/__slider/social-project__slider.css);
 @import url(../blocks/social-project/__subtitle/social-project__subtitle.css);
 @import url(../blocks/social-project/__title-color/social-project__title-color.css);
 @import url(../blocks/social-project/__title/social-project__title.css);
 
 @import url(../blocks/social-project/__arrows/social-project__arrows.css);
 @import url(../blocks/social-project/__arrow-counter/social-project__arrow-counter.css);
-@import url(../blocks/social-project/__slider-items/social-project__slider-items.css);
 @import url(../blocks/social-project/__slider-item/social-project__slider-item.css);
 
 @import url(../blocks/slider-display/_none/slider-display_none.css);
@@ -74,10 +64,6 @@
 @import url(../blocks/work/__text/work__text.css);
 @import url(../blocks/work/__title/work__title.css);
 @import url(../blocks/work/__description/work__description.css);
-@import url(../blocks/work/__link/work__link.css);
-@import url(../blocks/work/__link/_color/_light-blue/work__link_color_light-blue.css);
-@import url(../blocks/work/__link/_color/_light-orange/work__link_color_light-orange.css);
-@import url(../blocks/work/__link/_color/_light-green/work__link_color_light-green.css);
 @import url(../blocks/work/__arrow/work__arrow.css);
 
 @import url(../blocks/orientation/orientation.css);
@@ -101,7 +87,6 @@
 @import url(../blocks/main-in-work/__description/main-in-work__description.css);
 @import url(../blocks/main-in-work/__description/_active/main-in-work__description-active.css);
 @import url(../blocks/main-in-work/__column/main-in-work__column.css);
-@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/page/__main-in-work/page__main-in-work.css);
 
 @import url(../blocks/digits/digits.css);
@@ -125,8 +110,6 @@
 @import url(../blocks/slider-button/_direction/_back/slider-button_direction_back.css);
 @import url(../blocks/slider-button/_direction/_forward/slider-button_direction_forward.css);
 @import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
-
-@import url(../blocks/section-title/section-title.css);
 
 @import url(../blocks/section-wrapper/section-wrapper.css);
 @import url(../blocks/section-wrapper/__button/section-wrapper__button.css);
@@ -201,7 +184,7 @@
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__text-container/footer__text-container.css);
 @import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__text/_opacity/footer__text_opacity.css);
+@import url(../blocks/footer/__text/_half-opacity/footer__text_half-opacity.css);
 
 
 @import url(../blocks/slider-button/slider-button.css);
@@ -209,11 +192,6 @@
 @import url(../blocks/slider-button/_direction/_forward/slider-button_direction_forward.css);
 @import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
 @import url(../blocks/slider-button/_theme/_social-project/slider-button_theme_social-project.css);
-
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_work/section-title_work.css);
-@import url(../blocks/section-title/_projects/section-title_projects.css);
-
 
 
 @import url(../blocks/support/support.css);
@@ -284,7 +262,10 @@
 
 @import url(../blocks/form-subscription/__arrow-img/form-subscription__arrow-img.css);
 
-@import url(../blocks/section-title/_galleries/section-title_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_section/_galleries/section-title_section_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
+@import url(../blocks/section-title/_section/_work/section-title_section_work.css);
+@import url(../blocks/section-title/_section/_projects/section-title_section_projects.css);
 
 @import url(../blocks/form-subscription/__other-sum/form-subscription__other-sum.css);
 
