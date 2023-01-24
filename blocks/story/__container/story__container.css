@@ -6,6 +6,6 @@
 @media screen and (max-width: 1120px) {
   .story__container {
     flex-direction: column;
-    gap: 8px;
+    gap: 13px;
   }
 }

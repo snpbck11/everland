@@ -16,7 +16,6 @@
 
 @media screen and (max-width: 680px) {
   .news-card__theme{
-   font-weight: 500;
    font-size: 12px;
    line-height: 1.17;
   } 
