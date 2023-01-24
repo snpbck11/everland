@@ -65,7 +65,7 @@ btnMenu.addEventListener('click', function() {
 
 
 //  Раскрытие пунктов в моб меню
-document.querySelectorAll(".menu").forEach((item) =>
+document.querySelectorAll(".menu__arrow").forEach((item) =>
 item.addEventListener("click", ({ target }) => {
 	target
 		.closest(".menu__items")
@@ -81,8 +81,6 @@ item.addEventListener("click", ({ target }) => {
 		});
 })
 );
-
-
 
 
 // СЕКЦИЯ MAIN-IN-WORK //
