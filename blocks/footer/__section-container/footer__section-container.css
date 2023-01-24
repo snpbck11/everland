@@ -9,3 +9,9 @@
     row-gap: 40px;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .footer__section-container {
+    row-gap: 45px;
+  }
+}
