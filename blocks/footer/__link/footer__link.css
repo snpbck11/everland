@@ -1,4 +1,10 @@
 .footer__link {
   cursor: pointer;
   max-width: max-content;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.footer__link:hover {
+  opacity: .5;
 }

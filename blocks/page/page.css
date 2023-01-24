@@ -1,7 +1,8 @@
 .page {
+  min-width: 320px;
   max-width: 1440px;
   min-height: 100vh;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Helvetica', sans-serif;
   display: flex;
   flex-direction: column;
   margin: auto;
