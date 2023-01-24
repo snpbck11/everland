@@ -13,9 +13,16 @@
   }
 }
 
-@media screen and (min-width: 680px) and (max-width: 1120px) {
+@media screen and (min-width: 680px) and (max-width: 879px) {
   .projects__boxes {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1120px) {
+  .projects__boxes {
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
   }
 }
