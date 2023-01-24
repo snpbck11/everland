@@ -23,9 +23,9 @@
 
 @import url(../blocks/button-detailed/button-detailed.css);
 @import url(../blocks/button-detailed/__arrow/button-detailed__arrow.css);
-@import url(../blocks/button-detailed/__color/_light-blue/button-detailed__color_light-blue.css);
-@import url(../blocks/button-detailed/__color/_light-green/button-detailed__color_light-green.css);
-@import url(../blocks/button-detailed/__color/_light-orange/button-detailed__color_light-orange.css);
+@import url(../blocks/button-detailed/_color/_light-blue/button-detailed_color_light-blue.css);
+@import url(../blocks/button-detailed/_color/_light-green/button-detailed_color_light-green.css);
+@import url(../blocks/button-detailed/_color/_light-orange/button-detailed_color_light-orange.css);
 
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__title/menu__title.css);
@@ -64,10 +64,6 @@
 @import url(../blocks/work/__text/work__text.css);
 @import url(../blocks/work/__title/work__title.css);
 @import url(../blocks/work/__description/work__description.css);
-@import url(../blocks/work/__link/work__link.css);
-@import url(../blocks/work/__link/_color/_light-blue/work__link_color_light-blue.css);
-@import url(../blocks/work/__link/_color/_light-orange/work__link_color_light-orange.css);
-@import url(../blocks/work/__link/_color/_light-green/work__link_color_light-green.css);
 @import url(../blocks/work/__arrow/work__arrow.css);
 
 @import url(../blocks/orientation/orientation.css);
@@ -91,7 +87,6 @@
 @import url(../blocks/main-in-work/__description/main-in-work__description.css);
 @import url(../blocks/main-in-work/__description/_active/main-in-work__description-active.css);
 @import url(../blocks/main-in-work/__column/main-in-work__column.css);
-@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/page/__main-in-work/page__main-in-work.css);
 
 @import url(../blocks/digits/digits.css);
@@ -115,8 +110,6 @@
 @import url(../blocks/slider-button/_direction/_back/slider-button_direction_back.css);
 @import url(../blocks/slider-button/_direction/_forward/slider-button_direction_forward.css);
 @import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
-
-@import url(../blocks/section-title/section-title.css);
 
 @import url(../blocks/section-wrapper/section-wrapper.css);
 @import url(../blocks/section-wrapper/__button/section-wrapper__button.css);
@@ -200,11 +193,6 @@
 @import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
 @import url(../blocks/slider-button/_theme/_social-project/slider-button_theme_social-project.css);
 
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_work/section-title_work.css);
-@import url(../blocks/section-title/_projects/section-title_projects.css);
-
-
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__section-heading/support__section-heading.css);
@@ -282,7 +270,10 @@
 @import url(../blocks/form-subscription/__arrow-img/form-subscription__arrow-img.css);
 @import url(../blocks/form-subscription/__submit-button/_donation/form-subscription__submit-button_donation.css);
 
-@import url(../blocks/section-title/_galleries/section-title_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_section/_galleries/section-title_section_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
+@import url(../blocks/section-title/_section/_work/section-title_section_work.css);
+@import url(../blocks/section-title/_section/_projects/section-title_section_projects.css);
 
 @import url(../blocks/form-subscription/__other-sum/form-subscription__other-sum.css);
 
