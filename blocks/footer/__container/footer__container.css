@@ -11,7 +11,7 @@
     margin-right: 0;
     grid-template-columns: 1fr 1fr;
     row-gap: 55px;
-    column-gap: 35px; 
+    column-gap: 20px; 
   }
 }
 

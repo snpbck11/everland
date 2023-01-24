@@ -7,6 +7,11 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
+.menu__link:hover {
+    opacity: 0.7;
+    transition: .3s all linear;
+}
+
 @media (max-width: 1120px) {
     .menu__link {
         font-size: 16px;
