@@ -8,3 +8,25 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #333333;
 }
+
+@media screen and (max-width: 767px) {
+.support__text {
+
+font-size: 12px;
+
+    
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+.support__text {
+font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+.support__text {
+  font-weight: 500;
+line-height: 120%;
+  }
+}

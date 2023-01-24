@@ -271,10 +271,8 @@
 @import url(../blocks/support/__right-container/support__right-container.css);
 @import url(../blocks/support/__list-sum-and-time/support__list-sum-and-time.css);
 
-@import url(../blocks/support/__list-sum-and-time/_five/support__list-sum-and-time_five.css);
-@import url(../blocks/support/__list-sum-and-time/_six/support__list-sum-and-time_six.css);
-@import url(../blocks/support/__list-sum-and-time/_seven/support__list-sum-and-time_seven.css);
-@import url(../blocks/support/__list-sum-and-time/_eight/support__list-sum-and-time_eight.css);
+
+@import url(../blocks/support/__list-sum-and-time/_display/_none/support__list-sum-and-time_display_none.css);
 
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/donation/__label/donation__label.css);
@@ -283,9 +281,6 @@
 @import url(../blocks/donation/__sum-input-container/donation__sum-input-container.css);
 
 @import url(../blocks/donation/__other-sum/donation__other-sum.css);
-
-@import url(../blocks/support/__list-sum-and-time/_three/support__list-sum-and-time_three.css);
-@import url(../blocks/support/__list-sum-and-time/_four/support__list-sum-and-time_four.css);
 
 @import url(../blocks/form-subscription/__arrow-img/form-subscription__arrow-img.css);
 
@@ -301,4 +296,5 @@
 @import url(../blocks/donation/__submit-button/donation__submit-button.css);
 @import url(../blocks/donation/__main-container/donation__main-container.css);
 
+@import url(../blocks/support/__dots/support__dots.css);
 
