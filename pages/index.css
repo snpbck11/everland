@@ -191,7 +191,7 @@
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__text-container/footer__text-container.css);
 @import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__text/_opacity/footer__text_opacity.css);
+@import url(../blocks/footer/__text/_half-opacity/footer__text_half-opacity.css);
 
 
 @import url(../blocks/slider-button/slider-button.css);
