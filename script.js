@@ -65,7 +65,7 @@ btnMenu.addEventListener('click', function() {
 
 
 //  Раскрытие пунктов в моб меню
-document.querySelectorAll(".menu__arrow").forEach((item) =>
+btnArrow.forEach((item) =>
 item.addEventListener("click", ({ target }) => {
 	target
 		.closest(".menu__items")
