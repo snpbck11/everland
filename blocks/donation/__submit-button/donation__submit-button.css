@@ -1,4 +1,4 @@
-.form-subscription__submit-button_donation {
+.donation__submit-button {
   border: 0;
   height: 48px;
   width: 179px;
@@ -23,8 +23,12 @@
   cursor: pointer;
 }
 
+.donation__submit-button:hover {
+  background: #4183dc;
+}
+
 @media screen and (max-width: 767px) {
-  .form-subscription__submit-button_donation {
+  .donation__submit-button {
     width: 260px;
     height: 44px;
     font-weight: 500;
@@ -34,7 +38,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .form-subscription__submit-button_donation {
+  .donation__submit-button {
     width: 143px;
     height: 44px;
     font-weight: 500;

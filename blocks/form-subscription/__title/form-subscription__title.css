@@ -19,15 +19,11 @@
 .form-subscription__title:before,
 .form-subscription__title:after {
   content: "";
-
   display: inline-block;
   vertical-align: middle;
-
   width: 100%;
   height: 1px;
-
   background-color: #dadada;
-
   position: relative;
 }
 .form-subscription__title:before {

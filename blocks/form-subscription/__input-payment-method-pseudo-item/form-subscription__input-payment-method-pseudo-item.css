@@ -1,4 +1,4 @@
-.form-subscription__pseudo-grid-item-two {
+.form-subscription__input-payment-method-pseudo-item {
   justify-content: center;
   align-items: center;
   padding: 0;
@@ -12,14 +12,4 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #333333;
   border-radius: 10px;
-}
-
-@media screen and (max-width: 767px) {
-  .form-subscription__pseudo-grid-item-two {
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .form-subscription__pseudo-grid-item-two {
-  }
 }

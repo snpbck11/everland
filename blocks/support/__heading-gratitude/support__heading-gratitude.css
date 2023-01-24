@@ -1,4 +1,4 @@
-.support__heading-right {
+.support__heading-gratitude {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .support__heading-right {
+  .support__heading-gratitude {
     max-width: calc(100% - 20px);
     font-size: 18px;
     padding: 32px 10px 36px;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .support__heading-right {
+  .support__heading-gratitude {
     padding: 50px 0 32px 0;
     margin: 0;
     width: 531px;
