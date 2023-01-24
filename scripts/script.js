@@ -55,24 +55,32 @@ function showNextSlide(direction) {
 const btnMenu = document.querySelector(".header__menu");
 const menu = document.querySelector(".menu");
 const btnArrow = document.querySelectorAll(".menu__arrow");
-const menuMob = document.querySelector(".menu__mobile");
+const burger = document.querySelector(".header__burger");
 
 btnMenu.addEventListener('click', function() {
 	menu.classList.toggle('menu_opened');
+  burger.classList.toggle('header__burger_active');
 });
 
-// Функция раскрытия пунктов в мобильном меню 
-function openMobileMenu(menu) {
-	menu.classList.toggle('menu__mobile_opened');
-};
 
-// Раскрытие пунктов в мобильном меню при клике на стрелку
-btnArrow.forEach(function(button) {
-	button.addEventListener('click', function() {
-		openMobileMenu(menuMob);
-	})
-});
 
+//  Раскрытие пунктов в моб меню
+document.querySelectorAll(".menu__arrow").forEach((item) =>
+item.addEventListener("click", ({ target }) => {
+	target
+		.closest(".menu__items")
+		.querySelectorAll(".menu__arrow")
+		.forEach((item) => {
+			item.classList.toggle("menu__arrow_active");
+		});
+	target
+		.closest(".menu__items")
+		.querySelectorAll(".menu__mobile")
+		.forEach(function (item) {
+			item.classList.toggle("menu__mobile_opened");
+		});
+})
+);
 
 
 // СЕКЦИЯ MAIN-IN-WORK //

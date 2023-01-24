@@ -5,16 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="icon" type="image" href="./images/favicon.svg">
+  <link rel="icon" href="./images/favicon.svg">
   <title>Everland</title>
 </head>
 <body class="page">
   <header class="header">
       <img src="./images/Logo.svg" alt="логотип Еверланд" class="header__logo">
       <div class="header__menu">
-        <div class="header__burger"></div>
-        <p class="header__menu-title">Меню
-       </p>
+        <button type="button" class="header__burger"></button>
+        <h2 class="header__menu-title">Меню
+        </h2>
     </div>
     <div class="buttons">
       <a href="#" class="button button_theme_secondary">Платформа</a>
@@ -23,88 +23,51 @@
   </header>
   <main class="content">
     <nav class="menu">
-      <ul class="menu__items">
+      <div class="menu__items">
         <div class="menu__title-arrow">
-        <p class="menu__title">О проекте</p>
-        <button type="button" class="menu__arrow"></button>
+          <p class="menu__title">О проекте</p>
+          <button type="button" class="menu__arrow"></button>
         </div>
         <div class="menu__mobile">
-        <li class="menu__item">
           <a href="#" class="menu__link">АНО Пространство равных возможностей</a>
-        </li>
-        <li class="menu__item">
           <a href="#" class="menu__link">Новости</a>
-        </li>
-        <li class="menu__item">
           <a href="#" class="menu__link">Сотрудничество</a>
-        </li>
-        <li class="menu__item">
           <a href="#" class="menu__link">Инклюзия</a>
-        </li>
-        <li class="menu__item">
           <a href="#" class="menu__link">Учебным заведениям</a>
-        </li>
-        <li class="menu__item">
           <a href="#" class="menu__link">Годовые отчеты</a>
-        </li>
-      </ul>
-      <ul class="menu__items">
+        </div>
+      </div>
+      <div class="menu__items">
         <div class="menu__title-arrow">
           <p class="menu__title">Людям с инвалидностью</p>
           <button type="button" class="menu__arrow"></button>
-          </div>
-        <div class="menu__mobile">
-          <li class="menu__item">
-            <a href="#" class="menu__link">Платформа</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Курсы</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Everland Profi</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Бесплатное такси </a>
-          </li>
         </div>
-      </ul>
-      <ul class="menu__items">
+        <div class="menu__mobile">
+            <a href="#" class="menu__link">Платформа</a>
+            <a href="#" class="menu__link">Курсы</a>
+            <a href="#" class="menu__link">Everland Profi</a>
+            <a href="#" class="menu__link">Бесплатное такси </a>
+        </div>
+      </div>
+      <div class="menu__items">
         <div class="menu__title-arrow">
           <p class="menu__title">Услуги</p>
           <button type="button" class="menu__arrow"></button>
-          </div>
+        </div>
         <div class="menu__mobile">
-          <li class="menu__item">
             <a href="#" class="menu__link">Услуги агентства</a>
-          </li>
-          <li class="menu__item">
             <a href="#" class="menu__link">Готовые сайты </a>
-          </li>
-          <li class="menu__item">
             <a href="#" class="menu__link">Доступность для людей с инвалидностью</a>
-          </li>
-          <li class="menu__item">
             <a href="#" class="menu__link">Работодателям</a>
-          </li>
-          <li class="menu__item">
           <a href="#" class="menu__link">Портфолио</a>
-        </li>
+        </div>
       </div>
-      </ul>
-      <ul class="menu__items-title">
-        <li class="menu__item-title">
+      <div class="menu__items-title">
           <a href="#" class="menu__link-title">Мы благодарим</a>
-        </li>
-        <li class="menu__item-title">
           <a href="#" class="menu__link-title">Программы</a>
-        </li>
-        <li class="menu__item-title">
           <a href="#" class="menu__link-title">Наставникам</a>
-        </li>
-        <li class="menu__item-title">
           <a href="#" class="menu__link-title">Помочь</a>
-        </li>
-      </ul>
+      </div>
     </nav>
     <nav class="secondary-menu">
       <a href="#" class="secondary-menu__title">Для кого</a>
@@ -116,89 +79,88 @@
       <a href="#" class="secondary-menu__title">Агентство</a>
       <a href="#" class="secondary-menu__title">Новости</a>
     </nav>
-    <section class="social-project">
-        <ul class="social-project__slider-items" id="slider">
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+    <section class="social-project" id="slider">
+          <div class="social-project__slider-item">
+            <h1 class="social-project__title"><span class="social-project__title-color">Everland</span> — социальный предпринимательский проект</h1>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
-              <img src="./images/Image_1.png" alt="" class="social-project__image">
-              <img src="./images/Image_2.png" alt="" class="social-project__image">
+              <img src="./images/Image_1.png" alt="молодой человек с протезом руки говорит в микрофон" class="social-project__image">
+              <img src="./images/Image_2.png" alt="молодой человек пишет маркером на доске" class="social-project__image">
             </div>
             <div class="social-project__arrows">
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_back"></button>
               <p class="social-project__arrow-counter">1/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspLorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h1 class="social-project__title"><span class="social-project__title-color">Everland</span> — Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
             <p class="social-project__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente itaque nihil delectus rerum non deserunt atque sed hic unde, perspiciatis obcaecati quae soluta animi. Laudantium ea consectetur in quasi.</p>
             <div class="social-project__images">
-              <img src="./images/Image_1.png" alt="" class="social-project__image">
-              <img src="./images/Image_2.png" alt="" class="social-project__image">
+              <img src="./images/Image_1.png" alt="молодой человек с протезом руки говорит в микрофон" class="social-project__image">
+              <img src="./images/Image_2.png" alt="молодой человек пишет маркером на доске" class="social-project__image">
             </div>
             <div class="social-project__arrows">
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_back"></button>
               <p class="social-project__arrow-counter">2/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h1 class="social-project__title"><span class="social-project__title-color">Everland</span> — социальный предпринимательский проект</h1>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
-              <img src="./images/Image_1.png" alt="" class="social-project__image">
-              <img src="./images/Image_2.png" alt="" class="social-project__image">
+              <img src="./images/Image_1.png" alt="молодой человек с протезом руки говорит в микрофон" class="social-project__image">
+              <img src="./images/Image_2.png" alt="молодой человек пишет маркером на доске" class="social-project__image">
             </div>
             <div class="social-project__arrows">
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_back"></button>
               <p class="social-project__arrow-counter">3/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h1 class="social-project__title"><span class="social-project__title-color">Everland</span> — социальный предпринимательский проект</h1>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
-              <img src="./images/Image_1.png" alt="" class="social-project__image">
-              <img src="./images/Image_2.png" alt="" class="social-project__image">
+              <img src="./images/Image_1.png" alt="молодой человек с протезом руки говорит в микрофон" class="social-project__image">
+              <img src="./images/Image_2.png" alt="молодой человек пишет маркером на доске" class="social-project__image">
             </div>
             <div class="social-project__arrows">
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_back"></button>
               <p class="social-project__arrow-counter">4/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h1 class="social-project__title"><span class="social-project__title-color">Everland</span> — социальный предпринимательский проект</h1>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
-              <img src="./images/Image_1.png" alt="" class="social-project__image">
-              <img src="./images/Image_2.png" alt="" class="social-project__image">
+              <img src="./images/Image_1.png" alt="молодой человек с протезом руки говорит в микрофон" class="social-project__image">
+              <img src="./images/Image_2.png" alt="молодой человек пишет маркером на доске" class="social-project__image">
             </div>
             <div class="social-project__arrows">
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_back"></button>
               <p class="social-project__arrow-counter">5/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-          <li class="social-project__slider-item">
-            <h2 class="social-project__title"><span class="social-project__title-color">Everland</span>&nbsp—&nbspсоциальный предпринимательский проект</h2>
+          </div>
+          <div class="social-project__slider-item">
+            <h1 class="social-project__title"><span class="social-project__title-color">Everland</span> — социальный предпринимательский проект</h1>
             <p class="social-project__subtitle">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
             <div class="social-project__images">
-              <img src="./images/Image_1.png" alt="" class="social-project__image">
-              <img src="./images/Image_2.png" alt="" class="social-project__image">
+              <img src="./images/Image_1.png" alt="молодой человек с протезом руки говорит в микрофон" class="social-project__image">
+              <img src="./images/Image_2.png" alt="молодой человек пишет маркером на доске" class="social-project__image">
             </div>
             <div class="social-project__arrows">
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_back"></button>
               <p class="social-project__arrow-counter">6/6</p>
               <button type="button"  class="slider-button slider-button_theme_social-project slider-button_direction_forward"></button>
             </div>
-          </li>
-        </ul>
+          </div>
+    </section>
 
-    <div class="donation">
+      <div class="donation">
         <fieldset class="donation__sum-input-container">
             <label
               class="donation__label"
@@ -214,7 +176,7 @@
                 id="250&#8381;"
                 class="donation__item"
                 value="250"
-              />
+            >
             <label
               class="donation__label"
               for="500&#8381;"
@@ -230,7 +192,7 @@
                 class="donation__item"
                 value="500"
                 checked
-              />
+            >
 
             <label
               class="donation__label"
@@ -244,7 +206,7 @@
                 id="750&#8381;"
                 class="donation__item"
                 value="750"
-              />
+            >
 
             <label
               class="donation__label"
@@ -258,10 +220,10 @@
                 id="1000&#8381;"
                 class="donation__item"
                 value="1000"
-              />
+            >
 
-            <label class="donation__label" for="other_sum&#8381;">
-              <span class="donation__pseudo-grid-item donation__other-sum">Другая сумма</span>
+            <label class="donation__label donation__other-sum" for="other_sum&#8381;">
+              <span class="donation__pseudo-grid-item">Другая сумма</span>
             </label>
             <input
                 type="radio"
@@ -269,14 +231,12 @@
                 id="other_sum&#8381;"
                 class="donation__item"
                 value="other_sum"
-              />
+            >
       </fieldset>
       <button type="submit" class="form-subscription__submit-button_donation" id="button-support-name">
         Поддержать
       </button>
     </div>
-
-    </section>
 
     <section class="work">
       <h2 class="section-title section-title_work">Для кого мы работаем</h2>
@@ -414,7 +374,7 @@
         </li>
       </ul>
     </section>
-    <section class="main-in-work page__main-in-work">
+    <section class="main-in-work">
       <h2 class="section-title">Главное в работе</h2>
       <div class="main-in-work__boxes">
         <div class="main-in-work__column">
@@ -499,6 +459,7 @@
             <p class="main-in-work__description" data-accordion="content">С 2018 года реализовано более 300 проектов и выиграно более 90% дел в судах. Наши направления: дизайн, контент, веб-разработка, юриспруденция, инклюзивное трудоустройство в другие компании и доступность услуг.</p>
           </div>
         </div>
+      </div>  
     </section>
     <section class="digits">
       <h2 class="section-title">Everland в цифрах</h2>
@@ -524,10 +485,10 @@
         </div>
       </div>
     </section>
-    <section class="photo-project page__photo-project">
+    <section class="photo-project page__photo-project" aria-label="Фотопроект">
       <article class="photo-project__content-container">
-        <p class="photo-project__rubric">Наши спецпроекты</p>
-        <h2 class="section-title section-title_galleries">Фотопроект «Семья как семья»</h2>
+        <h2 class="photo-project__rubric">Наши спецпроекты</h2>
+        <h3 class="section-title section-title_galleries">Фотопроект «Семья как семья»</h3>
         <p class="photo-project__lead">Фотопроект Алексея Горшенина включает в себя
             восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
         <button class="button button_theme_secondary-transparent">Посмотреть</button>
@@ -575,7 +536,7 @@
         </article>
         <div class="story-cards">
           <article class="story-card">
-            <img class="story-card__photo" src="./images/image 8.png" alt="Фотография Айслу">
+            <img class="story-card__photo" src="./images/image8.png" alt="Фотография Айслу">
             <div class="story-card__description">
               <h3 class="story-card__title">Айслу Асан</h3>
               <p class="story-card__subtitle">Когда хочется жить</p>
@@ -585,7 +546,7 @@
             </div>
           </article>
           <article class="story-card">
-            <img class="story-card__photo" src="./images/image 9.png" alt="Фотография Айслу">
+            <img class="story-card__photo" src="./images/image9.png" alt="Фотография Айслу">
             <div class="story-card__description">
               <h3 class="story-card__title">Артём Плаксин</h3>
               <p class="story-card__subtitle">Не видеть и смотреть в будущее</p>
@@ -647,7 +608,7 @@
         <div class="news-card">
             <p class="news-card__theme">Тема</p>
             <div class="news-card__container">
-              <img class="news-card__photo" src="./images/image 16.png" alt="Открытка">
+              <img class="news-card__photo" src="./images/image16.png" alt="Открытка">
               <div class="news-card__description">
                 <h3 class="news-card__title">Ура! Новое партнерство — с PepsiCo</h3>
                 <p class="news-card__subtitle">Everland совместно с PepsiCo приняли участие в акции «Благотворительность вместо сувениров»</p>
@@ -667,7 +628,7 @@
         <div class="news-card">
           <p class="news-card__theme">Тема</p>
           <div class="news-card__container">
-            <img class="news-card__photo" src="./images/image 17.png" alt="Открытка">
+            <img class="news-card__photo" src="./images/image17.png" alt="Открытка">
             <div class="news-card__description">
               <h3 class="news-card__title">Тестируем супермаркеты на доступность</h3>
               <p class="news-card__subtitle">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых магазинов на доступность для людей с разными видами инвалидности</p>
@@ -682,17 +643,16 @@
      <h2 class="support__section-heading">Поддержите нас</h2>
       <div class="support__main-container">
 
-
         <form class="form-subscription">
 
           <fieldset class="form-subscription__input-container">
 
            <label
-              class="form-subscription__label form-subscription__label_active"
+              class="form-subscription__label form-subscription__label_active form-subscription__label_donation-frequency"
               for="montly"
             >
               <span class="form-subscription__pseudo-item"
-              >Ежемесячно <img src="../../images/Question.svg" class="form-subscription__question_active" alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
+              >Ежемесячно <img src="./images/Question.svg" class="form-subscription__question_active" alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
             </label>
              <input
               type="radio"
@@ -701,14 +661,14 @@
               class="form-subscription__item"
               value="monthly"
               checked
-            />
+            >
 
             <label
-              class="form-subscription__label"
+              class="form-subscription__label form-subscription__label_donation-frequency"
               for="one-time"
             >
               <span class="form-subscription__pseudo-item"
-              >Разово <img src="../../images/Question.svg" class="form-subscription__question"  alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
+              >Разово <img src="./images/Question.svg" class="form-subscription__question"  alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
             </label>
             <input
                type="radio"
@@ -716,14 +676,14 @@
               id="one-time"
               class="form-subscription__item"
               value="one-time"
-              />
+            >
           </fieldset>
 
            <h3 class="form-subscription__title">Размер пожертвования</h3>
 
            <fieldset class="form-subscription__sum-input-container">
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_donation-sum"
                 for="250"
               >
                 <span class="form-subscription__pseudo-grid-item"
@@ -736,9 +696,9 @@
                   id="250"
                   class="form-subscription__item"
                   value="250"
-                />
+              >
               <label
-                class="form-subscription__label form-subscription__label_active"
+                class="form-subscription__label form-subscription__label_active form-subscription__label_donation-sum"
                 for="500"
               >
                 <span class="form-subscription__pseudo-grid-item"
@@ -752,10 +712,10 @@
                   class="form-subscription__item"
                   value="500"
                   checked
-                />
+              >
 
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_donation-sum"
                 for="750">
                 <span class="form-subscription__pseudo-grid-item">750&#8381;
                 </span>
@@ -766,10 +726,10 @@
                   id="750"
                   class="form-subscription__item"
                   value="750"
-                />
+              >
 
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_donation-sum"
                 for="1000">
               <span class="form-subscription__pseudo-grid-item">1000&#8381;</span>
               </label>
@@ -780,9 +740,9 @@
                   id="1000"
                   class="form-subscription__item"
                   value="1000"
-                />
+              >
 
-                <label class="form-subscription__label" for="other_sum">
+                <label class="form-subscription__label form-subscription__other-sum" for="other_sum">
               <span class="form-subscription__pseudo-grid-item">Другая сумма</span>
             </label>
               <input
@@ -791,7 +751,7 @@
                   id="other_sum"
                   class="form-subscription__item"
                   value="other_sum"
-                />
+              >
           </fieldset>
 
           <p class="form-subscription__text">
@@ -801,10 +761,10 @@
 
         <h3 class="form-subscription__title">Способ оплаты</h3>
         <div class="form-subscription__payment-method-container">
-         <fieldset class="form-subscription__input-container-grid-two">
-              <label class="form-subscription__label form-subscription__label_active" for="Mir_visa_mastercard">
+         <fieldset class="form-subscription__input-container-two">
+              <label class="form-subscription__label form-subscription__label_active form-subscription__label_payment-method" for="Mir_visa_mastercard">
                  <span class="form-subscription__pseudo-grid-item-two">
-                 <img src="../../images/Mir_visa_mastercard.svg"
+                 <img src="./images/Mir_visa_mastercard.svg"
                  height="26" width="150" alt="Логотипы платежных систем Мир, Visa, MasterCard">
                  </span>
               </label>
@@ -815,13 +775,13 @@
                 class="form-subscription__item"
                 value="Mir_visa_mastercard"
                 checked
-              />
+              >
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_payment-method"
                 for="YooMoney"
               >
                  <span class="form-subscription__pseudo-grid-item-two">
-                 <img height="14" width="20" src="../../images/YooMoney.svg" alt="Логотип платежной системы YooMoney">
+                 <img height="14" width="20" src="./images/YooMoney.svg" alt="Логотип платежной системы YooMoney">
                  </span>
               </label>
               <input
@@ -830,13 +790,13 @@
                   id="YooMoney"
                    class="form-subscription__item"
                   value="YooMoney"
-                />
+              >
               <label
-                class="form-subscription__label"
+                class="form-subscription__label form-subscription__label_payment-method"
                 for="WebMoney"
               >
                  <span class="form-subscription__pseudo-grid-item-two">
-                <img src="../../images/WebMoney.svg"  alt="Логотип платежной системы WebMoney" width="49" height="10">
+                <img src="./images/WebMoney.svg"  alt="Логотип платежной системы WebMoney" width="49" height="10">
                 </span>
               </label>
               <input
@@ -845,7 +805,7 @@
                   id="WebMoney"
                    class="form-subscription__item"
                   value="WebMoney"
-                />
+              >
           </fieldset>
                 <button
                   type="button"
@@ -854,7 +814,7 @@
                    class="form-subscription__arrow-button"
                   value="arrow"
                 >
-                 <img src="../../images/Arrow.svg" class="form-subscription__arrow-img" alt="Стрелочка: нажмите сюда, чтобы пролистать дальше">
+                 <img src="./images/Arrow.svg" class="form-subscription__arrow-img" alt="Стрелочка: нажмите сюда, чтобы пролистать дальше">
                 </button>
             </div>
           <h3 class="form-subscription__title">Ваши данные</h3>
@@ -866,14 +826,14 @@
               name="name"
               id="name"
               placeholder="Иван Иванов"
-            />
+            >
             <input
               type="text"
               class="form-subscription__name-item"
               name="description"
               id="description"
               placeholder="myemail@example.com"
-            />
+            >
           </div>
            <fieldset class="form-subscription__agreement-container">
             <input type="checkbox" name="agreement" id="agree-with-offer" class="form-subscription__item" value="agree-with-offer" checked>
@@ -885,7 +845,8 @@
             Поддержать
           </button>
         </form>
-          <div class="support__right-container">
+
+        <div class="support__right-container">
             <h4 class="support__heading-right">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
               <ul class="support__list">
                 <li class="support__list-item">Аноним ........................................<span class="support__list-sum-and-time"><span class="support__list-sum"> 500 &#8381;</span><br><span class="support__list-time"> 2 часа назад</span></span>
@@ -906,8 +867,8 @@
                 </li>
               </ul>
           </div>
-
         </div>
+
 
       </section>
 
@@ -923,8 +884,8 @@
       </div>
       <nav class="footer__links">
         <a href="#" target="_blank" class="footer__link footer__link-text">О проекте</a>
-        <a href="#" target="_blank" class="footer__link footer__link-text"">Программы</a>
-        <a href="#" target="_blank" class="footer__link footer__link-text"">Услуги</a>
+        <a href="#" target="_blank" class="footer__link footer__link-text">Программы</a>
+        <a href="#" target="_blank" class="footer__link footer__link-text">Услуги</a>
         <a href="#" target="_blank" class="footer__link footer__link-text">Платформа</a>
         <a href="#" target="_blank" class="footer__link footer__link-text">Людям с инвалидностью</a>
         <a href="#" target="_blank" class="footer__link footer__link-text">Мы благодарим</a>
@@ -934,16 +895,16 @@
         <div class="footer__section-container">
           <div class="footer__logos">
             <a href="#" class="footer__link">
-              <img src="./images/bilain 1.svg" alt="Билайн" class="footer__logo">
+              <img src="./images/bilain2.png" alt="Билайн" class="footer__logo">
             </a>
             <a href="#" class="footer__link">
-              <img src="./images/fond-logo.svg" alt="Фонд президентских грантов" class="footer__logo">
+              <img src="./images/fond-logo.png" alt="Фонд президентских грантов" class="footer__logo">
             </a>
           </div>
           <div class="footer__text-container">
             <div class="footer__numbers">
-              <p class="footer__text">+7 (495) 646 04 28</p>
-              <p class="footer__text">+7 (985) 473 08 93</p>
+              <a href="#" class="footer__link"><p class="footer__text">+7 (495) 646 04 28</p></a>
+              <a href="#" class="footer__link"><p class="footer__text">+7 (985) 473 08 93</p></a>
             </div>
             <p class="footer__text">Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.</p>
           </div>
@@ -960,14 +921,14 @@
               <img src="./images/vk.png" alt="Вконтакте" class="footer__social-logo">
             </a>
           </div>
-          <p class="footer__text footer__text_opacity">&#169; ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
+          <p class="footer__text footer__text_half-opacity">&#169; ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
             Если не указано иначе, все материалы сайта доступны по лицензии Creative Commons CC-BY-SA 3.0</p>
         </div>
       </div>
     </div>
    <div class="footer__resource">
     <a href="#" class="footer__link">
-      <img class="footer__resource-logo" src="./images/Ресурс 1 2.svg" alt="Яндекс Практикум">
+      <img class="footer__resource-logo" src="./images/Ресурс12.svg" alt="Яндекс Практикум">
     </a>
     <p class="footer__text">сделано при участии Яндекс Практикума</p>
    </div>

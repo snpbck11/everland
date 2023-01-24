@@ -1,4 +1,3 @@
 .support__list-container {
-  order: 1; /* Выводим третьим */
+  order: 1;
 }
-

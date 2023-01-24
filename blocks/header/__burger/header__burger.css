@@ -1,27 +1,22 @@
 .header__burger {
-    width: 24px;
-    height: 20px;
-    background-image: url(../../../images/Menu.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    box-sizing: border-box;
+    border: none;
     background-color: transparent;
+    width: 25px;
+    height: 24px;
+    position: relative;
+    background-image: url(../../../images/Menu.svg);
+    transition: .3s all linear;
 }
 
-
-@media (max-width: 1120px) {
-    .header__burger {
-        width: 25px;
-        height: 24px;
-    }
+.header__burger:hover {
+    cursor: pointer;
 }
-
 
 @media (max-width: 680px) {
     .header__burger {
         width: 24px;
         height: 20px;
+        background-size: 24px 20px;
     }
 }
 

@@ -4,19 +4,21 @@
     align-items: center;
     display: flex;
     gap: 12px;
-}
-
-
-.header__menu:hover .header__burger {
-    
-    background-image: url(../../../images/Menu_close.svg);
+    justify-content: center;
     
 }
+
+.header__menu:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 
 @media (max-width: 1120px) {
     .header__menu {
         height: 24px;
         order: 2;
+        padding-left: 24px;
     }
 }
 

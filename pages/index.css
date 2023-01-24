@@ -9,7 +9,7 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__menu-title/header__menu-title.css);
-
+@import url(../blocks/header/__burger/_active/header__burger_active.css);
 
 @import url(../blocks/content/content.css);
 
@@ -32,14 +32,13 @@
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link-title/menu__link-title.css);
 @import url(../blocks/menu/__items/menu__items.css);
-@import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__items-title/menu__items-title.css);
-@import url(../blocks/menu/__item-title/menu__item-title.css);
 @import url(../blocks/menu/__mobile/menu__mobile.css);
 @import url(../blocks/menu/_opened/menu_opened.css);
 @import url(../blocks/menu/__mobile/_opened/menu__mobile_opened.css);
 @import url(../blocks/menu/__title-arrow/menu__title-arrow.css);
 @import url(../blocks/menu/__arrow/menu__arrow.css);
+@import url(../blocks/menu/__arrow/_active/menu__arrow_active.css);
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__title/secondary-menu__title.css);
@@ -47,14 +46,12 @@
 @import url(../blocks/social-project/social-project.css);
 @import url(../blocks/social-project/__image/social-project__image.css);
 @import url(../blocks/social-project/__images/social-project__images.css);
-@import url(../blocks/social-project/__slider/social-project__slider.css);
 @import url(../blocks/social-project/__subtitle/social-project__subtitle.css);
 @import url(../blocks/social-project/__title-color/social-project__title-color.css);
 @import url(../blocks/social-project/__title/social-project__title.css);
 
 @import url(../blocks/social-project/__arrows/social-project__arrows.css);
 @import url(../blocks/social-project/__arrow-counter/social-project__arrow-counter.css);
-@import url(../blocks/social-project/__slider-items/social-project__slider-items.css);
 @import url(../blocks/social-project/__slider-item/social-project__slider-item.css);
 
 @import url(../blocks/slider-display/_none/slider-display_none.css);
@@ -194,7 +191,7 @@
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__text-container/footer__text-container.css);
 @import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__text/_opacity/footer__text_opacity.css);
+@import url(../blocks/footer/__text/_half-opacity/footer__text_half-opacity.css);
 
 
 @import url(../blocks/slider-button/slider-button.css);
@@ -245,14 +242,13 @@
 
 @import url(../blocks/form-subscription/__label/_active/form-subscription__label_active.css);
 @import url(../blocks/form-subscription/__pseudo-grid-item-two/form-subscription__pseudo-grid-item-two.css);
-@import url(../blocks/form-subscription/__input-container-grid-two/form-subscription__input-container-grid-two.css);
+@import url(../blocks/form-subscription/__input-container-two/form-subscription__input-container-grid-two.css);
 @import url(../blocks/form-subscription/__payment-method-container/form-subscription__payment-method-container.css);
 @import url(../blocks/form-subscription/__arrow-button/form-subscription__arrow-button.css);
 @import url(../blocks/form-subscription/__name-container/form-subscription__name-container.css);
 @import url(../blocks/form-subscription/__name-item/form-subscription__name-item.css);
 @import url(../blocks/form-subscription/__submit-button/form-subscription__submit-button.css);
 @import url(../blocks/form-subscription/__agreement-container/form-subscription__agreement-container.css);
-@import url(../blocks/form-subscription/__checkbox-item/form-subscription____checkbox-item.css);
 @import url(../blocks/form-subscription/__checkbox-label/form-subscription__checkbox-label.css);
 @import url(../blocks/form-subscription/__offer-link/form-subscription__offer-link.css);
 @import url(../blocks/support/__heading-right/support__heading-right.css);
@@ -287,4 +283,10 @@
 @import url(../blocks/form-subscription/__submit-button/_donation/form-subscription__submit-button_donation.css);
 
 @import url(../blocks/section-title/_galleries/section-title_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
+
+@import url(../blocks/form-subscription/__other-sum/form-subscription__other-sum.css);
+
+@import url(../blocks/form-subscription/__label/_donation-frequency/form-subscription__label_donation-frequency.css);
+@import url(../blocks/form-subscription/__label/_donation-sum/form-subscription__label_donation-sum.css);
+@import url(../blocks/form-subscription/__label/_payment-method/form-subscription__label_payment-method.css);
 
