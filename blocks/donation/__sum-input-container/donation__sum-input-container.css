@@ -11,7 +11,8 @@
 
 @media screen and (max-width: 767px) {
   .donation__sum-input-container {
-    gap: 16px;
+    column-gap: calc(100% - 248px);
+    row-gap: 16px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -24,4 +25,3 @@
     /* gap: 0 10px; */
   }
 }
-
