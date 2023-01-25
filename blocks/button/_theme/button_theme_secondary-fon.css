@@ -6,4 +6,5 @@
 
 .button_theme_secondary-fon:hover {
     border: 2px solid #333333;
+    transition: .3s all linear;
 }

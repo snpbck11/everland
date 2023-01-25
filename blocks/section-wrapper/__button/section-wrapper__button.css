@@ -3,6 +3,7 @@
   justify-self: end;
   align-self: center;
   margin-bottom: 50px;
+  min-width: 194px;
 }
 
 @media screen and (max-width: 1120px) {

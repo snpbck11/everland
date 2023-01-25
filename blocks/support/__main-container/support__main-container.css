@@ -1,7 +1,7 @@
 .support__main-container {
   display: flex;
   gap: 0 117px;
-  width: 100%;
+    width: calc(100% - 40px);
   margin: 0 0 0 40px;
 }
 

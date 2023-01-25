@@ -5,4 +5,10 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  cursor: pointer;
+}
+
+.form-subscription__label:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }

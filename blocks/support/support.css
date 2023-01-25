@@ -7,15 +7,11 @@
 @media screen and (max-width: 767px) {
   .support {
     padding: 0;
-    width: 100%;
-    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .support {
     padding: 44px 0 0 0;
-    max-width: 100%;
-    margin: 0 auto;
   }
 }

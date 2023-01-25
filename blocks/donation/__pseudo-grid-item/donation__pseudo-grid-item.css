@@ -1,28 +1,32 @@
 .donation__pseudo-grid-item {
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 0;
   background: #ffffff;
-  display: flex;
-  font-family: "Raleway";
+  display: inline-block;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #333333;
   border-radius: 10px;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {
   .donation__pseudo-grid-item {
     border-radius: 8px;
     font-size: 14px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .donation__pseudo-grid-item {
     font-size: 16px;
+    width: 100%;
   }
 }

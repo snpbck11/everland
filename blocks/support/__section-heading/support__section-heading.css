@@ -1,9 +1,8 @@
 .support__section-heading {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: -0.01em;
   color: #333333;
   margin: 0 0 50px 40px;
@@ -25,5 +24,6 @@
     padding: 0 0px 24px;
     margin: 0;
     text-align: center;
+    font-size: 36px;
   }
 }
