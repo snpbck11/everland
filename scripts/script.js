@@ -28,6 +28,7 @@ btnBack.forEach(function (buttons) {
   };
 });
 
+// функция рассчета следующего слайда
 function showNextSlide(direction) {
 	// Скрываем текущий слайд
 	const currentSlide = document.querySelectorAll('[data-active]');
