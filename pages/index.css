@@ -71,9 +71,9 @@
 @import url(../blocks/orientation/orientation.css);
 @import url(../blocks/orientation/__boxes/orientation__boxes.css);
 @import url(../blocks/orientation/__box/orientation__box.css);
-@import url(../blocks/orientation/__box/_color/_light-orange/orientation__box_color_light-orange.css);
-@import url(../blocks/orientation/__box/_color/_light-blue/orientation__box_color_light-blue.css);
-@import url(../blocks/orientation/__box/_color/_light-green/orientation__box_color_light-green.css);
+@import url(../blocks/orientation/__box/_color/orientation__box_color_light-orange.css);
+@import url(../blocks/orientation/__box/_color/orientation__box_color_light-blue.css);
+@import url(../blocks/orientation/__box/_color/orientation__box_color_light-green.css);
 @import url(../blocks/orientation/__text/orientation__text.css);
 @import url(../blocks/orientation/__title/orientation__title.css);
 @import url(../blocks/orientation/__description/orientation__description.css);
@@ -85,9 +85,9 @@
 @import url(../blocks/main-in-work/__wrapper/main-in-work__wrapper.css);
 @import url(../blocks/main-in-work/__title/main-in-work__title.css);
 @import url(../blocks/main-in-work/__button/main-in-work__button.css);
-@import url(../blocks/main-in-work/__button/_active/main-in-work__button-active.css);
+@import url(../blocks/main-in-work/__button/_active/main-in-work__button_active.css);
 @import url(../blocks/main-in-work/__description/main-in-work__description.css);
-@import url(../blocks/main-in-work/__description/_active/main-in-work__description-active.css);
+@import url(../blocks/main-in-work/__description/_active/main-in-work__description_active.css);
 @import url(../blocks/main-in-work/__column/main-in-work__column.css);
 @import url(../blocks/page/__main-in-work/page__main-in-work.css);
 
@@ -190,10 +190,10 @@
 
 
 @import url(../blocks/slider-button/slider-button.css);
-@import url(../blocks/slider-button/_direction/_back/slider-button_direction_back.css);
-@import url(../blocks/slider-button/_direction/_forward/slider-button_direction_forward.css);
-@import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
-@import url(../blocks/slider-button/_theme/_social-project/slider-button_theme_social-project.css);
+@import url(../blocks/slider-button/_direction/slider-button_direction_back.css);
+@import url(../blocks/slider-button/_direction/slider-button_direction_forward.css);
+@import url(../blocks/slider-button/_theme/slider-button_theme_photo-project.css);
+@import url(../blocks/slider-button/_theme/slider-button_theme_social-project.css);
 
 
 @import url(../blocks/support/support.css);
