@@ -83,6 +83,7 @@
 @import url(../blocks/main-in-work/__wrapper/main-in-work__wrapper.css);
 @import url(../blocks/main-in-work/__title/main-in-work__title.css);
 @import url(../blocks/main-in-work/__button/main-in-work__button.css);
+@import url(../blocks/main-in-work/__button-plus/main-in-work__button-plus.css);
 @import url(../blocks/main-in-work/__button/_active/main-in-work__button_active.css);
 @import url(../blocks/main-in-work/__description/main-in-work__description.css);
 @import url(../blocks/main-in-work/__description/_active/main-in-work__description_active.css);

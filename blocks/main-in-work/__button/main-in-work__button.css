@@ -1,7 +1,7 @@
 .main-in-work__button {
     width: 45px;
     height: 45px;
-    border-radius: 50%;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,7 +13,6 @@
     background-repeat: no-repeat;
     cursor: pointer;
     transition: all .3s linear;
-    stroke: #0c4ba0;
   }
   
   .main-in-work__button:hover {
@@ -21,7 +20,7 @@
     stroke: #fff;
   }
   
-  @media screen and (max-width: 679px) {
+  @media screen and (max-width: 769px) {
     .main-in-work__button  {
       width: 32px;
       height: 32px;
