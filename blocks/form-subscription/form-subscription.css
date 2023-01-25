@@ -1,9 +1,6 @@
 .form-subscription {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
   padding: 30px 23px 30px 17px;
   width: 651px;
   background: #ffffff;

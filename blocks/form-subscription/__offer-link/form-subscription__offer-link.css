@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 130%;
+  line-height: 1.3;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #0c4ba0;
   text-decoration: none;
@@ -13,7 +13,6 @@
   .form-subscription__offer-link {
     font-weight: 500;
     font-size: 12px;
-    line-height: 120%;
+    line-height: 1.2;
   }
 }
-
