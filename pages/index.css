@@ -206,14 +206,12 @@
 @import url(../blocks/form-subscription/form-subscription.css);
 @import url(../blocks/form-subscription/__input-container/form-subscription__input-container.css);
 @import url(../blocks/form-subscription/__item/form-subscription__item.css);
-@import url(../blocks/form-subscription/__item/_active/form-subscription__item_active.css);
 @import url(../blocks/form-subscription/__label/form-subscription__label.css);
 @import url(../blocks/form-subscription/__pseudo-item/form-subscription__pseudo-item.css);
 @import url(../blocks/form-subscription/__input-container-grid/form-subscription__input-container-grid.css);
 
 
 
-@import url(../blocks/form-subscription/__pseudo-item/_active/form-subscription__pseudo-item_active.css);
 @import url(../blocks/form-subscription/__pseudo-grid-item/form-subscription__pseudo-grid-item.css);
 
 @import url(../blocks/form-subscription/__sum-input-container/form-subscription__sum-input-container.css);
@@ -225,10 +223,7 @@
 @import url(../blocks/form-subscription/__question/_active/form-subscription__question_active.css);
 @import url(../blocks/form-subscription/__title/form-subscription__title.css);
 @import url(../blocks/form-subscription/__text/form-subscription__text.css);
-@import url(../blocks/form-subscription/__pseudo-grid-item/_active/form-subscription__pseudo-grid-item_active.css);
-@import url(../blocks/form-subscription/__label/_active/form-subscription__label_active.css);
 
-@import url(../blocks/form-subscription/__label/_active/form-subscription__label_active.css);
 @import url(../blocks/form-subscription/__input-payment-method-pseudo-item/form-subscription__input-payment-method-pseudo-item.css);
 @import url(../blocks/form-subscription/__input-payment-method-container/blocks/form-subscription/__input-payment-method-container/form-subscription__input-payment-method-container.css);
 @import url(../blocks/form-subscription/__payment-method-container/form-subscription__payment-method-container.css);
