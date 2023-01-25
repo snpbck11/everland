@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 130%;
+  line-height: 26px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #dadada;
   white-space: pre;
@@ -19,8 +19,8 @@
 
 @media screen and (max-width: 1279px) {
   .form-subscription__name-item {
-    height: 42px;
-    font-size: 14px;
-    line-height: 120%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
   }
 }

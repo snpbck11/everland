@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #ffffff;
   cursor: pointer;
@@ -27,7 +27,7 @@
     padding: 13px 87px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 120%;
+    line-height: 1.2;
   }
 }
 
@@ -36,6 +36,6 @@
     padding: 12px 23px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 120%;
+    line-height: 1.2;
   }
 }
