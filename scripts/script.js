@@ -1,24 +1,24 @@
-const slider = document.querySelector("#slider");
-const sliderItems = Array.from(slider.children);
-const btnForward = document.querySelectorAll(
-  ".slider-button_direction_forward"
-);
-const btnBack = document.querySelectorAll(".slider-button_direction_back");
+const slider = document.querySelectorAll(".slider");
 
-//Слайдер
-sliderItems.forEach(function (slide, index) {
-  // Скрываем все слайды, кроме первого
-  if (index !== 0) slide.classList.add("slider-display_none");
-  // добавляем индекс
-  slide.dataset.index = index;
-  sliderItems[0].setAttribute("data-active", "");
-});
 
+slider.forEach(function(item) {
+	const sliderItems = Array.from(item.children);
+	sliderItems.forEach(function (slide, index) {
+		// Скрываем все слайды, кроме первого
+		if (index !== 0) slide.classList.add('slider-display_none');
+	// добавляем индекс
+		slide.dataset.index = index;
+		sliderItems[0].setAttribute('data-active', '')
+	});
+	console.log(sliderItems);
+	const btnForward = document.querySelectorAll(".slider-button_direction_forward");
+    const btnBack = document.querySelectorAll(".slider-button_direction_back");
 // кнопка вперед
-btnForward.forEach(function (buttons) {
-  buttons.onclick = function () {
-    showNextSlide("next");
-  };
+btnForward.forEach(function(buttons) {
+	buttons.onclick = function () {
+	showNextSlide('next');
+	console.log('next');
+	}
 });
 
 // кнопка назад
@@ -28,31 +28,35 @@ btnBack.forEach(function (buttons) {
   };
 });
 
-//функция действий со слайдами
+// функция рассчета следующего слайда
 function showNextSlide(direction) {
-  // Скрываем текущий слайд
-  const currentSlide = slider.querySelector("[data-active]");
-  const currentSlideIndex = +currentSlide.dataset.index;
-  currentSlide.classList.add("slider-display_none");
-  currentSlide.removeAttribute("data-active");
+	// Скрываем текущий слайд
+	const currentSlide = document.querySelectorAll('[data-active]');
 
-  // Рассчитываем след индекс в зависимости от направления движения
-  let nextSlideIndex;
-  if (direction === "next") {
-    nextSlideIndex =
-      currentSlideIndex + 1 === sliderItems.length ? 0 : currentSlideIndex + 1;
-  } else if (direction === "prev") {
-    nextSlideIndex =
-      currentSlideIndex === 0 ? sliderItems.length - 1 : currentSlideIndex - 1;
-  }
-  // Показываем след слайд
-  const nextSlide = slider.querySelector(`[data-index="${nextSlideIndex}"]`);
-  nextSlide.classList.remove("slider-display_none");
-  nextSlide.setAttribute("data-active", "");
-}
+	currentSlide.forEach(function(item) {
+		const currentSlideIndex = +item.dataset.index;
+	item.classList.add('slider-display_none');
+	item.removeAttribute('data-active');
+	console.log(currentSlideIndex);
+
+	let nextSlideIndex = 0;
+	if (direction === 'next') {
+		nextSlideIndex = currentSlideIndex + 1 === sliderItems.length ? 0 : currentSlideIndex + 1;
+	} else if (direction === 'prev') {
+		nextSlideIndex = currentSlideIndex === 0 ? sliderItems.length - 1 : currentSlideIndex - 1;
+	}
+	console.log(nextSlideIndex);
+	const nextSlide = document.querySelectorAll(`[data-index="${nextSlideIndex}"]`);
+	console.log(nextSlide);
+	nextSlide.forEach(function(item) {
+		item.classList.remove('slider-display_none');
+	item.setAttribute('data-active', '');
+	});
+    });
+};
+});
 
 // Раскрытие меню
-
 const btnMenu = document.querySelector(".header__menu");
 const menu = document.querySelector(".menu");
 const btnArrow = document.querySelectorAll(".menu__arrow");

@@ -56,8 +56,6 @@
 @import url(../blocks/social-project/__arrow-counter/social-project__arrow-counter.css);
 @import url(../blocks/social-project/__slider-item/social-project__slider-item.css);
 
-@import url(../blocks/slider-display/_none/slider-display_none.css);
-
 @import url(../blocks/work/work.css);
 @import url(../blocks/work/__boxes/work__boxes.css);
 @import url(../blocks/work/__box/work__box.css);
@@ -107,11 +105,6 @@
 @import url(../blocks/photo-project/__rubric/photo-project__rubric.css);
 @import url(../blocks/photo-project/__lead/photo-project__lead.css);
 @import url(../blocks/photo-project/__button-container/photo-project__button-container.css);
-
-@import url(../blocks/slider-button/slider-button.css);
-@import url(../blocks/slider-button/_direction/_back/slider-button_direction_back.css);
-@import url(../blocks/slider-button/_direction/_forward/slider-button_direction_forward.css);
-@import url(../blocks/slider-button/_theme/_photo-project/slider-button_theme_photo-project.css);
 
 @import url(../blocks/section-wrapper/section-wrapper.css);
 @import url(../blocks/section-wrapper/__button/section-wrapper__button.css);
@@ -279,3 +272,4 @@
 
 
 
+@import url(../blocks/slider-display/_none/slider-display_none.css);
