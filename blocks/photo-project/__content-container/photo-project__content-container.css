@@ -9,6 +9,7 @@
     "lead lead image"
     "button slider-buttons-container image";
     justify-content: space-between;
+    animation: fadeInFromNone .6s ease-in-out;
 }
 
 
@@ -54,9 +55,22 @@
 }
 
 
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
 
+  1% {
+    display: flex;
+    opacity: 0;
+  }
 
-
+  100% {
+    display: flex;
+    opacity: 1;
+  }
+}
 
 
 

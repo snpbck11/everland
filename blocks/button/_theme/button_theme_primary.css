@@ -5,4 +5,5 @@
 
 .button_theme_primary:hover {
     background-color: #4183DC;
+    transition: .3s all linear;
 }

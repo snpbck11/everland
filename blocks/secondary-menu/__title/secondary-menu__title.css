@@ -10,6 +10,7 @@
 
 .secondary-menu__title:hover {
     opacity: 0.7;
+    transition: .3s all linear;
 }
 
 @media (max-width: 1120px) {
