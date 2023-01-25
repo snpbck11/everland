@@ -10,7 +10,7 @@
   .footer__container {
     margin-right: 0;
     grid-template-columns: 1fr 1fr;
-    row-gap: 55px;
+    row-gap: 60px;
     column-gap: 20px; 
   }
 }
