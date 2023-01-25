@@ -4,3 +4,12 @@
     flex-direction: column;
     gap: 20px;
   }
+
+
+  @media screen and (max-width: 679px) {
+    .main-in-work__column {
+      gap: 16px;
+    }
+  }
+
+  

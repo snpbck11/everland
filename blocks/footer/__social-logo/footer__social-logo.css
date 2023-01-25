@@ -8,13 +8,6 @@
 @media screen and (max-width: 1120px) {
   .footer__social-logo {
     width: 40px;
-    max-height: 40px;
-  }
-}
-
-@media screen and (max-width: 680px) {
-  .footer__social-logo {
-    width: 40px;
     max-height: 20px;
   }
 }
