@@ -4,17 +4,19 @@
   display: flex;
   width: calc(100% - 80px);
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 90px;
 }
 
 @media (max-width: 1120px) {
   .social-project {
     padding-bottom: 0;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 680px) {
   .social-project {
     width: calc(100% - 20px);
+    margin-bottom: 40px;
   }
 }
