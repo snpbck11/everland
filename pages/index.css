@@ -2,6 +2,8 @@
 
 @import url(../vendor/fonts.css);
 
+@import url(../blocks/scroll/scroll.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -278,4 +280,7 @@
 @import url(../blocks/donation/__main-container/donation__main-container.css);
 
 @import url(../blocks/support/__dots/support__dots.css);
+@import url(../blocks/form-subscription/__agreement-item/form-subscription__agreement-item.css);
+
+
 

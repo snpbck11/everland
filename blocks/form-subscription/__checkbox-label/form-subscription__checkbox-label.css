@@ -24,9 +24,7 @@
   background: #dadada;
   border-radius: 10px;
 }
-.form-subscription__item:checked + .form-subscription__checkbox-label::before {
-  content: url("../../../images/Icon_check.svg");
-}
+
 
 @media screen and (max-width: 767px) {
   .form-subscription__checkbox-label {

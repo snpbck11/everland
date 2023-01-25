@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="scroll">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -162,6 +162,13 @@
 
       <section class="donation">
         <fieldset class="donation__sum-input-container">
+          <input
+                type="radio"
+                name="sum-of-donation"
+                id="250&#8381;"
+                class="donation__item"
+                value="250"
+            >
             <label
               class="donation__label"
               for="250&#8381;"
@@ -169,23 +176,9 @@
               <span class="donation__pseudo-grid-item"
                 >250&#8381;</span
               >
-              <input
-                type="radio"
-                name="sum-of-donation"
-                id="250&#8381;"
-                class="donation__item"
-                value="250"
-            >
             </label>
             
-            <label
-              class="donation__label"
-              for="500&#8381;"
-            >
-              <span class="donation__pseudo-grid-item"
-                >500&#8381;</span
-              >
-               <input
+            <input
                 type="radio"
                 name="sum-of-donation"
                 id="500&#8381;"
@@ -193,53 +186,58 @@
                 value="500"
                 checked
             >
-            </label>
-
             <label
               class="donation__label"
-              for="750&#8381;">
-              <span class="donation__pseudo-grid-item">750&#8381;
-              </span>
-              <input
+              for="500&#8381;"
+            >
+              <span class="donation__pseudo-grid-item"
+                >500&#8381;</span
+              >
+            </label>
+
+            <input
                 type="radio"
                 name="sum-of-donation"
                 id="750&#8381;"
                 class="donation__item"
                 value="750"
             >
-            </label>
-            
-
             <label
               class="donation__label"
-              for="1000&#8381;">
-            <span class="donation__pseudo-grid-item">1000&#8381;</span>
-             <input
+              for="750&#8381;">
+              <span class="donation__pseudo-grid-item">750&#8381;
+              </span>
+            </label>
+            
+            <input
                 type="radio"
                 name="sum-of-donation"
                 id="1000&#8381;"
                 class="donation__item"
                 value="1000"
             >
+            <label
+              class="donation__label"
+              for="1000&#8381;">
+            <span class="donation__pseudo-grid-item">1000&#8381;</span>
             </label>
 
            
-
-            <label class="donation__label donation__other-sum" for="other_sum&#8381;">
-              <span class="donation__pseudo-grid-item">Другая сумма</span>
-              <input
+            <input
                 type="radio"
                 name="sum-of-donation"
                 id="other_sum&#8381;"
                 class="donation__item"
                 value="other_sum"
             >
+            <label class="donation__label donation__other-sum" for="other_sum&#8381;">
+              <span class="donation__pseudo-grid-item">Другая сумма</span>
             </label>
             
       </fieldset>
-      <button type="submit" class="donation__submit-button" id="button-support-name">
+      <a  class="donation__submit-button" id="button-support-name" href="#support_us">
         Поддержать
-      </button>
+      </a>
     </section>
 
     <section class="work">
@@ -643,22 +641,14 @@
       </div>
     </section>
 
-    <section class="support">
+    <section class="support" id="support_us">
      <h2 class="support__section-heading">Поддержите нас</h2>
       <div class="support__main-container">
 
         <form class="form-subscription">
 
           <fieldset class="form-subscription__input-container">
-
-           <label
-              class="form-subscription__label form-subscription__label_active form-subscription__label_type_donation-frequency"
-              for="montly"
-            >
-              <span class="form-subscription__pseudo-item"
-              >Ежемесячно <img src="./images/Question.svg" class="form-subscription__question_active" alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
-            </label>
-             <input
+           <input
               type="radio"
               name="subscription"
               id="montly"
@@ -666,26 +656,42 @@
               value="monthly"
               checked
             >
-
-            <label
+           <label
               class="form-subscription__label form-subscription__label_type_donation-frequency"
-              for="one-time"
+              for="montly"
             >
               <span class="form-subscription__pseudo-item"
-              >Разово <img src="./images/Question.svg" class="form-subscription__question"  alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
+              >Ежемесячно <img src="./images/Question.svg" class="form-subscription__question_active" alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
             </label>
-            <input
+             
+             <input
                type="radio"
                 name="subscription"
               id="one-time"
               class="form-subscription__item"
               value="one-time"
             >
+            <label
+              class="form-subscription__label form-subscription__label_type_donation-frequency"
+              for="one-time"
+            >
+              <span class="form-subscription__pseudo-item"
+              >Разово <img src="./images/Question.svg" class="form-subscription__question"  alt="Знак вопроса: нажать сюда, чтобы узнать больше"></span>
+              
+            </label>
+  
           </fieldset>
 
            <h3 class="form-subscription__title">Размер пожертвования</h3>
-
+          
            <fieldset class="form-subscription__sum-input-container">
+            <input
+                  type="radio"
+                  name="sum-of-donation"
+                  id="250"
+                  class="form-subscription__item"
+                  value="250"
+              >
               <label
                 class="form-subscription__label form-subscription__label_type_donation-sum"
                 for="250"
@@ -697,12 +703,13 @@
               <input
                   type="radio"
                   name="sum-of-donation"
-                  id="250"
+                  id="500"
                   class="form-subscription__item"
-                  value="250"
+                  value="500"
+                  checked
               >
               <label
-                class="form-subscription__label form-subscription__label_active form-subscription__label_type_donation-sum"
+                class="form-subscription__label form-subscription__label_type_donation-sum"
                 for="500"
               >
                 <span class="form-subscription__pseudo-grid-item"
@@ -712,12 +719,10 @@
               <input
                   type="radio"
                   name="sum-of-donation"
-                  id="500"
+                  id="750"
                   class="form-subscription__item"
-                  value="500"
-                  checked
+                  value="750"
               >
-
               <label
                 class="form-subscription__label form-subscription__label_type_donation-sum"
                 for="750">
@@ -727,28 +732,15 @@
               <input
                   type="radio"
                   name="sum-of-donation"
-                  id="750"
+                  id="1000"
                   class="form-subscription__item"
-                  value="750"
+                  value="1000"
               >
-
               <label
                 class="form-subscription__label form-subscription__label_type_donation-sum"
                 for="1000">
               <span class="form-subscription__pseudo-grid-item">1000&#8381;</span>
               </label>
-
-              <input
-                  type="radio"
-                  name="sum-of-donation"
-                  id="1000"
-                  class="form-subscription__item"
-                  value="1000"
-              >
-
-                <label class="form-subscription__label form-subscription__other-sum" for="other_sum">
-              <span class="form-subscription__pseudo-grid-item">Другая сумма</span>
-            </label>
               <input
                   type="radio"
                   name="sum-of-donation"
@@ -756,6 +748,10 @@
                   class="form-subscription__item"
                   value="other_sum"
               >
+                <label class="form-subscription__label form-subscription__other-sum" for="other_sum">
+              <span class="form-subscription__pseudo-grid-item">Другая сумма</span>
+            </label>
+              
           </fieldset>
 
         <p class="form-subscription__text">
@@ -766,13 +762,7 @@
         <h3 class="form-subscription__title">Способ оплаты</h3>
         <div class="form-subscription__payment-method-container">
          <fieldset class="form-subscription__input-payment-method-container">
-              <label class="form-subscription__label form-subscription__label_active form-subscription__label_type_payment-method" for="Mir_visa_mastercard">
-                 <span class="form-subscription__input-payment-method-pseudo-item">
-                 <img src="./images/Mir_visa_mastercard.svg"
-                 height="26" width="150" alt="Логотипы платежных систем Мир, Visa, MasterCard">
-                 </span>
-              </label>
-              <input
+                <input
                 type="radio"
                 name="payment_method"
                 id="Mir_visa_mastercard"
@@ -780,14 +770,13 @@
                 value="Mir_visa_mastercard"
                 checked
               >
-              <label
-                class="form-subscription__label form-subscription__label_type_payment-method"
-                for="YooMoney"
-              >
+              <label class="form-subscription__label form-subscription__label_type_payment-method" for="Mir_visa_mastercard">
                  <span class="form-subscription__input-payment-method-pseudo-item">
-                 <img height="14" width="20" src="./images/YooMoney.svg" alt="Логотип платежной системы YooMoney">
+                 <img src="./images/Mir_visa_mastercard.svg"
+                 height="26" width="150" alt="Логотипы платежных систем Мир, Visa, MasterCard">
                  </span>
               </label>
+              
               <input
                   type="radio"
                   name="payment_method"
@@ -797,12 +786,13 @@
               >
               <label
                 class="form-subscription__label form-subscription__label_type_payment-method"
-                for="WebMoney"
+                for="YooMoney"
               >
                  <span class="form-subscription__input-payment-method-pseudo-item">
-                <img src="./images/WebMoney.svg"  alt="Логотип платежной системы WebMoney" width="49" height="10">
-                </span>
+                 <img height="14" width="20" src="./images/YooMoney.svg" alt="Логотип платежной системы YooMoney">
+                 </span>
               </label>
+
               <input
                   type="radio"
                   name="payment_method"
@@ -810,6 +800,15 @@
                    class="form-subscription__item"
                   value="WebMoney"
               >
+              <label
+                class="form-subscription__label form-subscription__label_type_payment-method"
+                for="WebMoney"
+              >
+                 <span class="form-subscription__input-payment-method-pseudo-item">
+                <img src="./images/WebMoney.svg"  alt="Логотип платежной системы WebMoney" width="49" height="10">
+                </span>
+              </label>
+              
           </fieldset>
                 <button
                   type="button"
@@ -840,9 +839,9 @@
             >
           </div>
            <fieldset class="form-subscription__agreement-container">
-            <input type="checkbox" name="agreement" id="agree-with-offer" class="form-subscription__item" value="agree-with-offer" checked>
+            <input type="checkbox" name="agreement" id="agree-with-offer" class="form-subscription__agreement-item" value="agree-with-offer" checked>
               <label class="form-subscription__checkbox-label" for="agree-with-offer"><span>Соглашаюсь с <a href="#" class="form-subscription__offer-link">офертой</a></span></label>
-            <input type="checkbox" name="agreement" id="agree-with-data-process" class="form-subscription__item" value="agree-with-data-process" checked>
+            <input type="checkbox" name="agreement" id="agree-with-data-process" class="form-subscription__agreement-item" value="agree-with-data-process" checked>
               <label class="form-subscription__checkbox-label" for="agree-with-data-process"><span>Соглашаюсь на <a href="#" class="form-subscription__offer-link">обработку моих персональных данных</a></span></label>
             </fieldset>
           <button type="submit" class="form-subscription__submit-button" id="button-support">

@@ -21,6 +21,7 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #ffffff;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .donation__submit-button:hover {

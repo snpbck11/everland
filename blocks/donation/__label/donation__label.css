@@ -13,6 +13,12 @@
   display:flex;
 }
 
+.donation__label:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+
 @media screen and (max-width: 767px) {
   .donation__label {
     width: 122px;
