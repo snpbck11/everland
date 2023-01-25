@@ -8,6 +8,7 @@
   .projects__image {
     max-width: 300px;
     max-height: 300px;
+    border-radius: 20px;
   }
 }
 

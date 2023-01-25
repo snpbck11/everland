@@ -21,12 +21,11 @@ btnForward.forEach(function(buttons) {
 	}
 });
 
-
 // кнопка назад
-btnBack.forEach(function(buttons) {
-	buttons.onclick = function () {
-		showNextSlide('prev');
-	}
+btnBack.forEach(function (buttons) {
+  buttons.onclick = function () {
+    showNextSlide("prev");
+  };
 });
 
 function showNextSlide(direction) {
@@ -62,69 +61,87 @@ const menu = document.querySelector(".menu");
 const btnArrow = document.querySelectorAll(".menu__arrow");
 const burger = document.querySelector(".header__burger");
 
-btnMenu.addEventListener('click', function() {
-	menu.classList.toggle('menu_opened');
-  burger.classList.toggle('header__burger_active');
+btnMenu.addEventListener("click", function () {
+  menu.classList.toggle("menu_opened");
+  burger.classList.toggle("header__burger_active");
 });
-
-
 
 //  Раскрытие пунктов в моб меню
 btnArrow.forEach((item) =>
-item.addEventListener("click", ({ target }) => {
-	target
-		.closest(".menu__items")
-		.querySelectorAll(".menu__arrow")
-		.forEach((item) => {
-			item.classList.toggle("menu__arrow_active");
-		});
-	target
-		.closest(".menu__items")
-		.querySelectorAll(".menu__mobile")
-		.forEach(function (item) {
-			item.classList.toggle("menu__mobile_opened");
-		});
-})
+  item.addEventListener("click", ({ target }) => {
+    target
+      .closest(".menu__items")
+      .querySelectorAll(".menu__arrow")
+      .forEach((item) => {
+        item.classList.toggle("menu__arrow_active");
+      });
+    target
+      .closest(".menu__items")
+      .querySelectorAll(".menu__mobile")
+      .forEach(function (item) {
+        item.classList.toggle("menu__mobile_opened");
+      });
+  })
 );
-
 
 // СЕКЦИЯ MAIN-IN-WORK //
 
 // Поворачивает кнопку при нажатии на кнопку
 
 document.querySelectorAll(".main-in-work__button").forEach((item) =>
-item.addEventListener("click", ({ target }) => {
-	target
-		.closest(".main-in-work__box")
-		.querySelectorAll(".main-in-work__button")
-		.forEach((item) => {
-			item.classList.toggle("main-in-work__button_active");
-		});
-	target
-		.closest(".main-in-work__box")
-		.querySelectorAll(".main-in-work__button")
-		.forEach(function (item) {
-			item.classList.toggle("main-in-work__button_active");
-		});
-})
+  item.addEventListener("click", ({ target }) => {
+    target
+      .closest(".main-in-work__box")
+      .querySelectorAll(".main-in-work__button")
+      .forEach((item) => {
+        item.classList.toggle("main-in-work__button_active");
+      });
+    target
+      .closest(".main-in-work__box")
+      .querySelectorAll(".main-in-work__button")
+      .forEach(function (item) {
+        item.classList.toggle("main-in-work__button_active");
+      });
+  })
 );
 
 // Открывает аккордеон и поворачивает кнопку при открытии аккордеона
 
 document.querySelectorAll(".main-in-work__wrapper").forEach((item) =>
-item.addEventListener("click", ({ target }) => {
-	target
-		.closest(".main-in-work__box")
-		.querySelectorAll(".main-in-work__button")
-		.forEach((item) => {
-			item.classList.toggle("main-in-work__button_active");
-		});
-	target
-		.closest(".main-in-work__box")
-		.querySelectorAll(".main-in-work__description")
-		.forEach(function (item) {
-			item.classList.toggle("main-in-work__description_active");
-		});
-})
+  item.addEventListener("click", ({ target }) => {
+    target
+      .closest(".main-in-work__box")
+      .querySelectorAll(".main-in-work__button")
+      .forEach((item) => {
+        item.classList.toggle("main-in-work__button_active");
+      });
+    target
+      .closest(".main-in-work__box")
+      .querySelectorAll(".main-in-work__description")
+      .forEach(function (item) {
+        item.classList.toggle("main-in-work__description_active");
+      });
+  })
 );
 
+const radioButtonsDonationsShort = document.querySelectorAll(".donation__item");
+
+radioButtonsDonationsShort.forEach(function (radioButton) {
+  radioButton.addEventListener("change", function () {
+    const sameRadios = document.querySelectorAll(`[value="${this.value}"]`);
+    sameRadios[1].checked = true;
+  });
+});
+
+const radioButtonsDonationsDetailed = document.querySelectorAll(
+  ".form-subscription__item"
+);
+
+radioButtonsDonationsDetailed.forEach(function (radioButton) {
+  radioButton.addEventListener("change", function () {
+    const sameRadiosViceVersa = document.querySelectorAll(
+      `[value="${this.value}"]`
+    );
+    sameRadiosViceVersa[0].checked = true;
+  });
+});

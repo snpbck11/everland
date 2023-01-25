@@ -2,6 +2,8 @@
 
 @import url(../vendor/fonts.css);
 
+@import url(../blocks/scroll/scroll.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -67,9 +69,9 @@
 @import url(../blocks/orientation/orientation.css);
 @import url(../blocks/orientation/__boxes/orientation__boxes.css);
 @import url(../blocks/orientation/__box/orientation__box.css);
-@import url(../blocks/orientation/__box/_color/_light-orange/orientation__box_color_light-orange.css);
-@import url(../blocks/orientation/__box/_color/_light-blue/orientation__box_color_light-blue.css);
-@import url(../blocks/orientation/__box/_color/_light-green/orientation__box_color_light-green.css);
+@import url(../blocks/orientation/__box/_color/orientation__box_color_light-orange.css);
+@import url(../blocks/orientation/__box/_color/orientation__box_color_light-blue.css);
+@import url(../blocks/orientation/__box/_color/orientation__box_color_light-green.css);
 @import url(../blocks/orientation/__text/orientation__text.css);
 @import url(../blocks/orientation/__title/orientation__title.css);
 @import url(../blocks/orientation/__description/orientation__description.css);
@@ -192,21 +194,17 @@
 @import url(../blocks/support/__container/support__container.css);
 @import url(../blocks/support/__heading/support__heading.css);
 @import url(../blocks/support/__list/support__list.css);
-@import url(../blocks/support/__list/_button/support__list_button.css);
-@import url(../blocks/support/__list/_button/_active/support__list_button_active.css);
 @import url(../blocks/support/__text/support__text.css);
 
 @import url(../blocks/form-subscription/form-subscription.css);
 @import url(../blocks/form-subscription/__input-container/form-subscription__input-container.css);
 @import url(../blocks/form-subscription/__item/form-subscription__item.css);
-@import url(../blocks/form-subscription/__item/_active/form-subscription__item_active.css);
 @import url(../blocks/form-subscription/__label/form-subscription__label.css);
 @import url(../blocks/form-subscription/__pseudo-item/form-subscription__pseudo-item.css);
 @import url(../blocks/form-subscription/__input-container-grid/form-subscription__input-container-grid.css);
 
 
 
-@import url(../blocks/form-subscription/__pseudo-item/_active/form-subscription__pseudo-item_active.css);
 @import url(../blocks/form-subscription/__pseudo-grid-item/form-subscription__pseudo-grid-item.css);
 
 @import url(../blocks/form-subscription/__sum-input-container/form-subscription__sum-input-container.css);
@@ -218,12 +216,9 @@
 @import url(../blocks/form-subscription/__question/_active/form-subscription__question_active.css);
 @import url(../blocks/form-subscription/__title/form-subscription__title.css);
 @import url(../blocks/form-subscription/__text/form-subscription__text.css);
-@import url(../blocks/form-subscription/__pseudo-grid-item/_active/form-subscription__pseudo-grid-item_active.css);
-@import url(../blocks/form-subscription/__label/_active/form-subscription__label_active.css);
 
-@import url(../blocks/form-subscription/__label/_active/form-subscription__label_active.css);
-@import url(../blocks/form-subscription/__pseudo-grid-item-two/form-subscription__pseudo-grid-item-two.css);
-@import url(../blocks/form-subscription/__input-container-two/form-subscription__input-container-grid-two.css);
+@import url(../blocks/form-subscription/__input-payment-method-pseudo-item/form-subscription__input-payment-method-pseudo-item.css);
+@import url(../blocks/form-subscription/__input-payment-method-container/blocks/form-subscription/__input-payment-method-container/form-subscription__input-payment-method-container.css);
 @import url(../blocks/form-subscription/__payment-method-container/form-subscription__payment-method-container.css);
 @import url(../blocks/form-subscription/__arrow-button/form-subscription__arrow-button.css);
 @import url(../blocks/form-subscription/__name-container/form-subscription__name-container.css);
@@ -232,7 +227,7 @@
 @import url(../blocks/form-subscription/__agreement-container/form-subscription__agreement-container.css);
 @import url(../blocks/form-subscription/__checkbox-label/form-subscription__checkbox-label.css);
 @import url(../blocks/form-subscription/__offer-link/form-subscription__offer-link.css);
-@import url(../blocks/support/__heading-right/support__heading-right.css);
+@import url(../blocks/support/__heading-gratitude/support__heading-gratitude.css);
 @import url(../blocks/support/__main-container/support__main-container.css);
 
 @import url(../blocks/support/__list-item/support__list-item.css);
@@ -244,10 +239,8 @@
 @import url(../blocks/support/__right-container/support__right-container.css);
 @import url(../blocks/support/__list-sum-and-time/support__list-sum-and-time.css);
 
-@import url(../blocks/support/__list-sum-and-time/_five/support__list-sum-and-time_five.css);
-@import url(../blocks/support/__list-sum-and-time/_six/support__list-sum-and-time_six.css);
-@import url(../blocks/support/__list-sum-and-time/_seven/support__list-sum-and-time_seven.css);
-@import url(../blocks/support/__list-sum-and-time/_eight/support__list-sum-and-time_eight.css);
+
+@import url(../blocks/support/__list-sum-and-time/_display/_none/support__list-sum-and-time_display_none.css);
 
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/donation/__label/donation__label.css);
@@ -257,11 +250,7 @@
 
 @import url(../blocks/donation/__other-sum/donation__other-sum.css);
 
-@import url(../blocks/support/__list-sum-and-time/_three/support__list-sum-and-time_three.css);
-@import url(../blocks/support/__list-sum-and-time/_four/support__list-sum-and-time_four.css);
-
 @import url(../blocks/form-subscription/__arrow-img/form-subscription__arrow-img.css);
-@import url(../blocks/form-subscription/__submit-button/_donation/form-subscription__submit-button_donation.css);
 
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_section/_galleries/section-title_section_galleries.css); /* НЕ ПЕРЕМЕЩАЙТЕ ЭТУ ССЫЛКУ ПЛИЗ, ИНАЧЕ СОБЬЮТСЯ НАСТРОЙКИ В БЛОКЕ*/
@@ -270,8 +259,17 @@
 
 @import url(../blocks/form-subscription/__other-sum/form-subscription__other-sum.css);
 
-@import url(../blocks/form-subscription/__label/_donation-frequency/form-subscription__label_donation-frequency.css);
-@import url(../blocks/form-subscription/__label/_donation-sum/form-subscription__label_donation-sum.css);
-@import url(../blocks/form-subscription/__label/_payment-method/form-subscription__label_payment-method.css);
+
+@import url(../blocks/form-subscription/__label/_type/_donation-frequency/form-subscription__label_type_donation-frequency.css);
+@import url(../blocks/form-subscription/__label/_type/_donation-sum/form-subscription__label_type_donation-sum.css);
+@import url(../blocks/form-subscription/__label/_type/_payment-method/form-subscription__label_type_payment-method.css);
+
+@import url(../blocks/donation/__submit-button/donation__submit-button.css);
+@import url(../blocks/donation/__main-container/donation__main-container.css);
+
+@import url(../blocks/support/__dots/support__dots.css);
+@import url(../blocks/form-subscription/__agreement-item/form-subscription__agreement-item.css);
+
+
 
 @import url(../blocks/slider-display/_none/slider-display_none.css);

@@ -11,19 +11,20 @@
   align-items: center;
 }
 
+.form-subscription__checkbox-label:hover {
+  opacity: 0.5;
+}
+
 .form-subscription__checkbox-label::before {
   content: "";
   display: inline-block;
   width: 25px;
   height: 25px;
   margin-right: 8px;
-
   background: #dadada;
   border-radius: 10px;
 }
-.form-subscription__item:checked + .form-subscription__checkbox-label::before {
-  content: url("../../../images/Icon_check.svg");
-}
+
 
 @media screen and (max-width: 767px) {
   .form-subscription__checkbox-label {

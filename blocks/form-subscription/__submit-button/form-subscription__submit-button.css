@@ -23,6 +23,9 @@
   cursor: pointer;
 }
 
+.form-subscription__submit-button:hover {
+  background: #4183dc;
+}
 @media screen and (max-width: 767px) {
   .form-subscription__submit-button {
     width: 100%;

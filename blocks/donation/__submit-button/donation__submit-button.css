@@ -1,0 +1,41 @@
+.donation__submit-button {
+  border: 0;
+  background: #0c4ba0;
+  border-radius: 10px;
+  padding: 12px 29px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.donation__submit-button:hover {
+  background: #4183dc;
+}
+
+@media screen and (max-width: 767px) {
+  .donation__submit-button {
+    padding: 13px 87px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .donation__submit-button {
+    padding: 12px 23px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+  }
+}

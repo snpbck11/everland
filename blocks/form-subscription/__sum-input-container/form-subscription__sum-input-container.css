@@ -11,9 +11,9 @@
 
 @media screen and (max-width: 767px) {
   .form-subscription__sum-input-container {
-    column-gap: calc(100% - 228px);
+    column-gap: calc(100% - 244px);
     row-gap: 16px;
-    width: calc(100% - 40px);
+    /* width: calc(100% - 40px); */
 
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
