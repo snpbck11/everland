@@ -1,0 +1,8 @@
+.form-subscription__arrow-img {
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__arrow-img {
+    transform: rotate(90deg);
+  }
+}

@@ -1,0 +1,25 @@
+.form-subscription__name-item {
+  display: flex;
+  padding: 0 0 0 20px;
+  margin: 0;
+  height: 46px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #dadada;
+  white-space: pre;
+}
+
+@media screen and (max-width: 1279px) {
+  .form-subscription__name-item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

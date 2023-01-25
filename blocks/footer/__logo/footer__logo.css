@@ -1,0 +1,11 @@
+.footer__logo {
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 680px) {
+  .footer__logo {
+    max-width: 73px;
+    max-height: 34px;
+  }
+}

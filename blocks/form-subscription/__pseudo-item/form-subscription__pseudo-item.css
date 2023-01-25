@@ -1,0 +1,26 @@
+.form-subscription__pseudo-item {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  white-space: pre;
+}
+
+@media screen and (max-width: 767px) {
+  .form-subscription__pseudo-item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .form-subscription__pseudo-item {
+    font-size: 16px;
+  }
+}

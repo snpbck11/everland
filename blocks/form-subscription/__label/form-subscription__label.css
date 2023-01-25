@@ -1,0 +1,14 @@
+.form-subscription__label {
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.form-subscription__label:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
